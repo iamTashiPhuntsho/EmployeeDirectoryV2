@@ -170,7 +170,7 @@ class InfoController extends Controller
         }   
         else
         {
-            Signin::where('employee_id',$request->id)->update([
+            Signin::where('employee_id',Crypt::decryptString($request->id))->update([
                 'OTP' => null,
                 'try_count' => null,
                 'OTP_time' => null
