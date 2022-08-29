@@ -23,7 +23,7 @@ class DirectoryController extends Controller
     
     public function getResult(){
     	$no = rand(10,30)%2;
-    	return view('frontend.result',compact('no'));
+    	return view('frontend.result',compact('no','employees'));
     }
 
     public function getShow(Request $request){
@@ -59,7 +59,7 @@ class DirectoryController extends Controller
         ->when($vehicle_no, function ($query, $vehicle_no) {
             $query->where('vehicle_no', 'like',"%$vehicle_no%");
         })
-        ->whereIn('id', $l_records)->get();
+        ->whereIn('id', $l_records,)->where('status','active')->get();
         
         $param_name = $request->employeename;
         $param_location = $request->location;
