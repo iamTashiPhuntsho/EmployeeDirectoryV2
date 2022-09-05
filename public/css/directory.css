@@ -348,9 +348,6 @@ margin-left: auto;
 }
 
 .row > * {
-flex-shrink: 0;
-padding-right: calc(var(--bs-gutter-x)/ 2);
-padding-left: calc(var(--bs-gutter-x)/ 2);
 margin-top: 1rem;
 }
 
@@ -459,11 +456,19 @@ width: 85%;
 
 }
 .card {
-  margin: 0 auto; /* Added */
+  margin: 0  auto; /* Added */
   float: none; /* Added */
 }
 .show-container{
 padding-top: 3rem;
+}
+
+
+@media (max-width: 48rem) {
+  .card-body{
+    margin-right: .5rem !important;
+    margin-left: .5rem !important;
+  }
 }
 
 .img-fluid {

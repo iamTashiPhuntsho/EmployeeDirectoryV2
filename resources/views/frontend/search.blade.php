@@ -79,20 +79,20 @@
                      
                      <div class="mb-5">
                        
-                           <div class="row mb-3 form-row">
+                        <div class="row mb-3 form-row">
                         <form class="d-block" method="POST" action="{{ route('search_directory_path') }}">
                         @csrf
                         <div class="row mb-3">
-                        <div class="col-sm-2">
-                        <input type="text" name="employeename" class="form-control form-sz-lg" placeholder="Employee Name" autofocus>
+                           <div class="col-sm-2 form-group">
+                              <input type="text" name="employeename" class="form-control form-sz-lg" placeholder="Employee Name" autofocus>
+                           </div>
+                        <div class="col-sm-2 form-group">
+                           <input type="text" name="flexcube" class="form-control form-sz-lg" placeholder="Flexcube ID">
                         </div>
-                        <div class="col-sm-2">
-                        <input type="text" name="flexcube" class="form-control form-sz-lg" placeholder="Flexcube ID">
-                        </div>
-                        <div class="col-sm-2">
+                        <div class="col-sm-2 form-group">
                         <input type="text" name="vehicle_number" class="form-control form-sz-lg" placeholder="Vehicle Number">
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 form-group">
                         <select name="department" class="form-control form-sz-lg">
                         <option selected="selected" value="0">Select Department</option>
                         @foreach($departments as $d)
@@ -100,7 +100,7 @@
                         @endforeach
                         </select>
                         </div>
-                        <div class="col-sm-2">
+                        <div class="col-sm-2 form-group">
                         <select name="location" class="form-control form-sz-lg">
                         <option selected="selected" value="0">Select Location</option>
                         @foreach($locations as $l)
@@ -108,11 +108,12 @@
                         @endforeach
                         </select>
                         </div>
-                        <div class="col-sm-1">
+                        <div class="col-sm-1 form-group">
                         <button type="submit" class="form-control form-sz-lg btn btn-block " >
                            <i class="fas fa-search fa-lg" style="margin-right: 10px;"></i></button>
                         </div>
                         </div>
+                     
                         </form>
                         </div>
                         <div class="col-md-12 mb-3 ">
