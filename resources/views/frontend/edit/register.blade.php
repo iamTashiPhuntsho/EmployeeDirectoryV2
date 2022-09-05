@@ -25,7 +25,7 @@
                               <input type="text" class="form-control form-control-user" placeholder="Job Title" name="title" required>
                            </div>
                            <div class="col-lg-6">
-                              <small class="text-bnb-blue"><b>Department</b></small>
+                              <small class="text-bnb-blue"><b> Department</b></small>
                               <select class="form-control" name="department" required>
                                  <option selected="selected">Select Employee's Department</option>
                                  @foreach($department as $d)
