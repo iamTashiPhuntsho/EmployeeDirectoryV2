@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Crypt;
 class VehicleController extends Controller
 {
     public function vehicle(){
-    	$employees = Employee::with('contact')->get();
+    	$employees = Employee::whereNot('vehicle_no', NULL)->where('status','active')->get();
     	// return $employees;
     	return view('frontend.vehicle',compact('employees'));
     }
