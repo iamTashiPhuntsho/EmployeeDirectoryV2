@@ -465,8 +465,8 @@ padding-top: 3rem;
 
 @media (max-width: 48rem) {
   .card-registration{
-    margin-right: .5rem !important;
-    margin-left: .5rem !important;
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
   }
 }
 
