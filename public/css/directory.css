@@ -159,14 +159,6 @@ font-size: calc(0.5rem + .9vw) !important;
 background-color: #fff;
 }
 
-.mx-1 .button{
-margin-left: 30%;
-}
-@media (max-width: 48rem) {
-.mx-1 .button{
- width: 50%;
-}
-}
 
 
 .section-content[_nghost-app-root-c45] {
