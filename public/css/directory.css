@@ -160,7 +160,7 @@ background-color: #fff;
 }
 
 .mx-1 .button{
-margin: auto;
+margin-left: 30%;
 }
 @media (max-width: 48rem) {
 .mx-1 .button{
