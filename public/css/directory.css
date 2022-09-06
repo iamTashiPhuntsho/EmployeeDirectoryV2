@@ -159,6 +159,14 @@ font-size: calc(0.5rem + .9vw) !important;
 background-color: #fff;
 }
 
+.mx-1 .button{
+margin-left: 30%;
+}
+@media (max-width: 48rem) {
+.mx-1 .button{
+ width: 50%;
+}
+}
 
 
 .section-content[_nghost-app-root-c45] {
@@ -457,8 +465,8 @@ padding-top: 3rem;
 
 @media (max-width: 48rem) {
   .card-registration{
-    margin-right: 0rem !important;
-    margin-left: 0rem !important;
+    margin-right: .5rem !important;
+    margin-left: .5rem !important;
   }
 }
 
