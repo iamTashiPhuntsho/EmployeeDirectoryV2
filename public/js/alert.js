@@ -51,3 +51,6 @@ function copySign() {
     /* Alert the copied text */
     alert("Signature Code has been copied to clipboard. Please paste it in your email signature configuration.");
     } 
+
+
+    
