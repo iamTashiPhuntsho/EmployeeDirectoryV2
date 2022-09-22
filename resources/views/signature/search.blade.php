@@ -25,7 +25,6 @@
                         </div>
                         <div class="button col-sm-6 d-flex mb-3">
                         <button type="submit" class="form-control form-sz-lg btn-primary btn px-3 py-2 btn-block text-white blue-button" >Generate</button>
-
                         </div>
                         
                         @if ($errors->any())
@@ -45,5 +44,13 @@
       </div>
    </div>
    </div>
+
+
+   <script crossorigin src="https://unpkg.com/@mui/material@latest/umd/material-ui.production.min.js"></script>
+<script>
+  var exports = {};
+</script>
+<div id="root">
+</div>
 
 </x-frontend-layout>

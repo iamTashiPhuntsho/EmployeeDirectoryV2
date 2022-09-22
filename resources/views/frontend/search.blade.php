@@ -21,17 +21,17 @@
                         <div class="counter col_fourth">
                            <i class="fa-solid fa-users fa-2x"></i>
                            <p id='0101' class="fs-2 count-title count-number"></p>
-                           <p class="count-text ">Total Employee</p>
+                           <p class="count-text ">Total Employees</p>
                         </div>
                         <div class="counter col_fourth">
                         <i class="fa-solid fa-sitemap fa-2x"></i>
                            <p id='0102' class="fs-2 count-title count-number"></p>
-                           <p class="count-text">Department</p>
+                           <p class="count-text">Departments</p>
                         </div>
                         <div class="counter col_fourth">
                            <i class='fas fa-external-link-alt fa-2x'></i>
                            <p id='0103' class="fs-2 count-title count-number"></p>
-                           <p class="count-text">Total Branch</p>
+                           <p class="count-text">Extensions/Branches</p>
                         </div>
                      </div>
                      <body onload="load()">
@@ -113,7 +113,6 @@
                            <i class="fas fa-search fa-lg" style="margin-right: 10px;"></i></button>
                         </div>
                         </div>
-                     
                         </form>
                         </div>
                         <div class="col-md-12 mb-3 ">
