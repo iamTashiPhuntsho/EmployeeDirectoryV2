@@ -32,12 +32,12 @@
                            <i class='fas fa-external-link-alt fa-2x'></i>
                            <div class="row" style="padding-top:0px;">
                               <div class="column" style="padding-top:0px;">
-                              <p class="fs-2 count-title count-number">16</p>
+                              <p id='0103' class="fs-2 count-title count-number">16</p>
                                  <p class="count-text">Extensions</p>
                                 
                               </div>
                               <div class="column" style="padding-top:0px;">
-                              <p class="fs-2 count-title count-number">11</p>
+                              <p id='0104' class="fs-2 count-title count-number">11</p>
                                  <p class="count-text">Branch</p>
                               </div>
                            </div>
@@ -78,10 +78,12 @@
                            let text1 = document.getElementById('0101');
                            let text2 = document.getElementById('0102');
                            let text3 = document.getElementById('0103');
+                           let text4 = document.getElementById('0104');
                            const load = () => {
                            animate(text1, 1000, {{count($employees)}}, 3000);
                            animate(text2, 100, {{count($departments)}},3000);
-                           animate(text3, 100, {{count($locations)}}, 3000);
+                           animate(text3, 100, 26, 3000);
+                           animate(text4, 100, 13, 3000);
                            }
                         </script>
                      </body>
