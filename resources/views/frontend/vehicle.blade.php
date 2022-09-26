@@ -5,12 +5,9 @@
       <div class="custom-row">
          <div class="col-12 text-center">
             <div class="container-box">
-               <div class="main-box" data-info="{{$ceo->name}}" >
+               <div class="main-box" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo->name}}" >
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                   <div class="description">Board of Directors</div>
-                  <div class="info">
-                     
-                  </div>
                </div>
             </div>
             <div class="middle-line"></div>   
