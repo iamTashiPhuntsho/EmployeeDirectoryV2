@@ -46,11 +46,6 @@
    </div>
 
 
-   <script crossorigin src="https://unpkg.com/@mui/material@latest/umd/material-ui.production.min.js"></script>
-<script>
-  var exports = {};
-</script>
-<div id="root">
-</div>
+   
 
 </x-frontend-layout>

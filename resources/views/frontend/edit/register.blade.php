@@ -5,11 +5,11 @@
       <div class="col-lg-12">
          <div class="card text-black" style="border-radius: 15px;">
             <div class="card-body ms-2 me-2 mb-2">
-               <div class="row justify-content-center">
+               <div class="row justify-content-center" style="margin:2rem;">
                   <div class="pt-0">
-                     <form action="{{ route('contact_addition_request_path') }}" method="POST" enctype="multipart/form-data">
+                     <form action="{{ route('contact_addition_request_path') }}" method="POST" enctype="multipart/form-data" >
                         @csrf
-                        <div class="row mb-2 register-row">
+                        <div class="row mb-3 register-row">
                            <div class="col-lg-6">
                               <small class="text-bnb-blue"><b>Employee Name</b></small>
                               <input type="text" class="form-control form-control-user" placeholder="Employee Name" name="name" required autofocus>
@@ -19,7 +19,7 @@
                               <input type="text" class="form-control form-control-user" placeholder="Designation" name="designation" required>
                            </div>
                         </div>
-                        <div class="row mb-2 register-row">
+                        <div class="row mb-3 register-row">
                            <div class="col-lg-6">
                               <small class="text-bnb-blue"><b>Job Title</b></small>
                               <input type="text" class="form-control form-control-user" placeholder="Job Title" name="title" required>
@@ -34,7 +34,7 @@
                               </select>
                            </div>
                         </div>
-                        <div class="row  mb-2 register-row">
+                        <div class="row  mb-3 register-row">
                            <div class="col-lg-6">
                               <small class="text-bnb-blue"><b>Extension Number</b></small>
                               <input type="text" class="form-control form-control-user" placeholder="Extension Number" name="extension">
@@ -44,7 +44,7 @@
                               <input type="text" class="form-control form-control-user" placeholder="Flexcube User ID" name="flexcube">
                            </div>
                         </div>
-                        <div class="row mb-2 register-row">
+                        <div class="row mb-3 register-row">
                            <div class="col-lg-6">
                               <small class="text-bnb-blue"><b>Employee ID</b></small>
                               <input type="text" class="form-control form-control-user" placeholder="Employee ID" name="empid" required="required">
@@ -54,7 +54,7 @@
                               <input type="email" class="form-control form-control-user" placeholder="Email Address" name="email" required="required">
                            </div>
                         </div>
-                        <div class="row mb-2 register-row">
+                        <div class="row mb-3 register-row">
                            <div class="col-lg-6">
                               <small class="text-bnb-blue"><b>Mobile Number</b></small>
                               <input type="text" class="form-control form-control-user" placeholder="Mobile Number" name="mobile" required>
@@ -69,7 +69,7 @@
                               </select>
                            </div>
                         </div>
-                        <div class="row mb-2 register-row">
+                        <div class="row mb-3 register-row">
                            <div class="col-lg-6">
                               <small class="text-bnb-blue"><b>Vehicle Number</b></small>
                               <input type="text" class="form-control form-control-user" placeholder="Enter Your Vehicle Number" name="vehicle_number">
@@ -86,7 +86,7 @@
                            <input type="file" name="profile" onchange="showMyImage(this)" required="required">
                         </div>
                         <hr>
-                        <div class="mb-2">
+                        <div class="mb-3">
                            <div class="col-lg-3">
                               <button type="submit" class="form-control form-sz-lg btn btn-block btn-primary px-3 py-2 text-white blue-button" >Submit for Approval</button>
                            </div>

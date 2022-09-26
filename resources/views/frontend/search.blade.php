@@ -30,8 +30,17 @@
                         </div>
                         <div class="counter col_fourth">
                            <i class='fas fa-external-link-alt fa-2x'></i>
-                           <p id='0103' class="fs-2 count-title count-number"></p>
-                           <p class="count-text">Extensions/Branches</p>
+                           <div class="row" style="padding-top:0px;">
+                              <div class="column" style="padding-top:0px;">
+                              <p class="fs-2 count-title count-number">16</p>
+                                 <p class="count-text">Extensions</p>
+                                
+                              </div>
+                              <div class="column" style="padding-top:0px;">
+                              <p class="fs-2 count-title count-number">11</p>
+                                 <p class="count-text">Branch</p>
+                              </div>
+                           </div>
                         </div>
                      </div>
                      <body onload="load()">

@@ -61,7 +61,7 @@
    </a>
    
             <a href="{{ route('get_search_path') }}" class="nav_link {{request()->routeIs('get_search_path') ? 'active' : ''}}"><i class='fas fa-home'></i> <span class="nav_name">Home</span> </a> 
-            <a href="{{ route('get_vehicle_path') }}" class="nav_link {{request()->routeIs('get_vehicle_path') ? 'active' : ''}}"> <i class="fas fa-car-alt"></i> <span class="nav_name">Vehicle Details</span> </a> 
+            <a href="{{ route('get_vehicle_path') }}" class="nav_link {{request()->routeIs('get_vehicle_path') ? 'active' : ''}}"> <i class="fa-solid fa-sitemap"></i> <span class="nav_name">Organogram</span> </a> 
             <a href="{{ route('login_info_path') }}" class="nav_link {{request()->routeIs('login_info_path') ? 'active' : ''}}"> <i class="fas fa-user-edit"></i> <span class="nav_name ">Edit Information</span> </a>
             <a href="{{ route('employee_registration_path') }}" class="nav_link {{request()->routeIs('employee_registration_path') ? 'active' : ''}}"> <i class="fas fa-user-plus"></i> <span class="nav_name">Register Information</span> </a> 
             <a href="{{ route('sign_index_path') }}" class="nav_link {{request()->routeIs('sign_index_path') ? 'active' : ''}}"><i class="fas fa-signature"></i> <span class="nav_name">Mail Signature </span></a> 
