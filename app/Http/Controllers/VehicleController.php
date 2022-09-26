@@ -13,7 +13,7 @@ class VehicleController extends Controller
 {
     public function vehicle(){
     	$employees = Employee::whereNot('vehicle_no', NULL)->where('status','active')->get();
-        $ceo = Employee::find(4);
+        $ceo = Employee::find(1);
     	// return $employees;
     	return view('frontend.vehicle',compact('employees','ceo'));
     }
