@@ -1,5 +1,10 @@
 <x-frontend-layout>
    <x-sidebar />
+   @if(session('status') == '0')
+         <div class="alert alert-danger text-center" style=" margin: 50px; font-weight:normal;" >
+      {{ session('msg') }}
+          </div>
+   @endif
    <div class="content ">
       <div class="container-fluid grey-background">
          <div class="content">
@@ -12,21 +17,21 @@
                            BNBL Employee Directory gives you the access to search various employee all over the extensions located in Bhutan.
                         </p>
                      </div>
-                     <div class="box wrapper mb-4 container">
+                     <div class="box wrapper mb-4 container ">
                         <div class="counter col_fourth">
                            <i class="fa-solid fa-users fa-2x"></i>
                            <p id='0101' class="fs-2 count-title count-number"></p>
-                           <p class="count-text ">Total Employee</p>
+                           <p class="count-text ">Total Employees</p>
                         </div>
                         <div class="counter col_fourth">
                         <i class="fa-solid fa-sitemap fa-2x"></i>
                            <p id='0102' class="fs-2 count-title count-number"></p>
-                           <p class="count-text">Department</p>
+                           <p class="count-text">Departments</p>
                         </div>
                         <div class="counter col_fourth">
                            <i class='fas fa-external-link-alt fa-2x'></i>
                            <p id='0103' class="fs-2 count-title count-number"></p>
-                           <p class="count-text">Total Branch</p>
+                           <p class="count-text">Extensions/Branches</p>
                         </div>
                      </div>
                      <body onload="load()">
@@ -65,29 +70,29 @@
                            let text2 = document.getElementById('0102');
                            let text3 = document.getElementById('0103');
                            const load = () => {
-                           animate(text1, 300, {{count($employees)}}, 8000);
-                           animate(text2, 0, {{count($departments)}}, 4000);
-                           animate(text3, 100, {{count($locations)}}, 7000);
+                           animate(text1, 1000, {{count($employees)}}, 3000);
+                           animate(text2, 100, {{count($departments)}},3000);
+                           animate(text3, 100, {{count($locations)}}, 3000);
                            }
                         </script>
                      </body>
                      
                      <div class="mb-5">
                        
-                           <div class="row mb-3 form-row">
+                        <div class="row mb-3 form-row">
                         <form class="d-block" method="POST" action="{{ route('search_directory_path') }}">
                         @csrf
                         <div class="row mb-3">
-                        <div class="col-sm-2">
-                        <input type="text" name="employeename" class="form-control form-sz-lg" placeholder="Employee Name" autofocus>
+                           <div class="col-sm-2 form-group">
+                              <input type="text" name="employeename" class="form-control form-sz-lg" placeholder="Employee Name" autofocus>
+                           </div>
+                        <div class="col-sm-2 form-group">
+                           <input type="text" name="flexcube" class="form-control form-sz-lg" placeholder="Flexcube ID">
                         </div>
-                        <div class="col-sm-2">
-                        <input type="text" name="flexcube" class="form-control form-sz-lg" placeholder="Flexcube ID">
-                        </div>
-                        <div class="col-sm-2">
+                        <div class="col-sm-2 form-group">
                         <input type="text" name="vehicle_number" class="form-control form-sz-lg" placeholder="Vehicle Number">
                         </div>
-                        <div class="col-sm-3">
+                        <div class="col-sm-3 form-group">
                         <select name="department" class="form-control form-sz-lg">
                         <option selected="selected" value="0">Select Department</option>
                         @foreach($departments as $d)
@@ -95,7 +100,7 @@
                         @endforeach
                         </select>
                         </div>
-                        <div class="col-sm-2">
+                        <div class="col-sm-2 form-group">
                         <select name="location" class="form-control form-sz-lg">
                         <option selected="selected" value="0">Select Location</option>
                         @foreach($locations as $l)
@@ -103,7 +108,7 @@
                         @endforeach
                         </select>
                         </div>
-                        <div class="col-sm-1">
+                        <div class="col-sm-1 form-group">
                         <button type="submit" class="form-control form-sz-lg btn btn-block " >
                            <i class="fas fa-search fa-lg" style="margin-right: 10px;"></i></button>
                         </div>

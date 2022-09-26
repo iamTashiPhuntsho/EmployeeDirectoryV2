@@ -20,16 +20,16 @@
                         <div class="d-flex flex-row align-items-center mb-4">
                            <i class="fas fa-user fa-lg me-3 fa-fw fa-1x"></i>
                            <div class="form-outline flex-fill mb-0">
-                              <input type="text" name="employee_id" class="form-control form-sz-lg" placeholder="Enter your Employee ID" maxlength="10">
+                              <input type="text" name="employee_id" class="form-control form-sz-lg" placeholder="Enter your Employee ID" maxlength="10" autofocus>
                            </div>
                         </div>
                         <div class="button col-sm-6 d-flex mb-3">
-                        <button type="submit" class="form-control form-sz-lg btn btn-block blue-button" >Generate</button>
+                        <button type="submit" class="form-control form-sz-lg btn-primary btn px-3 py-2 btn-block text-white blue-button" >Generate</button>
                         </div>
                         
                         @if ($errors->any())
                         @foreach ($errors->all() as $error)
-                        <small class=""><i class="fas fa-exclamation-circle"></i>  {{ $error }}</small><br>
+                        <small class="text-danger"><i class="fas fa-exclamation-circle"></i>  {{ $error }}</small><br>
                         @endforeach
                         @endif
                      </form>
@@ -44,5 +44,13 @@
       </div>
    </div>
    </div>
+
+
+   <script crossorigin src="https://unpkg.com/@mui/material@latest/umd/material-ui.production.min.js"></script>
+<script>
+  var exports = {};
+</script>
+<div id="root">
+</div>
 
 </x-frontend-layout>

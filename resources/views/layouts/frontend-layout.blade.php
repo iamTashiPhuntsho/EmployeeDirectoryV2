@@ -14,7 +14,7 @@
         <link 
   href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" 
   rel="stylesheet"  type='text/css'>
-  
+  <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
         <!-- Fonts -->
         {{-- <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap"> --}}
 
@@ -24,16 +24,11 @@
     </head>
     <body id="body-pd" class="font-sans antialiased">
         @if(session('status') == '1')
-            <div class="bg-success text-white">
-                <p class="text-sm title2 py-1 px-5 text-center">{{ session('msg') }}</p>
+
+            <div class="alert alert-success text-center" style=" margin: 50px;">
+               {{ session('msg') }}
             </div>
         @endif
-        @if(session('status') == '0')
-            <div class="bg-danger text-white">
-                <p class="text-sm title2 py-1 px-5 text-center">{{ session('msg') }}</p>
-            </div>
-        @endif
-        
         <div class="min-h-screen bg-gray-100">
 
             <!-- Page Content -->

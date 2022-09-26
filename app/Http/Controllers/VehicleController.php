@@ -12,9 +12,10 @@ use Illuminate\Support\Facades\Crypt;
 class VehicleController extends Controller
 {
     public function vehicle(){
-    	$employees = Employee::with('contact')->get();
+    	$employees = Employee::whereNot('vehicle_no', NULL)->where('status','active')->get();
+        $ceo = Employee::find(4);
     	// return $employees;
-    	return view('frontend.vehicle',compact('employees'));
+    	return view('frontend.vehicle',compact('employees','ceo'));
     }
     public function search(Request $request){
         // Get the search value from the request
