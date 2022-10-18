@@ -215,7 +215,7 @@
       <!-- The Modal -->
       <div class="modal" id="myModal">
          <div class="modal-dialog">
-            <div class="modal-content">
+            <div class="modal-content" style="background-color: #ffe3b0;">
                <!-- Modal Header -->
                <div class="modal-header">
                   <h4 class="name"></h4>
@@ -223,9 +223,19 @@
                   <p></p>
                </div>
                <!-- Modal body -->
-               <div class="modal-body">
-                  <div class="content"></div>
-                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img-fluid float-left" id="img">
+               <div class="modal-body" >
+ 
+               <div class="row">
+  <div class="column">
+  <div class="content"></div>
+  </div>
+ 
+  <div class="column">
+  <img src="{{asset('images/ceo.jpg')}}" alt="" style="height: 10rem;" class="img-thumbnail" id="img">
+  </div>
+</div>
+ 
+ 
                </div>
             </div>
          </div>
@@ -235,6 +245,11 @@
       .container-box{
       width: 100%;
       }
+      .column {
+  float: left;
+ 
+   /* Should be removed. Only for demonstration */
+}
       .modal-header h5{
          margin-bottom: 0rem;
          font-size: 1.2rem;
@@ -400,4 +415,9 @@
   })
 </script>
 </x-frontend-layout>
+ 
+ 
+ 
+ 
+ 
 
