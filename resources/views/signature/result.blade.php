@@ -9,25 +9,25 @@
                <div class="row">
                   <div class="col-md-12">
                      <textarea class="form-contro border w-100 p-5" rows="10" id="signCode"><div style="font-size: 12pt; font-family: sans-serif; line-height: 1.5; margin-bottom: 12px;">
-Thank you, &amp; Best regards.
+Best regards,
 </div>
 <div style= "font-family: 'Century Gothic', sans-serif; color: black; line-height: 1.5;">
 <span style="font-size: 11pt;">
-<strong>{{$emp->name}}</strong> @if(!blank($salutation)) ({{ $salutation }}) @endif<br />
-<span style="font-size: 10pt;">
+{{$emp->name}} @if(!blank($salutation)) ({{ $salutation }}) @endif<br />
+<span style="font-size: 11pt;">
 {{$emp->title}}<br />
 {{$emp->department->name}} Department</span>
 </div>
 <div style="max-width: 400px; padding: 0px; margin-top: 12px; margin-bottom: 10px; display: inline-flex;">
 <div style="float: left;">
-<span style="font-size: 11pt; font-family: 'Raleway ExtraBold', sans-serif; color: black; line-height: 1.5;">
-<strong>BHUTAN NATIONAL BANK LTD.</strong></span><br>
+<span style="font-size: 11pt; font-family: 'Century Gothic', sans-serif; color: black; line-height: 1.5;">
+BHUTAN NATIONAL BANK LTD</span><br>
 <span style="font-size: 10pt; font-family: 'Century Gothic', sans-serif; color: black; line-height: 1.3;">
 @if(!blank($telephone))
-<strong>T :</strong>&nbsp;{{$telephone}}&nbsp; | 
+T : &nbsp;{{$telephone}}&nbsp; | 
 @endif
-<strong>IP :</strong>&nbsp;{{$emp->contact->extension}}<br />
-<strong>M :</strong>+975 {{$emp->contact->mobile}}<br />
+IP : &nbsp;{{$emp->contact->extension}}<br />
+M : +975 {{$emp->contact->mobile}}<br />
 {{$office}}<br /> 
 @if(!blank($po))
 Post Box No: {{$po}},
