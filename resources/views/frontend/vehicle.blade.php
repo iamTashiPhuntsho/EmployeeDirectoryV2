@@ -22,8 +22,8 @@
       <div class="custom-row">
                <div class="col-4 text-center">
                   <div class="container-box">
-                     <div class="main-box-left ceo" data-bs-toggle="modal" data-bs-target="#myModal">
-                        <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+                     <div class="main-box-left ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cs}}">
+                        <img src='{{asset("storage/employee_images/$cs->image")}}' alt="" class="img">
                         <div class="description1">Company Secretary</div>
                      </div>  
                   </div>  
@@ -34,8 +34,8 @@
                </div>
                <div class="col-4 text-center">
                   <div class="container-box">
-                     <div class="main-box-right ceo">
-                        <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+                     <div class="main-box-right ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ia}}">
+                        <img src='{{asset("storage/employee_images/$ia->image")}}' alt="" class="img">
                         <div class="description1">Internal Audit Department</div>
                      </div>  
                   </div>
@@ -43,8 +43,8 @@
       </div>
    
       <div class="col-4 offset-4 text-center">  
-            <div class="main-box ceo">
-               <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+            <div class="main-box ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo}}">
+               <img src='{{asset("storage/employee_images/$ceo->image")}}' alt="" class="img">
                <div class="description1">Chief Executive Officer</div>
             </div>
          </div>
@@ -53,8 +53,8 @@
       <div class="custom-row">
          <div class="col-3 text-center">
             <div class="container-box">
-               <div class="main-box-left cs" data-bs-toggle="modal" data-bs-target="#myModal">
-                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img" data-info="{{$ceo->name}}">
+               <div class="main-box-left cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rd}}">
+                  <img src='{{asset("storage/employee_images/$rd->image")}}' alt="" class="img">
                   <div class="description">Risk Department</div>
                </div>  
             </div>  
@@ -65,8 +65,8 @@
          </div>
          <div class="col-3 text-center">
             <div class="container-box">
-               <div class="main-box-right bo">
-                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+               <div class="main-box-right bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$smd}}">
+                  <img src='{{asset("storage/employee_images/$smd->image")}}' alt="" class="img">
                   <div class="description">Strategy Management Department</div>
                </div>
             </div>
@@ -85,8 +85,8 @@
       <div class="custom-row">
          <div class="col-4 text-center">
             <div class="container-box">
-               <div class="main-box cs">
-                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+               <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cos}}">
+                  <img src='{{asset("storage/employee_images/$cos->image")}}' alt="" class="img">
                   <div class="description">Corporate Service</div>
                </div>
             </div>
@@ -95,8 +95,8 @@
    
          <div class="col-4 text-center">
             <div class="container-box">
-               <div class="main-box ce">
-                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+               <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cex}}">
+                  <img src='{{asset("storage/employee_images/$cex->image")}}' alt="" class="img">
                   <div class="description">Customer Experience</div>
                </div>
             </div>
@@ -105,8 +105,8 @@
    
          <div class="col-4 text-center">
             <div class="container-box">
-               <div class="main-box bo">
-                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+               <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$bo}}">
+                  <img src='{{asset("storage/employee_images/$bo->image")}}' alt="" class="img">
                   <div class="description">Banking Operations</div>
                </div>
             </div>
@@ -125,8 +125,8 @@
                <div class="custom-row">
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box cs">
-                           <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+                        <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$fin}}">
+                           <img src='{{asset("storage/employee_images/$fin->image")}}' alt="" class="img">
                            <div class="description">
                               Finance
                            </div>
@@ -136,8 +136,8 @@
            
                   <div class="col-4 offset-3 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box cs">
-                           <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+                        <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$hra}}">
+                           <img src='{{asset("storage/employee_images/$hra->image")}}' alt="" class="img">
                            <div class="description">Human Resource Administration</div>
                         </div>
                      </div>
@@ -157,8 +157,8 @@
                <div class="custom-row">
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box ce">
-                           <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+                        <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$dtd}}">
+                           <img src='{{asset("storage/employee_images/$dtd->image")}}' alt="" class="img">
                            <div class="description">
                               Digital Transformation
                            </div>
@@ -168,8 +168,8 @@
            
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box ce">
-                           <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+                        <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cse}}">
+                           <img src='{{asset("storage/employee_images/$cse->image")}}' alt="" class="img">
                            <div class="description">Customer Service</div>
                         </div>
                      </div>
@@ -177,8 +177,8 @@
            
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box ce">
-                           <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+                        <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ito}}">
+                           <img src='{{asset("storage/employee_images/$ito->image")}}' alt="" class="img">
                            <div class="description">IT Operations</div>
                         </div>
                      </div>
@@ -198,8 +198,8 @@
                <div class="custom-row">
                   <div class="col-4 offset-1 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box bo">
-                           <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+                        <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$bro}}">
+                           <img src='{{asset("storage/employee_images/$bro->image")}}' alt="" class="img">
                            <div class="description">
                               Branch Operations
                            </div>
@@ -209,8 +209,8 @@
            
                   <div class="col-4 offset-3 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box bo">
-                           <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+                        <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rem}}">
+                           <img src='{{asset("storage/employee_images/$rem->image")}}' alt="" class="img">
                            <div class="description">Remedial Management</div>
                         </div>
                      </div>
@@ -229,15 +229,11 @@
      
             <!-- Modal Header -->
             <div class="modal-header">
-               <h3>{{$cs->name}}</h3>
+               <h4 class="name"></h4>
                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-               <p></p>
             </div>
-     
             <!-- Modal body -->
             <div class="modal-body">
-            <p>Telephone: {{ $cs->contact->extension}}</p>
-            <p> Email: {{ $cs->contact->email}}</p>
             </div>
          </div>
          </div>
@@ -396,9 +392,12 @@
  
 <script>
   $(document).ready(function () {
-   $('.main-box').on('click', function() {
-     
-      $('.modal-body').html('<h1>'+$(this).data('info')+'</h1>');
+   $(".main-box,.main-box-right,.main-box-left").on('click', function() {
+      var emp = $(this).data('info');
+      $('.name').text(emp.name);
+      $('.modal-body').html('<small>Extension: '+emp.contact.extension+'</small><br>');
+      $('.modal-body').append('<small>Mobile No: '+emp.contact.mobile+'</small><br>');
+      $('.modal-body').append('<small>Email: '+emp.contact.email+'</small>');
    })
   })
 </script>
