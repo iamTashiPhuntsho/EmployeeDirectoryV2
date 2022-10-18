@@ -12,9 +12,15 @@
       <div class="custom-row">
          <div class="col-12 text-center">
             <div class="container-box">
+<<<<<<< HEAD
                <div class="main-box" data-bs-toggle="modal" data-bs-target="#myModal" >
                  
                   <div class="description2">Board of Directors</div>
+=======
+               <div class="main-box" data-bs-target="#myModal">
+                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+                  <div class="description">Board of Directors</div>
+>>>>>>> 41041f8151158cfeecbeb11023fa560f524d389f
                </div>
             </div>
             <div class="middle-line"></div>   
@@ -23,7 +29,11 @@
       <div class="custom-row">
                <div class="col-4 text-center">
                   <div class="container-box">
+<<<<<<< HEAD
                      <div class="main-box-left ceo">
+=======
+                     <div class="main-box-left" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cs->name}}">
+>>>>>>> 41041f8151158cfeecbeb11023fa560f524d389f
                         <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                         <div class="description1">Company Secretary</div>
                      </div>   
@@ -35,7 +45,11 @@
                </div>
                <div class="col-4 text-center">
                   <div class="container-box">
+<<<<<<< HEAD
                      <div class="main-box-right ceo">
+=======
+                     <div class="main-box-right" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo->name}}">
+>>>>>>> 41041f8151158cfeecbeb11023fa560f524d389f
                         <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                         <div class="description1">Internal Audit Department</div>
                      </div>  
@@ -45,9 +59,15 @@
    
       <div class="col-4 offset-4 text-center">  
          <div class="container-box">
+<<<<<<< HEAD
             <div class="main-box ceo">
                <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                <div class="description1">Chief Executive Officer</div>
+=======
+            <div class="main-box">
+               <img src="{{asset('images/ceo.jpg')}}" alt="" class="img" data-info="{{$ceo->name}}">
+               <div class="description">Chief Executive Officer</div>
+>>>>>>> 41041f8151158cfeecbeb11023fa560f524d389f
             </div>
          </div>
          <div class="middle-line"></div>   
@@ -56,8 +76,13 @@
       <div class="custom-row">
          <div class="col-3 text-center">
             <div class="container-box">
+<<<<<<< HEAD
                <div class="main-box-left cs">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+=======
+               <div class="main-box-left">
+                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img" data-info="{{$ceo->name}}">
+>>>>>>> 41041f8151158cfeecbeb11023fa560f524d389f
                   <div class="description">Risk Department</div>
                </div>   
             </div>  
@@ -232,20 +257,16 @@
       
             <!-- Modal Header -->
             <div class="modal-header">
-               <h4 class="modal-title">Detail Information</h4>
+               <h3>{{$cs->name}}</h3>
                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+               <p></p>
             </div>
       
             <!-- Modal body -->
             <div class="modal-body">
-               <p></p>
+            <p>Telephone: {{ $cs->contact->extension}}</p>
+            <p> Email: {{ $cs->contact->email}}</p>
             </div>
-      
-            <!-- Modal footer -->
-            <div class="modal-footer">
-               <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-            </div>
-      
          </div>
          </div>
       </div>
