@@ -1,13 +1,20 @@
 <x-frontend-layout>
    <x-sidebar />
-
    <div class="pb-5 pe-5">
+   <h2 class="no-case mb-4">BNBL Org Chart</h2>
+      <div class="mb-4">
+         <div class="col-sm-12">
+            <p class="u-large-text u-text u-text-variant u-text-2"> 
+            Easily visualize your company for your leaders, team and board.
+            </p>
+         </div>
+      </div>
       <div class="custom-row">
          <div class="col-12 text-center">
             <div class="container-box">
-               <div class="main-box" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo->name}}" >
-                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
-                  <div class="description">Board of Directors</div>
+               <div class="main-box" data-bs-toggle="modal" data-bs-target="#myModal" >
+                 
+                  <div class="description2">Board of Directors</div>
                </div>
             </div>
             <div class="middle-line"></div>   
@@ -16,9 +23,9 @@
       <div class="custom-row">
                <div class="col-4 text-center">
                   <div class="container-box">
-                     <div class="main-box-left">
+                     <div class="main-box-left ceo">
                         <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
-                        <div class="description">Company Secretary</div>
+                        <div class="description1">Company Secretary</div>
                      </div>   
                   </div>  
                </div>
@@ -28,9 +35,9 @@
                </div>
                <div class="col-4 text-center">
                   <div class="container-box">
-                     <div class="main-box-right">
+                     <div class="main-box-right ceo">
                         <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
-                        <div class="description">Internal Audit Department</div>
+                        <div class="description1">Internal Audit Department</div>
                      </div>  
                   </div>
                </div>
@@ -38,9 +45,9 @@
    
       <div class="col-4 offset-4 text-center">  
          <div class="container-box">
-            <div class="main-box">
+            <div class="main-box ceo">
                <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
-               <div class="description">Chief Executive Officer</div>
+               <div class="description1">Chief Executive Officer</div>
             </div>
          </div>
          <div class="middle-line"></div>   
@@ -49,7 +56,7 @@
       <div class="custom-row">
          <div class="col-3 text-center">
             <div class="container-box">
-               <div class="main-box-left">
+               <div class="main-box-left cs">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                   <div class="description">Risk Department</div>
                </div>   
@@ -61,7 +68,7 @@
          </div>
          <div class="col-3 text-center">
             <div class="container-box">
-               <div class="main-box-right">
+               <div class="main-box-right bo">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                   <div class="description">Strategy Management Department</div>
                </div> 
@@ -81,7 +88,7 @@
       <div class="custom-row">
          <div class="col-4 text-center">
             <div class="container-box">
-               <div class="main-box">
+               <div class="main-box cs">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                   <div class="description">Corporate Service</div>
                </div>
@@ -91,7 +98,7 @@
    
          <div class="col-4 text-center">
             <div class="container-box">
-               <div class="main-box">
+               <div class="main-box ce">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                   <div class="description">Customer Experience</div>
                </div>
@@ -101,7 +108,7 @@
    
          <div class="col-4 text-center">
             <div class="container-box">
-               <div class="main-box">
+               <div class="main-box bo">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                   <div class="description">Banking Operations</div>
                </div>
@@ -121,7 +128,7 @@
                <div class="custom-row">
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box cs">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">
                               Finance
@@ -132,7 +139,7 @@
             
                   <div class="col-4 offset-3 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box cs">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">Human Resource Administration</div>
                         </div>
@@ -153,7 +160,7 @@
                <div class="custom-row">
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box ce">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">
                               Digital Transformation
@@ -164,7 +171,7 @@
             
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box ce">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">Customer Service</div>
                         </div>
@@ -173,7 +180,7 @@
             
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box ce">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">IT Operations</div>
                         </div>
@@ -194,7 +201,7 @@
                <div class="custom-row">
                   <div class="col-4 offset-1 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box bo">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">
                               Branch Operations
@@ -205,7 +212,7 @@
             
                   <div class="col-4 offset-3 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box bo">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">Remedial Management</div>
                         </div>
@@ -250,17 +257,31 @@
       .main-box{
          width:fit-content;
          border-radius: 5px;
-         background: #e0e0e0;
          margin:auto;
          overflow: hidden;
          border-bottom: 2px solid #26578C;
          padding: 5px;
          cursor: pointer;
       }
+
+      .cs{
+         background: #e0ffcd;
+      }
+      .ce{
+         background:  #d5eeff; 
+      }
+      .bo{
+         background:#ffd6b6; 
+      }
+      .ceo{
+         background: #1e549f;
+         
+      }
+
+   
       .main-box-left{
          width:fit-content;
          border-bottom-right-radius: 7px;
-         background: #e0e0e0;
          min-height: fit-content;
          overflow: hidden;
          border-right: 2px solid #26578C;
@@ -273,7 +294,6 @@
       .main-box-right{
          width:fit-content;
          border-bottom-left-radius: 7px;
-         background: #e0e0e0;
          min-height: fit-content;
          overflow: hidden;
          border-left: 2px solid #26578C;
@@ -287,10 +307,20 @@
          color:#26578C;
          font-size: 12px;
       }
+      .description2{
+         font-size: 14px;
+         color:#26578C;
+      }
+      .description1{
+         color:#fcfefe;
+         font-size: 12px;
+         font-weight: 500;
+      }
       .img{
          height: 60px;
          width: 60px;
-         border-radius: 10px;
+         border-radius: 50px;
+         border: 2px solid #ffff;
       }
       .custom-row{
          display: inline-flex;
