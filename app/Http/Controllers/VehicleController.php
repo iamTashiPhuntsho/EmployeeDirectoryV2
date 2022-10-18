@@ -12,21 +12,22 @@ use Illuminate\Support\Facades\Crypt;
 class VehicleController extends Controller
 {
     public function vehicle(){
-    	$employees = Employee::whereNot('vehicle_no', NULL)->where('status','active')->get();
         $ceo = Employee::find(1);
+        $cs = Employee::find(2);
+        $ia = Employee::find(3);
+        $rd = Employee::find(4);
+        $smd = Employee::find(5);
+        $cos = Employee::find(6);
+        $cex = Employee::find(7);
+        $bo = Employee::find(8);
+        $fin = Employee::find(9);
+        $hra = Employee::find(10);
+        $dtd = Employee::find(11);
+        $cse = Employee::find(12);
+        $ito = Employee::find(13);
+        $bro = Employee::find(14);
+        $rem = Employee::find(15);
     	// return $employees;
-    	return view('frontend.vehicle',compact('employees','ceo'));
-    }
-    public function search(Request $request){
-        // Get the search value from the request
-        $search = $request->input('search');
-    
-        // Search in the title and body columns from the posts table
-        $employees = Employee::query()
-            ->Where('vehicle_no', 'LIKE', "%{$search}%")
-            ->get();
-    
-        // Return the search view with the resluts compacted
-        return view('frontend.vehicle',compact('employees'));
+    	return view('frontend.vehicle',compact('ceo','cs','ia','rd','smd','cos','cex','bo','fin','hra','dtd','cse','ito','bro','rem'));
     }
 }

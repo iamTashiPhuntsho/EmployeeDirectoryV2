@@ -5,7 +5,7 @@
       <div class="custom-row">
          <div class="col-12 text-center">
             <div class="container-box">
-               <div class="main-box" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo->name}}" >
+               <div class="main-box" data-bs-target="#myModal">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                   <div class="description">Board of Directors</div>
                </div>
@@ -16,7 +16,7 @@
       <div class="custom-row">
                <div class="col-4 text-center">
                   <div class="container-box">
-                     <div class="main-box-left">
+                     <div class="main-box-left" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cs->name}}">
                         <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                         <div class="description">Company Secretary</div>
                      </div>   
@@ -28,7 +28,7 @@
                </div>
                <div class="col-4 text-center">
                   <div class="container-box">
-                     <div class="main-box-right">
+                     <div class="main-box-right" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo->name}}">
                         <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                         <div class="description">Internal Audit Department</div>
                      </div>  
@@ -39,7 +39,7 @@
       <div class="col-4 offset-4 text-center">  
          <div class="container-box">
             <div class="main-box">
-               <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+               <img src="{{asset('images/ceo.jpg')}}" alt="" class="img" data-info="{{$ceo->name}}">
                <div class="description">Chief Executive Officer</div>
             </div>
          </div>
@@ -50,7 +50,7 @@
          <div class="col-3 text-center">
             <div class="container-box">
                <div class="main-box-left">
-                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
+                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img" data-info="{{$ceo->name}}">
                   <div class="description">Risk Department</div>
                </div>   
             </div>  
@@ -225,20 +225,16 @@
       
             <!-- Modal Header -->
             <div class="modal-header">
-               <h4 class="modal-title">Detail Information</h4>
+               <h3>{{$cs->name}}</h3>
                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+               <p></p>
             </div>
       
             <!-- Modal body -->
             <div class="modal-body">
-               <p></p>
+            <p>Telephone: {{ $cs->contact->extension}}</p>
+            <p> Email: {{ $cs->contact->email}}</p>
             </div>
-      
-            <!-- Modal footer -->
-            <div class="modal-footer">
-               <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-            </div>
-      
          </div>
          </div>
       </div>
