@@ -16,7 +16,7 @@
       <div class="custom-row">
                <div class="col-4 text-center">
                   <div class="container-box">
-                     <div class="main-box-left" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cs->name}}">
+                     <div class="main-box-left" data-bs-toggle="modal" data-bs-target="#myModal">
                         <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                         <div class="description">Company Secretary</div>
                      </div>   
@@ -28,7 +28,7 @@
                </div>
                <div class="col-4 text-center">
                   <div class="container-box">
-                     <div class="main-box-right" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo->name}}">
+                     <div class="main-box-right" data-bs-toggle="modal" data-bs-target="#myModal">
                         <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                         <div class="description">Internal Audit Department</div>
                      </div>  
@@ -38,8 +38,8 @@
    
       <div class="col-4 offset-4 text-center">  
          <div class="container-box">
-            <div class="main-box">
-               <img src="{{asset('images/ceo.jpg')}}" alt="" class="img" data-info="{{$ceo->name}}">
+            <div class="main-box" data-bs-toggle="modal" data-bs-target="#myModal">
+               <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                <div class="description">Chief Executive Officer</div>
             </div>
          </div>
@@ -49,7 +49,7 @@
       <div class="custom-row">
          <div class="col-3 text-center">
             <div class="container-box">
-               <div class="main-box-left">
+               <div class="main-box-left" data-bs-toggle="modal" data-bs-target="#myModal">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img" data-info="{{$ceo->name}}">
                   <div class="description">Risk Department</div>
                </div>   
@@ -61,7 +61,7 @@
          </div>
          <div class="col-3 text-center">
             <div class="container-box">
-               <div class="main-box-right">
+               <div class="main-box-right" data-bs-toggle="modal">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                   <div class="description">Strategy Management Department</div>
                </div> 
@@ -81,7 +81,7 @@
       <div class="custom-row">
          <div class="col-4 text-center">
             <div class="container-box">
-               <div class="main-box">
+               <div class="main-box" data-bs-toggle="modal">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                   <div class="description">Corporate Service</div>
                </div>
@@ -91,7 +91,7 @@
    
          <div class="col-4 text-center">
             <div class="container-box">
-               <div class="main-box">
+               <div class="main-box" data-bs-toggle="modal">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                   <div class="description">Customer Experience</div>
                </div>
@@ -101,7 +101,7 @@
    
          <div class="col-4 text-center">
             <div class="container-box">
-               <div class="main-box">
+               <div class="main-box" data-bs-toggle="modal">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                   <div class="description">Banking Operations</div>
                </div>
@@ -121,7 +121,7 @@
                <div class="custom-row">
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box" data-bs-toggle="modal">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">
                               Finance
@@ -132,7 +132,7 @@
             
                   <div class="col-4 offset-3 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box" data-bs-toggle="modal">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">Human Resource Administration</div>
                         </div>
@@ -153,7 +153,7 @@
                <div class="custom-row">
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box" data-bs-toggle="modal">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">
                               Digital Transformation
@@ -164,7 +164,7 @@
             
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box" data-bs-toggle="modal">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">Customer Service</div>
                         </div>
@@ -173,7 +173,7 @@
             
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box" data-bs-toggle="modal">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">IT Operations</div>
                         </div>
@@ -194,7 +194,7 @@
                <div class="custom-row">
                   <div class="col-4 offset-1 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box" data-bs-toggle="modal">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">
                               Branch Operations
@@ -205,7 +205,7 @@
             
                   <div class="col-4 offset-3 px-1 text-center">
                      <div class="container-box">
-                        <div class="main-box">
+                        <div class="main-box" data-bs-toggle="modal">
                            <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                            <div class="description">Remedial Management</div>
                         </div>
