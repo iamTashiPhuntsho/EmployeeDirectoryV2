@@ -224,6 +224,8 @@
                </div>
                <!-- Modal body -->
                <div class="modal-body">
+                  <div class="content"></div>
+                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img-fluid float-left" id="img">
                </div>
             </div>
          </div>
@@ -390,10 +392,11 @@
    $(".main-box,.main-box-right,.main-box-left").on('click', function() {
       var emp = $(this).data('info');
       $('.name').text(emp.name);
-      $('.modal-body').html('<small>Extension: '+emp.contact.extension+'</small><br>');
-      $('.modal-body').append('<small>Mobile No: '+emp.contact.mobile+'</small><br>');
-      $('.modal-body').append('<small>Email: '+emp.contact.email+'</small>');
-   })
+      $('#img').attr('src','/storage/employee_images/'+emp.image);
+      $('.content').html('<small>Extension: '+emp.contact.extension+'</small><br>');
+      $('.content').append('<small>Mobile No: '+emp.contact.mobile+'</small><br>');
+      $('.content').append('<small>Email: '+emp.contact.email+'</small>');
+      })
   })
 </script>
 </x-frontend-layout>
