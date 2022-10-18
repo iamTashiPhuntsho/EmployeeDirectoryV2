@@ -1,10 +1,10 @@
 <x-frontend-layout>
    <x-sidebar />
-   <div class="pb-5 pe-5">
+   <div>
    <h2 class="no-case mb-4">BNBL Org Chart</h2>
       <div class="mb-4">
          <div class="col-sm-12">
-            <p class="u-large-text u-text u-text-variant u-text-2"> 
+            <p class="u-large-text u-text u-text-variant u-text-2">
             Easily visualize your company for your leaders, team and board.
             </p>
          </div>
@@ -12,44 +12,29 @@
       <div class="custom-row">
          <div class="col-12 text-center">
             <div class="container-box">
-<<<<<<< HEAD
-               <div class="main-box" data-bs-toggle="modal" data-bs-target="#myModal" >
-                 
-                  <div class="description2">Board of Directors</div>
-=======
                <div class="main-box" data-bs-target="#myModal">
-                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                   <div class="description">Board of Directors</div>
->>>>>>> 41041f8151158cfeecbeb11023fa560f524d389f
                </div>
             </div>
-            <div class="middle-line"></div>   
+            <div class="middle-line"></div>  
          </div>
       </div>
       <div class="custom-row">
                <div class="col-4 text-center">
                   <div class="container-box">
-<<<<<<< HEAD
-                     <div class="main-box-left ceo">
-=======
-                     <div class="main-box-left" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cs->name}}">
->>>>>>> 41041f8151158cfeecbeb11023fa560f524d389f
+                     <div class="main-box-left ceo" data-bs-toggle="modal" data-bs-target="#myModal">
                         <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                         <div class="description1">Company Secretary</div>
-                     </div>   
+                     </div>  
                   </div>  
                </div>
                <div class="col-4 text-center">
-                  <div class="long-line"></div> 
+                  <div class="long-line"></div>
                   <div class="middle-line-full"></div>  
                </div>
                <div class="col-4 text-center">
                   <div class="container-box">
-<<<<<<< HEAD
                      <div class="main-box-right ceo">
-=======
-                     <div class="main-box-right" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo->name}}">
->>>>>>> 41041f8151158cfeecbeb11023fa560f524d389f
                         <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                         <div class="description1">Internal Audit Department</div>
                      </div>  
@@ -58,37 +43,24 @@
       </div>
    
       <div class="col-4 offset-4 text-center">  
-         <div class="container-box">
-<<<<<<< HEAD
             <div class="main-box ceo">
                <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                <div class="description1">Chief Executive Officer</div>
-=======
-            <div class="main-box">
-               <img src="{{asset('images/ceo.jpg')}}" alt="" class="img" data-info="{{$ceo->name}}">
-               <div class="description">Chief Executive Officer</div>
->>>>>>> 41041f8151158cfeecbeb11023fa560f524d389f
             </div>
          </div>
-         <div class="middle-line"></div>   
+         <div class="middle-line"></div>  
       </div>
-   
       <div class="custom-row">
          <div class="col-3 text-center">
             <div class="container-box">
-<<<<<<< HEAD
-               <div class="main-box-left cs">
-                  <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
-=======
-               <div class="main-box-left">
+               <div class="main-box-left cs" data-bs-toggle="modal" data-bs-target="#myModal">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img" data-info="{{$ceo->name}}">
->>>>>>> 41041f8151158cfeecbeb11023fa560f524d389f
                   <div class="description">Risk Department</div>
-               </div>   
+               </div>  
             </div>  
          </div>
          <div class="col-6 text-center">
-            <div class="long-line"></div> 
+            <div class="long-line"></div>
             <div class="middle-line-full"></div>  
          </div>
          <div class="col-3 text-center">
@@ -96,18 +68,18 @@
                <div class="main-box-right bo">
                   <img src="{{asset('images/ceo.jpg')}}" alt="" class="img">
                   <div class="description">Strategy Management Department</div>
-               </div> 
+               </div>
             </div>
          </div>
       </div>
-      
+     
       <div class="col-8 offset-2 text-center">
-         <div class="middle-line-full"></div>   
+         <div class="middle-line-full"></div>  
          <div class="long-line"></div>
          <div class="position-relative">
-            <div class="middle-line"></div>   
-            <div class="right-line"></div>   
-            <div class="left-line"></div>   
+            <div class="middle-line"></div>  
+            <div class="right-line"></div>  
+            <div class="left-line"></div>  
          </div>
       </div>
       <div class="custom-row">
@@ -161,7 +133,7 @@
                         </div>
                      </div>
                   </div>
-            
+           
                   <div class="col-4 offset-3 px-1 text-center">
                      <div class="container-box">
                         <div class="main-box cs">
@@ -173,7 +145,7 @@
                </div>
             </div>
          </div>
-      
+     
          <div class="col-4 text-center">
             <div class="col-8 offset-2 position-relative">
                <div class="long-line"></div>
@@ -193,7 +165,7 @@
                         </div>
                      </div>
                   </div>
-            
+           
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
                         <div class="main-box ce">
@@ -202,7 +174,7 @@
                         </div>
                      </div>
                   </div>
-            
+           
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
                         <div class="main-box ce">
@@ -214,7 +186,7 @@
                </div>
             </div>
          </div>
-      
+     
          <div class="col-4 text-center">
             <div class="col-7 offset-3 position-relative">
                <div class="long-line"></div>
@@ -234,7 +206,7 @@
                         </div>
                      </div>
                   </div>
-            
+           
                   <div class="col-4 offset-3 px-1 text-center">
                      <div class="container-box">
                         <div class="main-box bo">
@@ -254,14 +226,14 @@
       <div class="modal" id="myModal">
          <div class="modal-dialog">
          <div class="modal-content">
-      
+     
             <!-- Modal Header -->
             <div class="modal-header">
                <h3>{{$cs->name}}</h3>
                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                <p></p>
             </div>
-      
+     
             <!-- Modal body -->
             <div class="modal-body">
             <p>Telephone: {{ $cs->contact->extension}}</p>
@@ -284,21 +256,21 @@
          padding: 5px;
          cursor: pointer;
       }
-
+ 
       .cs{
          background: #e0ffcd;
       }
       .ce{
-         background:  #d5eeff; 
+         background:  #d5eeff;
       }
       .bo{
-         background:#ffd6b6; 
+         background:#ffd6b6;
       }
       .ceo{
          background: #1e549f;
          
       }
-
+ 
    
       .main-box-left{
          width:fit-content;
@@ -421,13 +393,15 @@
          background: #26578C;
       }
    </style>
-
+ 
 <script>
   $(document).ready(function () {
    $('.main-box').on('click', function() {
-      
+     
       $('.modal-body').html('<h1>'+$(this).data('info')+'</h1>');
    })
   })
 </script>
 </x-frontend-layout>
+ 
+
