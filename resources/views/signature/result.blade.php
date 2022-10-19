@@ -24,15 +24,15 @@ Best regards,
 BHUTAN NATIONAL BANK LTD</span><br>
 <span style="font-size: 10pt; font-family: 'Century Gothic', sans-serif; color: black; line-height: 1.3;">
 @if(!blank($telephone))
-T : &nbsp;{{$telephone}}&nbsp; | 
+T : &nbsp;{{$telephone}}&nbsp; |
 @endif
 IP : &nbsp;{{$emp->contact->extension}}<br />
 M : +975 {{$emp->contact->mobile}}<br />
-{{$office}}<br /> 
+{{$office}}<br />
 @if(!blank($po))
 Post Box No: {{$po}},
 @endif
-@if(!blank($lam)) 
+@if(!blank($lam))
 {{ $lam }}<br />
 @endif
 {{$loc}} Bhutan</span>
@@ -50,7 +50,7 @@ The contents of this e-mail and any attachment(s) are confidential and intended 
                   <button onclick="copySign()" class="btn text-white btn-primary rounded-4 py-2">Copy Signature Code</button>
                </div>
                @else
-               <h5 class="mt-5 mb-3 pt-5 title2"> 
+               <h5 class="mt-5 mb-3 pt-5 title2">
                   404 | No Record Found
                </h5>
                <p class="text-center">Could not find any details for the entered Employee ID. Please check your Employee ID and make sure your information is registered in Employee Directory.</p>
@@ -60,3 +60,5 @@ The contents of this e-mail and any attachment(s) are confidential and intended 
       </section>
    </div>
 </x-frontend-layout>
+ 
+

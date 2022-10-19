@@ -1,7 +1,7 @@
 <x-frontend-layout>
    <x-sidebar />
    <div class="pb-5 pe-5">
-      <h2 class="no-case mb-4">BNBL Org Chart</h2>
+      <h2 class="no-case mb-4">BNB Organogram</h2>
       <div class="mb-4">
          <div class="col-sm-12">
             <p class="u-large-text u-text u-text-variant u-text-2">
@@ -215,27 +215,26 @@
       <!-- The Modal -->
       <div class="modal" id="myModal">
          <div class="modal-dialog">
-            <div class="modal-content" style="background-color: #ffe3b0;">
+            <div class="modal-content">
                <!-- Modal Header -->
                <div class="modal-header">
                   <h4 class="name"></h4>
                   <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                  <p></p>
                </div>
                <!-- Modal body -->
                <div class="modal-body" >
-
+ 
                <div class="row">
   <div class="column">
   <div class="content"></div>
   </div>
-
+ 
   <div class="column">
   <img src="{{asset('images/ceo.jpg')}}" alt="" style="height: 10rem;" class="img-thumbnail" id="img">
   </div>
 </div>
-
-
+ 
+ 
                </div>
             </div>
          </div>
@@ -247,15 +246,26 @@
       }
       .column {
   float: left;
-  
+ 
    /* Should be removed. Only for demonstration */
 }
-      .modal-header h5{
+@media (max-width: 48rem){
+   .pb-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    min-height: 100vh;
+}
+}
+
+      .modal-header h4{
          margin-bottom: 0rem;
-         font-size: 1.2rem;
+         font-size: 1.7rem;
          font-weight: 600;
          color: #1C4E80;
          
+      }
+      .modal-header{
+         border-bottom: 1.5px solid #1C4E80;
       }
       .modal-body p{
          font-size: 14px;
@@ -415,6 +425,8 @@
   })
 </script>
 </x-frontend-layout>
+ 
+ 
  
  
  

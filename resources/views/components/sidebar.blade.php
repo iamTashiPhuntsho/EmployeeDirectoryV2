@@ -54,7 +54,7 @@
         <div class="nav_item2">
          <ul class="navbar-nav">
                <li class="nav-item">
-                   <small><b>BNBL<br>EMPLOYEE DIRECTORY</small>
+                   <small><b>BNB<br>EMPLOYEE DIRECTORY</small>
                </li>
          </ul>
        </div>
@@ -70,7 +70,7 @@
       <div class="nav_item">
          <ul class="navbar-nav">
                <li class="nav-item">
-                   <small>Build By : <br> BNBL DT DEPARTMENT <br> 2022</small>
+                   <small>Build By : <br> &nbsp; BNB DT DEPARTMENT <br> 2022</small>
                </li>
          </ul>
        </div>

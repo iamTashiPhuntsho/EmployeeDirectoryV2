@@ -27,8 +27,8 @@ class VehicleController extends Controller
         $ito = Employee::with('contact')->find(13);
         $bro = Employee::with('contact')->find(14);
         $rem = Employee::with('contact')->find(15);
-        // return $employees;
-        return view('frontend.vehicle',compact('ceo','cs','ia','rd','smd','cos','cex','bo','fin','hra','dtd','cse','ito','bro','rem'));
+    	// return $employees;
+    	return view('frontend.vehicle',compact('ceo','cs','ia','rd','smd','cos','cex','bo','fin','hra','dtd','cse','ito','bro','rem'));
     }
 }
  
