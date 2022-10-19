@@ -1,14 +1,14 @@
 <?php
- 
+
 namespace App\Http\Controllers;
- 
+
 use Illuminate\Http\Request;
 use App\Models\Employee;
 use App\Models\Department;
 use App\Models\Location;
 use App\Models\Contact;
 use Illuminate\Support\Facades\Crypt;
- 
+
 class VehicleController extends Controller
 {
     public function vehicle(){
@@ -31,6 +31,3 @@ class VehicleController extends Controller
     	return view('frontend.vehicle',compact('ceo','cs','ia','rd','smd','cos','cex','bo','fin','hra','dtd','cse','ito','bro','rem'));
     }
 }
- 
- 
-

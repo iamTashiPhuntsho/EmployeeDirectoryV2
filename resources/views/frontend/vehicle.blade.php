@@ -418,9 +418,10 @@
       var emp = $(this).data('info');
       $('.name').text(emp.name);
       $('#img').attr('src','/storage/employee_images/'+emp.image);
-      $('.content').html('<small>Extension: '+emp.contact.extension+'</small><br>');
-      $('.content').append('<small>Mobile No: '+emp.contact.mobile+'</small><br>');
-      $('.content').append('<small>Email: '+emp.contact.email+'</small>');
+      $('.content').html('<h5 style="color: #1C4E80"><b>'+emp.title+'</h5>');
+      $('.content').append('<h5>Extension: '+emp.contact.extension+'</h5>');
+      $('.content').append('<h5>Mobile No: '+emp.contact.mobile+'</h5>');
+      $('.content').append('<h5>Email: '+emp.contact.email+'</h5>');
       })
   })
 </script>
