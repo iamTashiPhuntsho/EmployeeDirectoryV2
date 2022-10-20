@@ -8,7 +8,7 @@
                             <img src='{{ asset("storage/employee_images/$employee->image") }}' alt="Employee Profile" id="prev" class="h-full w-full object-cover object-center" />
                         </div>
                         <div>
-                            <h3 class="title text-2xl">Edit Inforamtion of {{ $employee->name }}</h3>
+                            <h3 class="title text-2xl">Edit Information of {{ $employee->name }}</h3>
                             <p class="text-sm text-gray-500">Edit information of {{ $employee->name }} using the form below.</p>
                         </div>
                     </div>
