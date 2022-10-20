@@ -13,7 +13,7 @@ class VehicleController extends Controller
 {
     public function vehicle(){
         $ceo = Employee::with('contact')->where('employee_id','2006100136')->first();
-        $cs = Employee::with('contact')->where('employee_id','2018060115')->first();
+        $cs = Employee::with('contact')->where('employee_id','')->first();
         $ia = Employee::with('contact')->where('employee_id','2001060108')->first();
         $rd = Employee::with('contact')->where('employee_id','2001040905')->first();
         $smd = Employee::with('contact')->where('employee_id','1995021302')->first();
