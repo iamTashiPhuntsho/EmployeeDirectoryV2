@@ -378,7 +378,7 @@
       margin: auto;
       }
       .middle-line-full{
-      height: 100%;
+      height: 110%;
       width: 2px;
       background-color: #26578C;
       margin: auto;
