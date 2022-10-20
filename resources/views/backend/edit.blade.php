@@ -72,7 +72,7 @@
                             </div>
                             <div>
                                 <label for="present_address" class="text-xs font-semibold text-blue-800">Present Address</label>
-                                <input type="text" class="w-full rounded-sm" placeholder="Present Address" name="present_address" id="present_address" required="required" value="{{ $employee->present_address }}">
+                                <input type="text" class="w-full rounded-sm" placeholder="Present Address" name="present_address" id="present_address" value="{{ $employee->present_address }}">
                             </div>
                             <div>
                                 <label for="status" class="text-xs font-semibold text-blue-800">Status</label>
