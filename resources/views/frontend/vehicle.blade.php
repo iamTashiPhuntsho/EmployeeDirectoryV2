@@ -23,7 +23,7 @@
          <div class="col-4 text-center">
             <div class="container-box">
             <div class="main-box-left ceo" data-bs-toggle="modal" data-bs-target="#myModal">
-            <img src="{{asset('images/default.jpg')}}" alt="" class="img">
+            <img src="{{asset('images/default1.png')}}" alt="" class="img">
                   <div class="description1">Company Secretary</div>
                </div>
             </div>
