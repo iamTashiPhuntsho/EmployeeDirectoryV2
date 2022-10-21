@@ -13,14 +13,14 @@ class VehicleController extends Controller
 {
     public function vehicle(){
         $ceo = Employee::with('contact')->where('employee_id','2006100136')->first();
-        $cs = Employee::with('contact')->where('employee_id','')->first();
+        //$cs = Employee::with('contact')->where('employee_id','')->first();
         $ia = Employee::with('contact')->where('employee_id','2001060108')->first();
         $rd = Employee::with('contact')->where('employee_id','2001040905')->first();
         $smd = Employee::with('contact')->where('employee_id','1995021302')->first();
         $cos = Employee::with('contact')->where('employee_id','2022090107')->first();
         $cex = Employee::with('contact')->where('employee_id','2008080112')->first();
         $bo = Employee::with('contact')->where('employee_id','2022090106')->first();
-        $fin = Employee::with('contact')->where('employee_id','')->first();
+        //$fin = Employee::with('contact')->where('employee_id','')->first();
         $hra = Employee::with('contact')->where('employee_id','1993120702')->first();
         $dtd = Employee::with('contact')->where('employee_id','2003072507')->first();
         $cse = Employee::with('contact')->where('employee_id','1997070109')->first();
