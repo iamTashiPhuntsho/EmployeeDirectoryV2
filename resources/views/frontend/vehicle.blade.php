@@ -229,8 +229,9 @@
   <div class="content"></div>
   </div>
 </div>
- 
- 
+<div class="column">
+  <img alt="" style="height: 10rem;" class="img-thumbnail" id="img">
+  </div>
                </div>
             </div>
          </div>
