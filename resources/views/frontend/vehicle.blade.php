@@ -228,9 +228,8 @@
   <div class="column">
   <div class="content"></div>
   </div>
-</div>
-<div class="column">
-  <img src="{{asset('images/ceo.jpg')}}" alt="" style="height: 10rem;" class="img-thumbnail" id="img">
+  <div class="column">
+  <img alt="" style="height: 10rem;" class="img-thumbnail" id="img">
   </div>
                </div>
             </div>
