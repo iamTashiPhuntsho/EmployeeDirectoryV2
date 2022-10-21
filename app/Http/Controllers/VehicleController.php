@@ -19,7 +19,7 @@ class VehicleController extends Controller
         $smd = Employee::with('contact')->where('employee_id','1995021302')->first();
         $cos = Employee::with('contact')->where('employee_id','2022090107')->first();
         $cex = Employee::with('contact')->where('employee_id','2008080112')->first();
-        $bo = Employee::with('contact')->where('employee_id','2018060115')->first();
+        $bo = Employee::with('contact')->where('employee_id','1996040101')->first();
         $fin = Employee::with('contact')->where('employee_id','')->first();
         $hra = Employee::with('contact')->where('employee_id','1993120702')->first();
         $dtd = Employee::with('contact')->where('employee_id','2003072507')->first();
