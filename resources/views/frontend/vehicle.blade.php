@@ -123,7 +123,7 @@
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
                      <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal">
-                     <img src="{{asset('images/default.jpg')}}" alt="" class="img">
+                     <img src="{{asset('images/default1.png')}}" alt="" class="img">
                            <div class="description">
                               Finance
                            </div>
