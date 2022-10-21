@@ -28,6 +28,6 @@ class VehicleController extends Controller
         $bro = Employee::with('contact')->where('employee_id','1996040101')->first();
         $rem = Employee::with('contact')->where('employee_id','1996121104')->first();
     	// return $employees;
-    	return view('frontend.vehicle',compact('ceo','cs','ia','rd','smd','cos','cex','bo','fin','hra','dtd','cse','ito','bro','rem'));
+    	return view('frontend.vehicle',compact('ceo','ia','rd','smd','cos','cex','bo','hra','dtd','cse','ito','bro','rem'));
     }
 }
