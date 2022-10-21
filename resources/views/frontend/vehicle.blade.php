@@ -22,7 +22,7 @@
       <div class="custom-row">
          <div class="col-4 text-center">
             <div class="container-box">
-            <div class="main-box-left ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cs}}">
+            <div class="main-box-left ceo" data-bs-toggle="modal" data-bs-target="#myModal">
             <img alt="" class="img">
                   <div class="description1">Company Secretary</div>
                </div>
@@ -122,7 +122,7 @@
                <div class="custom-row">
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                     <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$fin}}">
+                     <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal">
                      <img alt="" class="img">
                            <div class="description">
                               Finance
