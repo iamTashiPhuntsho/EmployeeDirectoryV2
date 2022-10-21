@@ -230,7 +230,7 @@
   </div>
 </div>
 <div class="column">
-  <img alt="" style="height: 10rem;" class="img-thumbnail" id="img">
+  <img src="{{asset('images/ceo.jpg')}}" alt="" style="height: 10rem;" class="img-thumbnail" id="img">
   </div>
                </div>
             </div>
