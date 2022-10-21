@@ -228,10 +228,6 @@
   <div class="column">
   <div class="content"></div>
   </div>
- 
-  <div class="column">
-  <img src="{{asset('images/default.jpg')}}" alt="" style="height: 10rem;" class="img-thumbnail" id="img">
-  </div>
 </div>
  
  
