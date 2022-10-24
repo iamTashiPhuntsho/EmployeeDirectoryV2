@@ -72,7 +72,7 @@ margin: 12px auto 0;
 text-align: center;
 font-weight: normal;
 }
-.u-text-3 {
+.home {
   font-size: 0.9rem;
   width: 900px;
   margin: 12px auto 0;
@@ -84,7 +84,7 @@ font-weight: normal;
   width: auto;
 }
 @media (max-width: 48rem) {
-  .u-text-3{
+  .home{
     width: auto;
   }
 }
@@ -601,6 +601,3 @@ padding: .375rem .75rem;
 .btn-group button{
   font-size: 1rem;
 }
-
-
-

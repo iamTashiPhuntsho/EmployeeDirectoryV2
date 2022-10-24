@@ -13,7 +13,7 @@
                   <div class="my-auto">
                      <h2 class="no-case mb-4">BNB Employee Directory</h2>
                      <div class="mb-3">
-                        <p class="u-large-text u-text u-text-variant u-text-3"> 
+                        <p class="u-large-text u-text u-text-variant home"> 
                         Employee Directory is all about people and connecting employees. An employee directory hosts contact, job-related and personal information for all of the banks employees. Employee directories allow co-workers to collaborate across verticals, departments and divisions and help new employees onboard with less stress. 
                         </p>
                      </div>
