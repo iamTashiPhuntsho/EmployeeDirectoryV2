@@ -14,10 +14,10 @@
                   <div class="row">
                      <span class="bnb-blue fs-6">Office and Contact Information</span>
                      <div class="col-lg-6">
-                           <p><i class="fa-solid fa-id-badge fa-fw me-2"></i><small class="d-none d-lg-inline">Employee ID</small>: <span>{{ $record->employee_id }}</span></p>
+                           <p><i class="fa-solid fa-id-badge fa-fw me-2"></i><small class="d-none d-lg-inline">Employee ID</small>: <span>{{ blank($record->employee_id) ? "Information Unavailable" : $record->employee_id }}</span></p>
                            <p><i class="fa-solid fa-cube fa-fw me-2"></i><small class="d-none d-lg-inline">Flexcube ID</small>: <span> {{ blank($record->contact->flexcube) ? "Information Unavailable" : $record->contact->flexcube }}</span></p>
-                           <p><i class="fa-solid fa-location-dot fa-fw me-2"></i><small class="d-none d-lg-inline">Location</small>: <span> {{ $record->contact->location->name }}</span></p>
-                           <p><i class="fa-solid fa-map-pin fa-fw me-2"></i><small class="d-none d-lg-inline">Present Address</small>: <span> {{ $record->present_address }} </span></p>
+                           <p><i class="fa-solid fa-location-dot fa-fw me-2"></i><small class="d-none d-lg-inline">Location</small>: <span> {{ blank($record->contact->location->name) ? "Information Unavailable" : $record->contact->location->name }}</span></p>
+                           <p><i class="fa-solid fa-map-pin fa-fw me-2"></i><small class="d-none d-lg-inline">Present Address</small>: <span> {{ blank($record->present_address) ? "Information Unavailable" :{{ $record->present_address }} </span></p>
                         </div>
                         <div class="col-lg-6">
                            <p><i class="fa-solid fa-envelope fa-fw me-2"></i><small class="d-none d-lg-inline"> Email ID</small>: <span class="text-bnb-blue lowercase">{{ blank($record->contact->email) ? "Information Unavailable" : $record->contact->email }}</span></p>
