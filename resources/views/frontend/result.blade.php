@@ -35,7 +35,7 @@
                   @endif
                   <small><i class="fa-solid fa-envelope fa-fw me-2"></i>{{ blank($r->contact->email) ? "N/A" : $r->contact->email }}</small><br>
                   @if(!blank($r->vehicle_no))
-                  <small><i class="fa-solid fa-car-rear fa-fw me-2"></i>{{ blank($r->vehicle_no) ? "N/A" : $r->vehicle_no }}</small>
+                  <small><i class="fa-solid fa-car-rear fa-fw me-2"></i>{{ blank($r->vehicle_no) ? "N/A" : $r->vehicle_no }}</small><br>
                   @endif
                   <a href="{{ route('show_result_path',[Crypt::encryptString($r->id),Crypt::encryptString($param_name),Crypt::encryptString($param_location),Crypt::encryptString($param_department),Crypt::encryptString($param_vehicle_number)]) }}" class="link bg-bnb-blue text-white position-absolute end-0 px-2">
                   <small>view detail<i class="fas fa-arrow-right"></i></small>
