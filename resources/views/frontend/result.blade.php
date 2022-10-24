@@ -25,17 +25,17 @@
                <div class="card-body">
                   <h5 class="title bnb-blue">{{ $r->name }}</h5>
                   <h6 class="bnb-blue title2" style="font-size: 14px;">{{ $r->title }}</h6>
-                  <small><i class="fa-solid fa-id-badge fa-fw me-2"></i>{{ blank($r->employee_id) ? "Information Unavailable" : $r->employee_id }}</small><small class="ms-4">
-                  <i class="fa-solid fa-phone fa-fw me-2"></i>{{ blank($r->contact->extension) ? "Information Unavailable" : $r->contact->extension }}</small><br>
+                  <small><i class="fa-solid fa-id-badge fa-fw me-2"></i>{{ blank($r->employee_id) ? "N/A" : $r->employee_id }}</small><small class="ms-4">
+                  <i class="fa-solid fa-phone fa-fw me-2"></i>{{ blank($r->contact->extension) ? "N/A" : $r->contact->extension }}</small><br>
                   @if(!blank($r->flexcube))
                   <small><i class="fa-solid fa-cube fa-fw me-2"></i>{{ $r->contact->flexcube }}</small><br>
                   @endif
                   @if(!blank($r->contact->mobile))
-                  <small><i class="fa-solid fa-mobile fa-fw me-2"></i>{{ blank($r->contact->mobile) ? "Information Unavailable" : $r->contact->mobile }}</small><br>
+                  <small><i class="fa-solid fa-mobile fa-fw me-2"></i>{{ blank($r->contact->mobile) ? "N/A" : $r->contact->mobile }}</small><br>
                   @endif
-                  <small><i class="fa-solid fa-envelope fa-fw me-2"></i>{{ blank($r->contact->email) ? "Information Unavailable" : $r->contact->email }}</small><br>
+                  <small><i class="fa-solid fa-envelope fa-fw me-2"></i>{{ blank($r->contact->email) ? "N/A" : $r->contact->email }}</small><br>
                   @if(!blank($r->vehicle_no))
-                  <small><i class="fa-solid fa-car-rear fa-fw me-2"></i>{{ blank($r->vehicle_no) ? "Information Unavailable" : $r->vehicle_no }}</small>
+                  <small><i class="fa-solid fa-car-rear fa-fw me-2"></i>{{ blank($r->vehicle_no) ? "N/A" : $r->vehicle_no }}</small>
                   @endif
                   <a href="{{ route('show_result_path',[Crypt::encryptString($r->id),Crypt::encryptString($param_name),Crypt::encryptString($param_location),Crypt::encryptString($param_department),Crypt::encryptString($param_vehicle_number)]) }}" class="link bg-bnb-blue text-white position-absolute end-0 px-2">
                   <small>view detail<i class="fas fa-arrow-right"></i></small>
