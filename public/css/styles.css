@@ -228,8 +228,3 @@ body, .title2{
     padding: 10px;
     font-size: 14px;
 }
-@media (max-width: 48rem) {
-  p{
-    word-wrap: break-word;
-  }
-}
