@@ -5,7 +5,7 @@
       <div class="mb-4">
          <div class="col-sm-12">
             <p class="u-large-text u-text u-text-variant u-text-2">
-               Easily visualize your company for your leaders, team and board.
+            Organizational Chart is the visual representations of the banks structure. This chart clearly outline the hierarchy within the bank and indicates the relationships shared among each individual employee. 
             </p>
          </div>
       </div>

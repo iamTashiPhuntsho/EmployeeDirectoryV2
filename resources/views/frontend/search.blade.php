@@ -14,7 +14,7 @@
                      <h2 class="no-case mb-4">BNB Employee Directory</h2>
                      <div class="mb-3">
                         <p class="u-large-text u-text u-text-variant u-text-2"> 
-                           BNB Employee Directory gives you the access to search various employee all over the extensions located in Bhutan.
+                        Employee Directory is all about people and connecting employees. An employee directory hosts contact, job-related and personal information for all of the banks employees. Employee directories allow co-workers to collaborate across verticals, departments and divisions and help new employees onboard with less stress. 
                         </p>
                      </div>
                      <div class="box wrapper mb-4 container ">
