@@ -232,4 +232,10 @@ body, .title2{
   p{
     word-wrap: break-word;
   }
+  div{
+    word-wrap: break-word;
+  }
+  img{
+    word-wrap: break-word;
+  }
 }
