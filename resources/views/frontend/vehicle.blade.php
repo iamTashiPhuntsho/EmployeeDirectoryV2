@@ -12,7 +12,7 @@
       <div class="custom-row">
          <div class="col-12 text-center">
             <div class="container-box">
-               <div class="main-box" data-bs-toggle="modal" data-bs-target="#myModal" >
+               <div class="main-box">
                   <div class="description2">Board of Directors</div>
                </div>
             </div>
@@ -316,7 +316,7 @@
       font-size: 12px;
       }
       .description2{
-      font-size: 14px;
+      font-size: 15px;
       color:#26578C;
       }
       .description1{
