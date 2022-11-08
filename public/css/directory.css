@@ -550,6 +550,7 @@ color:#FEB139;
 @media (max-width: 48rem) {
     .header{
      padding-top: 1rem;
+     background-color: transparent;
       }
 }
 .table tr{

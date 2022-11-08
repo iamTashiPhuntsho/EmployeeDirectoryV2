@@ -1,5 +1,6 @@
 <x-frontend-layout>
    <x-sidebar />
+   <a href="javascript:history.back()" class='fas fa-arrow-circle-left btn' style="font-size:32px; position: fixed; background-color: Transparent; color:#26578C; margin: 2rem 2rem 2rem 0.5rem;"></a>
    <div class="p-5">
       <div class="mb-3">
          <h2 class="title2">Found {{ $records->count() }} result(s) matching the search</h2>
@@ -12,10 +13,6 @@
          <div class="title2 text-center mt-5">
             <h4>No record were found matching the query.</h4>
             <small>Please try with different search key words.</small>
-            <br>
-            <a href="{{ route('get_search_path') }}" class="btn text-white btn-primary px-3 py-1 mt-3">
-            Back to Search Parameters
-            </a>
          </div>
          @else
          @foreach($records->sortby('name') as $r)

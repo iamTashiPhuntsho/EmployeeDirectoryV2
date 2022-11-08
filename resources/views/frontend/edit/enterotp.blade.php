@@ -1,7 +1,7 @@
 
 <x-frontend-layout>
    <x-sidebar />
-   @if(session('status') == '0')
+   <a href="javascript:history.back()" class='fas fa-arrow-circle-left btn' style="font-size:32px; position: fixed; background-color: Transparent; color:#26578C; margin: 2rem 2rem 2rem 0.5rem;"></a>   @if(session('status') == '0')
             <div class="alert alert-danger text-center" style=" margin: 50px; font-weight:normal;" >
        {{ session('msg') }}
             </div>

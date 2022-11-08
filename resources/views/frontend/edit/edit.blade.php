@@ -1,7 +1,7 @@
  
 <x-frontend-layout>
    <x-sidebar/>
-   <div class="p-5">
+   <a href="javascript:history.back()" class='fas fa-arrow-circle-left btn' style="font-size:32px; position: fixed; background-color: Transparent; color:#26578C; margin: 2rem 2rem 2rem 0.5rem;"></a>   <div class="p-5">
    <h2 class="mb-4">Edit {{ $record->name }}'s Information</h2>
       <div class="cards-5">
          <div class="container show-container">

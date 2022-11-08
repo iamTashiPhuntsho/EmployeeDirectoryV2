@@ -1,5 +1,6 @@
 <x-frontend-layout>
    <x-sidebar/>
+   <a href="javascript:history.back()" class='fas fa-arrow-circle-left btn' style="font-size:32px; position: fixed; background-color: Transparent; color:#26578C; margin: 2rem 2rem 2rem 0.5rem;"></a>      </div>
    <div class="p-5">
       <div class="cards-5">
          <div class="container">
@@ -37,9 +38,7 @@
             <input type="hidden" name="department" value="{{ $param_department }}">
             <input type="hidden" name="location" value="{{ $param_location }}">
             <input type="hidden" name="vehicle_number" value="{{ $param_vehicle_number }}">
-            <button type="submit" class="btn btn-primary text-white px-3 py-2" style="margin-left:1.5rem;"><i class="fas fa-chevron-left fa-fw"></i> Back to search result</button>
           </form>
-      </div>
       <div>
          <small  class="mb-5">If your information is invalid, Please click <a href="{{ route('login_info_path') }}">HERE</a> to edit your information or contact System Administrator at 1277 | 1265.</small>
       </div>
