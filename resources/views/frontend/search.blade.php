@@ -132,10 +132,12 @@
                               <br>
                               Keeping all the above fields blank will view all the employees.
                               <br>
-                              Keeping one or two above fields blank will ignore the blank fields.
-                              <br>
-                              <br>
+                              Keeping one or two above fields blank will ignore the blank fields.  
                            </p>
+                           <br>
+    <p style="float: right; font-family: 'Century Gothic', sans-serif; font-size: 8pt; color: #808080; line-height: 1.6; font-weight: normal;" >
+    Disclaimer: The information provided by us on directory.lan.bnb is for internal informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implies, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site. UDER NO CIRCUMSTANCES SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESUKT OF THE USE OF SITE OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE. YOUR USE OF THE SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE IS SOLELY AT YOUR OWN RISK.
+    </p>
                         </div>
                      </div>
                   </div>
