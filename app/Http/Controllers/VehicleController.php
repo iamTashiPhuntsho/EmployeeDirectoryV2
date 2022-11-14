@@ -12,21 +12,22 @@ use Illuminate\Support\Facades\Crypt;
 class VehicleController extends Controller
 {
     public function vehicle(){
-        $ceo = Employee::with('contact')->where('id','1')->first();
-        $cs = Employee::with('contact')->where('id','2')->first();
-        $ia = Employee::with('contact')->where('id','3')->first();
-        $rd = Employee::with('contact')->where('id','4')->first();
-        $smd = Employee::with('contact')->where('id','5')->first();
-        $cos = Employee::with('contact')->where('id','6')->first();
-        $cex = Employee::with('contact')->where('id','7')->first();
-        $bo = Employee::with('contact')->where('id','8')->first();
-        $fin = Employee::with('contact')->where('id','9')->first();
-        $hra = Employee::with('contact')->where('id','10')->first();
-        $dtd = Employee::with('contact')->where('id','11')->first();
-        $cse = Employee::with('contact')->where('id','12')->first();
-        $ito = Employee::with('contact')->where('id','13')->first();
-        $bro = Employee::with('contact')->where('id','14')->first();
-        $rem = Employee::with('contact')->where('id','15')->first();
-    	return view('frontend.vehicle',compact('ceo','cs','ia','rd','smd','cos','cex','bo','fin','hra','dtd','cse','ito','bro','rem'));
+        $ceo = Employee::with('contact')->where('employee_id','2006100136')->first();
+        //$cs = Employee::with('contact')->where('employee_id','')->first();
+        $ia = Employee::with('contact')->where('employee_id','2001060108')->first();
+        $rd = Employee::with('contact')->where('employee_id','2001040905')->first();
+        $smd = Employee::with('contact')->where('employee_id','1995021302')->first();
+        $cos = Employee::with('contact')->where('employee_id','2022090107')->first();
+        $cex = Employee::with('contact')->where('employee_id','2022090108')->first();
+        $bo = Employee::with('contact')->where('employee_id','2022090106')->first();
+        //$fin = Employee::with('contact')->where('employee_id','')->first();
+        $hra = Employee::with('contact')->where('employee_id','1993120702')->first();
+        $dtd = Employee::with('contact')->where('employee_id','2003072507')->first();
+        $cse = Employee::with('contact')->where('employee_id','1997070109')->first();
+        $ito = Employee::with('contact')->where('employee_id','2005020103')->first();
+        $bro = Employee::with('contact')->where('employee_id','1996040101')->first();
+        $rem = Employee::with('contact')->where('employee_id','1996121104')->first();
+    	  // return $employees;
+    	return view('frontend.vehicle',compact('ceo','ia','rd','smd','cos','cex','bo','hra','dtd','cse','ito','bro','rem'));
     }
 }
