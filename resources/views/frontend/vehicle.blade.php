@@ -290,7 +290,7 @@
       background:#ffd6b6;
       }
       .ceo{
-      background: #1e549f;
+      background: #ffffff;
       }
       .main-box-left{
       width:fit-content;
@@ -305,15 +305,6 @@
       float: right;
       }
       .main-box-right{
-      width:fit-content;
-      border-bottom-left-radius: 7px;
-      min-height: fit-content;
-      overflow: hidden;
-      border-left: 2px solid #26578C;
-      padding: 5px;
-      cursor: pointer;
-      border-bottom-right-radius: 5px;
-      border-top-right-radius: 5px;
       float: left;
       }
       .description{
@@ -325,7 +316,7 @@
       color:#26578C;
       }
       .description1{
-      color:#fcfefe;
+      color:#ffffff;
       font-size: 12px;
       font-weight: 500;
       }

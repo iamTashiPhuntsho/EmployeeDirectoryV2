@@ -24,6 +24,22 @@
                            <p class="count-text ">Total Employees</p>
                         </div>
                         <div class="counter col_fourth">
+                           <div class="row" style="padding-top:0px;">
+                              <div class="column" style="padding-top:0px;">
+                              <i class="fa-solid fa-person-dress fa-2x"></i>
+                              <p id='0105' class="fs-2 count-title count-number wrap"></p>
+                                 <p class="count-text">Female</p>
+                                
+                              </div>
+                              <div class="column" style="padding-top:0px;">
+                              <i class="fa-solid fa-person fa-2x"></i>
+
+                              <p id='0106' class="fs-2 count-title count-number wrap"></p>
+                                 <p class="count-text">Male</p>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="counter col_fourth">
                         <i class="fa-solid fa-sitemap fa-2x"></i>
                            <p id='0102' class="fs-2 count-title count-number"></p>
                            <p class="count-text">Departments</p>
@@ -79,11 +95,15 @@
                            let text2 = document.getElementById('0102');
                            let text3 = document.getElementById('0103');
                            let text4 = document.getElementById('0104');
+                           let text5 = document.getElementById('0105');
+                           let text6 = document.getElementById('0106');
                            const load = () => {
                            animate(text1, 1000, {{count($employees)}}, 3000);
                            animate(text2, 100, 11, 3000);
                            animate(text3, 100, 26, 3000);
                            animate(text4, 100, 12, 3000);
+                           animate(text5, 100, 300, 3000);
+                           animate(text6, 100, 229, 3000);
                            }
                         </script>
                      </body>
