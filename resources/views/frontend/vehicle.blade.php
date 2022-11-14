@@ -14,7 +14,7 @@
             <h4>Corporate Office Organogram</h4>
             <div class="container-box">
                <div class="main-box">
-                  <div class="description2">Board of Directors</div>
+                  <div class="description3">Board of Directors</div>
                </div>
             </div>
             <div class="middle-line"></div>
@@ -23,7 +23,7 @@
       <div class="custom-row">
          <div class="col-4 text-center">
             <div class="container-box">
-            <div class="main-box-left ceo">
+            <div class="main-box-left ceo" style = "position:relative; left:82px;">
             <img src="{{asset('images/default1.png')}}" alt="" class="img">
                   <div class="description1">Company Secretary</div>
                </div>
@@ -35,7 +35,7 @@
          </div>
          <div class="col-4 text-center">
             <div class="container-box">
-            <div class="main-box-right ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ia}}">
+            <div class="main-box-right ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ia}}" style = "position:relative; right:82px;">
             <img src='{{asset("storage/employee_images/$ia->image")}}' alt="" class="img">
                   <div class="description1">Internal Audit Department</div>
                </div>
@@ -44,7 +44,7 @@
       </div>
       <div class="coll-4 offset-4 text-center">
          <div class="container-box">
-         <div class="main-box ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo}}" style = "position:relative; bottom:89px;">
+         <div class="main-box ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo}}" style = "position:relative; bottom:82px;">
          <img src='{{asset("storage/employee_images/$ceo->image")}}' alt="" class="img">
                <div class="description1">Chief Executive Officer</div>
             </div>
@@ -54,7 +54,7 @@
       <div class="custom-row">
          <div class="col-3 text-center">
             <div class="container-box">
-            <div class="main-box-left cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rd}}" style = "position:relative; left:106px;">
+            <div class="main-box-left cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rd}}" style = "position:relative; left:80px;">
             <img src='{{asset("storage/employee_images/$rd->image")}}' alt="" class="img">
                   <div class="description">Risk Department</div>
                </div>
@@ -66,7 +66,7 @@
          </div>
          <div class="col-3 text-center">
             <div class="container-box">
-            <div class="main-box-right bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$smd}}" style = "position:relative; right:110px;">
+            <div class="main-box-right bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$smd}}" style = "position:relative; right:80px;">
             <img src='{{asset("storage/employee_images/$smd->image")}}' alt="" class="img">
                   <div class="description">Strategy Management Department</div>
                </div>
@@ -85,30 +85,30 @@
       <div class="custom-row">
          <div class="col-4 text-center">
             <div class="container-box">
-            <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cos}}" style = "position:relative; bottom:14px;">
+            <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cos}}" style = "position:relative; bottom:7px;">
             <img src='{{asset("storage/employee_images/$cos->image")}}' alt="" class="img">
                   <div class="description">Corporate Service</div>
                </div>
             </div>
-            <div class="middle-line1" style = "position:relative; bottom:16px; height:18px"></div>
+            <div class="middle-line1" style = "position:relative; bottom:9px; height:11px;"></div>
          </div>
          <div class="col-4 text-center">
             <div class="container-box">
-            <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cex}}" style = "position:relative; bottom:14px;">
+            <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cex}}" style = "position:relative; bottom:5px;">
             <img src='{{asset("storage/employee_images/$cex->image")}}' alt="" class="img">
                   <div class="description">Customer Experience</div>
                </div>
             </div>
-            <div class="middle-line1" style = "position:relative; bottom:16px; height:18px"></div>
+            <div class="middle-line1" style = "position:relative; bottom:5px; height:24px;"></div>
          </div>
          <div class="col-4 text-center">
             <div class="container-box">
-            <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$bo}}" style = "position:relative; bottom:14px;">
+            <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$bo}}" style = "position:relative; bottom:5px;">
             <img src='{{asset("storage/employee_images/$bo->image")}}' alt="" class="img">
                   <div class="description">Banking Operations</div>
                </div>
             </div>
-            <div class="middle-line1" style = "position:relative; bottom:16px; height:18px"></div>
+            <div class="middle-line1" style = "position:relative; bottom:7px; height:15px;"></div>
          </div>
       </div>
       <div class="custom-row" style = "position:relative; bottom:18px;">
@@ -153,7 +153,7 @@
                <div class="custom-row">
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                     <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$dtd}}" style = "position:relative; bottom:14px;">
+                     <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$dtd}}" style = "position:relative; bottom:12px;">
                      <img src='{{asset("storage/employee_images/$dtd->image")}}' alt="" class="img">
                            <div class="description">
                               Digital Transformation
@@ -163,7 +163,7 @@
                   </div>
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                     <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cse}}" style = "position:relative; bottom:14px;">
+                     <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cse}}" style = "position:relative; bottom:12px;">
                      <img src='{{asset("storage/employee_images/$cse->image")}}' alt="" class="img">
                            <div class="description">Customer Service</div>
                         </div>
@@ -171,7 +171,7 @@
                   </div>
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                     <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ito}}" style = "position:relative; bottom:14px;">
+                     <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ito}}" style = "position:relative; bottom:12px;">
                      <img src='{{asset("storage/employee_images/$ito->image")}}' alt="" class="img">
                            <div class="description">IT Operations</div>
                         </div>
@@ -282,20 +282,29 @@
       }
       .cs{
       background: #e0ffcd;
+      height:85px;
+  width: 85px;
       }
       .ce{
       background:  #d5eeff;
+      height:80px;
+  width: 85px;
       }
       .bo{
       background:#ffd6b6;
+      height:80px;
+  width: 85px;
       }
       .ceo{
-      background: #ffffff;
+      background: #1e549f;
+      height:80px;
+  width: 85px;
       }
       .main-box-left{
-      width:fit-content;
+     
       border-bottom-right-radius: 7px;
-      min-height: fit-content;
+      height:80px;
+  width: 85px;
       overflow: hidden;
       border-right: 2px solid #26578C;
       padding: 5px;
@@ -305,24 +314,38 @@
       float: right;
       }
       .main-box-right{
+     
+      border-bottom-left-radius: 7px;
+  height:80px;
+  width: 85px;
+      overflow: hidden;
+      border-left: 2px solid #26578C;
+      padding: 5px;
+      cursor: pointer;
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
       float: left;
       }
       .description{
       color:#26578C;
-      font-size: 12px;
+      font-size: 9px;
       }
       .description2{
-      font-size: 15px;
+      font-size: 9px;
+      color:#26578C;
+      }
+      .description3{
+      font-size:13px;
       color:#26578C;
       }
       .description1{
-      color:#ffffff;
-      font-size: 12px;
+      color:#fcfefe;
+      font-size: 9px;
       font-weight: 500;
       }
       .img{
-      height: 60px;
-      width: 60px;
+      height: 35px;
+      width: 35px;
       border-radius: 50px;
       border: 2px solid #ffff;
       }
@@ -359,13 +382,12 @@
       border-radius: 10px;
       }
       .middle-line{
-      height: 20px;
+      height: 17px;
       width: 2px;
       background-color: #26578C;
       margin: auto;
       }
       .middle-line1{
-      height: 16px;
       width: 2px;
       margin: auto;
       background-color: #26578C;
@@ -377,7 +399,7 @@
       margin: auto;
       }
       .middle-line-full{
-      height: 105%;
+      height: 110%;
       width: 2px;
       background-color: #26578C;
       margin: auto;
