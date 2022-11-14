@@ -1,17 +1,16 @@
 <x-frontend-layout>
    <x-sidebar />
    <div class="pb-5 pe-5">
-      <h2 class="no-case mb-4">BNB Organogram</h2>
       <div class="mb-4">
-         <div class="col-sm-12">
-            <p class="u-large-text u-text u-text-variant home">
-            Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee. 
-            </p>
-         </div>
       </div>
       <div class="custom-row">
          <div class="col-12 text-center">
             <h4>Corporate Office Organogram</h4>
+            <div class="col-sm-12">
+            <p class="u-large-text u-text u-text-variant home">
+            Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee. 
+            </p>
+         </div>
             <div class="container-box">
                <div class="main-box">
                   <div class="description3">Board of Directors</div>
