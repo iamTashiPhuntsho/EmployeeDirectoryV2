@@ -114,8 +114,8 @@
       <div class="custom-row" style = "position:relative; bottom:18px;">
          <div class="col-4 text-center">
             <div class="col-7 offset-2 position-relative">
-               <div class="long-line"></div>
-               <div class="left-line"></div>
+               <div class="long-line" style = "width:88%;margin-left:25px"></div>
+               <div class="left-line" style = "bottom:25px;left:25px"></div>
                <div class="middle-line-transparent"></div>
                <div class="right-line"></div>
             </div>
@@ -123,7 +123,7 @@
                <div class="custom-row">
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                     <div class="main-box cs" style = "position:relative; bottom:25px;">
+                     <div class="main-box cs" style = "position:relative; bottom:25px;left:25px">
                      <img src="{{asset('images/default1.png')}}" alt="" class="img">
                            <div class="description">
                               Finance
