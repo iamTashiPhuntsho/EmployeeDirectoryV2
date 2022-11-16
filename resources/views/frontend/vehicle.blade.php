@@ -89,7 +89,7 @@
                   <div class="description">Corporate Service</div>
                </div>
             </div>
-            <div class="middle-line1" style = "position:relative; bottom:9px; height:11px;"></div>
+            <div class="middle-line1" style = "position:relative; bottom:9px; height:15px;"></div>
          </div>
          <div class="col-4 text-center">
             <div class="container-box">
@@ -113,16 +113,16 @@
       <div class="custom-row" style = "position:relative; bottom:18px;">
          <div class="col-4 text-center">
             <div class="col-7 offset-2 position-relative">
-               <div class="long-line" style = "width:88%;margin-left:25px"></div>
-               <div class="left-line" style = "bottom:25px;left:25px"></div>
+               <div class="long-line"></div>
+               <div class="left-line"></div>
                <div class="middle-line-transparent"></div>
-               <div class="right-line"></div>
+               <div class="right-line" ></div>
             </div>
             <div class="col-12">
                <div class="custom-row">
                   <div class="col-4 px-1 text-center">
                      <div class="container-box">
-                     <div class="main-box cs" style = "position:relative; bottom:25px;left:25px">
+                     <div class="main-box cs" style = "position:relative; bottom:25px;">
                      <img src="{{asset('images/default1.png')}}" alt="" class="img">
                            <div class="description">
                               Finance
@@ -281,7 +281,7 @@
       }
       .cs{
       background: #e0ffcd;
-      height:85px;
+      height:81px;
   width: 85px;
       }
       .ce{
@@ -295,7 +295,7 @@
   width: 85px;
       }
       .ceo{
-      background: #1e549f;
+      background: #ffc300;
       height:80px;
   width: 85px;
       }
@@ -315,7 +315,7 @@
       .main-box-right{
      
       border-bottom-left-radius: 7px;
-  height:80px;
+  height:81px;
   width: 85px;
       overflow: hidden;
       border-left: 2px solid #26578C;
@@ -338,9 +338,9 @@
       color:#26578C;
       }
       .description1{
-      color:#fcfefe;
+      color:#26578C;
       font-size: 9px;
-      font-weight: 500;
+
       }
       .img{
       height: 35px;
