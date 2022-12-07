@@ -30,4 +30,8 @@ class VehicleController extends Controller
     	  // return $employees;
     	return view('frontend.vehicle',compact('ceo','ia','rd','smd','cos','cex','bo','hra','dtd','cse','ito','bro','rem'));
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6d050a37721dc002ad26df278b9b7b5fb8f6585f

@@ -8,7 +8,11 @@
             <h4>Corporate Office Organogram</h4>
             <div class="col-sm-12">
             <p class="u-large-text u-text u-text-variant home">
+<<<<<<< HEAD
             Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee.
+=======
+            Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee. 
+>>>>>>> 6d050a37721dc002ad26df278b9b7b5fb8f6585f
             </p>
          </div>
             <div class="container-box">
@@ -48,7 +52,11 @@
                <div class="description1">Chief Executive Officer</div>
             </div>
          </div>
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 6d050a37721dc002ad26df278b9b7b5fb8f6585f
       </div>
       <div class="custom-row">
          <div class="col-3 text-center">
@@ -254,7 +262,11 @@
 }.coll-4 {
   flex: 0 0 auto;
   width: 33.33333333%;
+<<<<<<< HEAD
   height:1px;
+=======
+  height:1px; 
+>>>>>>> 6d050a37721dc002ad26df278b9b7b5fb8f6585f
 }
  
       .modal-header h4{
@@ -340,7 +352,11 @@
       .description1{
       color:#26578C;
       font-size: 9px;
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 6d050a37721dc002ad26df278b9b7b5fb8f6585f
       }
       .img{
       height: 35px;
@@ -390,7 +406,11 @@
       width: 2px;
       margin: auto;
       background-color: #26578C;
+<<<<<<< HEAD
      
+=======
+      
+>>>>>>> 6d050a37721dc002ad26df278b9b7b5fb8f6585f
       }
       .middle-line-transparent{
       height: 30px;

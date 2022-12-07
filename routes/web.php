@@ -30,11 +30,11 @@ Route::get('/BNBLEmployeeDirectory/result/{id}/show/{ename}/{location}/{departme
 Route::post('/BNBLEmployeeDirectory', [DirectoryController::class, 'searchDirectory'])->name('search_directory_path');
 
 //Routes for vehicle directory
-Route::get('/BNBLEmployeeVehicle/vehicle', [VehicleController::class, 'vehicle'])->name('get_vehicle_path');
-Route::get('/BNBLEmployeeVehicle/vehicle/search', [VehicleController::class, 'search'])->name('search');
-Route::get('/BNBLEmployeeVehicley/vehicleresult', [VehicleController::class, 'getResult'])->name('vehicle_path');
-Route::get('/BNBLEmployeeVehicle/vehicleresult/{id}/show/{ename}/{location}/{department}', [VehicleController::class, 'getShow'])->name('show_vehicle_path');
-Route::post('/BNBLEmployeeVehicle', [VehicleController::class, 'searchDirectory@searchDirectory'])->name('search_vehicle_path');
+Route::get('/BNBLEmployeeOrgChart', [VehicleController::class, 'vehicle'])->name('get_vehicle_path');
+//Route::get('/BNBLEmployeeOrg/orgchart/search', [VehicleController::class, 'search'])->name('search');
+//Route::get('/BNBLEmployeeOrg/orgchartresult', [VehicleController::class, 'getResult'])->name('vehicle_path');
+//Route::get('/BNBLEmployeeOrg/orgchartresult/{id}/show/{ename}/{location}/{department}', [VehicleController::class, 'getShow'])->name('show_vehicle_path');
+//Route::post('/BNBLEmployeeOrg', [VehicleController::class, 'searchDirectory@searchDirectory'])->name('search_vehicle_path');
 
 /*
 |----------------------------------------------------------------------------------
