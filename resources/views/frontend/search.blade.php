@@ -13,13 +13,8 @@
                   <div class="my-auto">
                      <h2 class="no-case mb-4">BNB Employee Directory</h2>
                      <div class="mb-3">
-<<<<<<< HEAD
-                        <p class="u-large-text u-text u-text-variant home">
-                        Employee Directory is all about people and connecting employees. An employee directory hosts contacts, job-related and personal information of all the banks employees. Employee directory allows co-workers to collaborate across verticals, departments and divisions and helps the onboarding of new employees.
-=======
                         <p class="u-large-text u-text u-text-variant home"> 
                         Employee Directory is all about people and connecting employees. An employee directory hosts contacts, job-related and personal information of all the banks employees. Employee directory allows co-workers to collaborate across verticals, departments and divisions and helps the onboarding of new employees. 
->>>>>>> 6d050a37721dc002ad26df278b9b7b5fb8f6585f
                         </p>
                      </div>
                      <div class="box wrapper mb-4 container ">
@@ -34,19 +29,11 @@
                               <i class="fa-solid fa-person-dress fa-2x"></i>
                               <p id='0105' class="fs-2 count-title count-number wrap"></p>
                                  <p class="count-text">Female</p>
-<<<<<<< HEAD
-                               
-                              </div>
-                              <div class="column" style="padding-top:0px;">
-                              <i class="fa-solid fa-person fa-2x"></i>
- 
-=======
                                 
                               </div>
                               <div class="column" style="padding-top:0px;">
                               <i class="fa-solid fa-person fa-2x"></i>
 
->>>>>>> 6d050a37721dc002ad26df278b9b7b5fb8f6585f
                               <p id='0106' class="fs-2 count-title count-number wrap"></p>
                                  <p class="count-text">Male</p>
                               </div>
