@@ -13,8 +13,8 @@
                   <div class="my-auto">
                      <h2 class="no-case mb-4">BNB Employee Directory</h2>
                      <div class="mb-3">
-                        <p class="u-large-text u-text u-text-variant u-text-2"> 
-                           BNB Employee Directory gives you the access to search various employee all over the extensions located in Bhutan.
+                        <p class="u-large-text u-text u-text-variant home">
+                        Employee Directory is all about people and connecting employees. An employee directory hosts contacts, job-related and personal information of all the banks employees. Employee directory allows co-workers to collaborate across verticals, departments and divisions and helps the onboarding of new employees.
                         </p>
                      </div>
                      <div class="box wrapper mb-4 container ">
@@ -22,6 +22,22 @@
                            <i class="fa-solid fa-users fa-2x"></i>
                            <p id='0101' class="fs-2 count-title count-number"></p>
                            <p class="count-text ">Total Employees</p>
+                        </div>
+                        <div class="counter col_fourth">
+                           <div class="row" style="padding-top:0px;">
+                              <div class="column" style="padding-top:0px;">
+                              <i class="fa-solid fa-person-dress fa-2x"></i>
+                              <p id='0105' class="fs-2 count-title count-number wrap"></p>
+                                 <p class="count-text">Female</p>
+                               
+                              </div>
+                              <div class="column" style="padding-top:0px;">
+                              <i class="fa-solid fa-person fa-2x"></i>
+ 
+                              <p id='0106' class="fs-2 count-title count-number wrap"></p>
+                                 <p class="count-text">Male</p>
+                              </div>
+                           </div>
                         </div>
                         <div class="counter col_fourth">
                         <i class="fa-solid fa-sitemap fa-2x"></i>
@@ -32,12 +48,12 @@
                            <i class='fas fa-external-link-alt fa-2x'></i>
                            <div class="row" style="padding-top:0px;">
                               <div class="column" style="padding-top:0px;">
-                              <p id='0103' class="fs-2 count-title count-number">16</p>
+                              <p id='0103' class="fs-2 count-title count-number"></p>
                                  <p class="count-text">Extensions</p>
-                                
+                               
                               </div>
                               <div class="column" style="padding-top:0px;">
-                              <p id='0104' class="fs-2 count-title count-number">11</p>
+                              <p id='0104' class="fs-2 count-title count-number"></p>
                                  <p class="count-text">Branch</p>
                               </div>
                            </div>
@@ -79,11 +95,15 @@
                            let text2 = document.getElementById('0102');
                            let text3 = document.getElementById('0103');
                            let text4 = document.getElementById('0104');
+                           let text5 = document.getElementById('0105');
+                           let text6 = document.getElementById('0106');
                            const load = () => {
                            animate(text1, 1000, {{count($employees)}}, 3000);
-                           animate(text2, 100, {{count($departments)}},3000);
+                           animate(text2, 100, 11, 3000);
                            animate(text3, 100, 26, 3000);
-                           animate(text4, 100, 13, 3000);
+                           animate(text4, 100, 12, 3000);
+                           animate(text5, 100, 235, 3000);
+                           animate(text6, 100, 304, 3000);
                            }
                         </script>
                      </body>
@@ -132,10 +152,12 @@
                               <br>
                               Keeping all the above fields blank will view all the employees.
                               <br>
-                              Keeping one or two above fields blank will ignore the blank fields.
-                              <br>
-                              <br>
+                              Keeping one or two above fields blank will ignore the blank fields.  
                            </p>
+                           <hr style="height:2px; width:100%;text-align:left;margin-left:0 height">
+    <p style="float: right; font-family: 'Century Gothic', sans-serif; font-size: 8pt; color: #808080; line-height: 1.6; font-weight: normal;" >
+    Disclaimer: The information provided by us on directory.lan.bnb is for internal informational purposes only. All information on the Site is provided in good faith, however we make no representation or warranty of any kind, express or implies, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Site. UNDER NO CIRCUMSTANCES SHALL WE HAVE ANY LIABILITY TO YOU FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF SITE OR RELIANCE ON ANY INFORMATION PROVIDED ON THE SITE. YOUR USE OF THE SITE AND YOUR RELIANCE ON ANY INFORMATION ON THE SITE IS SOLELY AT YOUR OWN RISK.
+    </p>
                         </div>
                      </div>
                   </div>
@@ -145,3 +167,4 @@
       </div>
    </div>
 </x-frontend-layout>
+
