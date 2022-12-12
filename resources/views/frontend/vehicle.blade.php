@@ -1,52 +1,62 @@
 <x-frontend-layout>
    <x-sidebar />
-  
-      <div class="mb-4">
-         <div class="col-12 text-center">
-         <h2 class="no-case mb-4">Organogram</h2>
-               <div class="mb-3">
-                  <p class="u-large-text u-text u-text-variant home"> 
-                        Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee. 
-                        </p>
-               </div>
-         </div>
-      </div>
-    
+   <div class="mb-4">
       <div class="col-12 text-center">
-         <button type="button" class="collapsible button-55">Board of Directors</button>
-         <div class="content  text-center">
-         <div class="gallery">
-  <a target="_blank" href=" ">
-    <img src="/app/public/images/bnb.png" alt="Cinque Terre" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_forest.jpg">
-    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_lights.jpg">
-    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
-
-<div class="gallery">
-  <a target="_blank" href="img_mountains.jpg">
-    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-  </a>
-  <div class="desc">Add a description of the image here</div>
-</div>
+         <h2 class="no-case mb-4">Organogram</h2>
+         <div class="mb-3">
+            <p class="u-large-text u-text u-text-variant home"> 
+               Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee. 
+            </p>
          </div>
-            
       </div>
-   
-
+   </div>
+   <div class="col-12 text-center">
+      <button type="button" class="collapsible button-55">Board of Directors</button>
+      <div class="content  text-center">
+         <div class="gallery2">
+            <img src="../images/66.jpeg" alt="Cinque Terre" width="600" height="400">
+            <div class="desc">
+               <h5 class="title bnb-blue">Dasho Karma Tshiteem</h5>
+               <h6 class="bnb-blue title2" style="font-size: 14px;">Chairperson</h6>
+            </div>
+         </div>
+         <div class="gallery">
+            <img src="../images/22.jpeg" alt="Forest" width="600" height="400">
+            <div class="desc">
+               <h5 class="title bnb-blue">Karma Choden</h5>
+               <h6 class="bnb-blue title2" style="font-size: 14px;">Board Director</h6>
+            </div>
+         </div>
+         <div class="gallery">
+            <img src="../images/33.jpeg" alt="Northern Lights" width="600" height="400">
+            <div class="desc">
+               <h5 class="title bnb-blue">Karma Wangdi</h5>
+               <h6 class="bnb-blue title2" style="font-size: 14px;">Board Director</h6>
+            </div>
+         </div>
+         <div class="gallery">
+            <img src="../images/44.jpeg" alt="Mountains" width="600" height="400">
+            <div class="desc">
+               <h5 class="title bnb-blue">Passang Dorji</h5>
+               <h6 class="bnb-blue title2" style="font-size: 14px;">Board Director</h6>
+            </div>
+         </div>
+         <div class="gallery">
+            <img src="../images/55.jpeg" alt="Mountains" width="600" height="400">
+            <div class="desc">
+               <h5 class="title bnb-blue">Dasho Tenzing Yonten</h5>
+               <h6 class="bnb-blue title2" style="font-size: 14px;">Board Director</h6>
+            </div>
+         </div>
+         <div class="gallery">
+            <img src="../images/11.jpeg" alt="Mountains" width="600" height="400">
+            <div class="desc">
+               <h5 class="title bnb-blue">Karma Gyamtsho</h5>
+               <h6 class="bnb-blue title2" style="font-size: 14px;">Board Director</h6>
+            </div>
+         </div>
+      </div>
+   </div>
    <div class="col-12 text-center">
       <button type="button" class="collapsible button-55">Corporate Office</button>
       <div class="content  text-center">
@@ -252,7 +262,6 @@
          </div>
       </div>
    </div>
-  
    <div class="row">
    <!-- The Modal -->
    <div class="modal" id="myModal">
@@ -372,8 +381,6 @@
       .description3{
       font-size:13px;
       color:#26578C;
-  
-    
       }
       .description1{
       color:#26578C;
@@ -494,78 +501,75 @@
       margin: 10px;
       text-align: center;
       font-weight: 700;
-     
       }
-      
-     
       .content {
       padding: 0 18px;
       display: none;
       overflow: hidden;
       }
-   
-
-/* CSS */
-.button-55 {
-  align-self: center;
-  background-color: #fff;
-  background-image: none;
-  background-position: 0 90%;
-  background-repeat: repeat no-repeat;
-  background-size: 4px 3px;
-  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
-  border-style: solid;
-  border-width: 2px;
-  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
-  box-sizing: border-box;
-  color: var(--first-color);
-  cursor: pointer;
-  display: inline-block;
-  font-family: Neucha, sans-serif;
-  font-size: 1rem;
-  line-height: 23px;
-  outline: none;
-  padding: .75rem;
-  text-decoration: none;
-  transition: all 235ms ease-in-out;
-  border-bottom-left-radius: 15px 255px;
-  border-bottom-right-radius: 225px 15px;
-  border-top-left-radius: 255px 15px;
-  border-top-right-radius: 15px 225px;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.button-55:hover {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
-  transform: translate3d(0, 2px, 0);
-}
-
-.button-55:focus {
-  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
-}
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
+      /* CSS */
+      .button-55 {
+      align-self: center;
+      background-color: #fff;
+      background-image: none;
+      background-position: 0 90%;
+      background-repeat: repeat no-repeat;
+      background-size: 4px 3px;
+      border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+      border-style: solid;
+      border-width: 2px;
+      box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+      box-sizing: border-box;
+      color: var(--first-color);
+      cursor: pointer;
+      display: inline-block;
+      font-family: Neucha, sans-serif;
+      font-size: 1rem;
+      line-height: 23px;
+      outline: none;
+      padding: .75rem;
+      text-decoration: none;
+      transition: all 235ms ease-in-out;
+      border-bottom-left-radius: 15px 255px;
+      border-bottom-right-radius: 225px 15px;
+      border-top-left-radius: 255px 15px;
+      border-top-right-radius: 15px 225px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      }
+      .button-55:hover {
+      box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+      transform: translate3d(0, 2px, 0);
+      }
+      .button-55:focus {
+      box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+      }
+      div.gallery {
+      margin: 18px;
+      float: left; 
+      width: 190px;
+      
+      }
+      div.gallery2{
+      margin: 5px;
+      width: 190px;
+      margin: auto;
+      }
+      div.gallery img {
+      width: 50%;
+      height:100px;
+      padding-top: 20px;
+      }
+      div.gallery2 img {
+      width: 60%;
+      height: 100px;
+      padding-top: 20px;
+      }
+      div.desc {
+      padding: 15px;
+      text-align: center;
+      }
    </style>
    <script>
       $(document).ready(function () {
@@ -596,5 +600,4 @@ div.desc {
       });
       }
    </script>
-   
 </x-frontend-layout>
