@@ -1,8 +1,8 @@
 <x-frontend-layout>
    <x-sidebar />
-   <div class="mb-4">
+   <div class="mb-3">
       <div class="col-12 text-center">
-         <h2 class="no-case mb-4">Organogram</h2>
+         <h2 class="no-case mb-3">Organogram</h2>
          <div class="mb-3">
             <p class="u-large-text u-text u-text-variant home"> 
                Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee. 
@@ -342,7 +342,7 @@
       width: 85px;
       }
       .ceo{
-      background: #ffc300;
+      background: 	#FCE883;
       height:80px;
       width: 85px;
       }
@@ -546,25 +546,22 @@
       box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
       }
       div.gallery {
-      margin: 18px;
+      margin-left: 30px;
       float: left; 
       width: 190px;
       
       }
       div.gallery2{
-      margin: 5px;
       width: 190px;
       margin: auto;
       }
       div.gallery img {
       width: 50%;
-      height:100px;
-      padding-top: 20px;
+      height:auto;
       }
       div.gallery2 img {
-      width: 60%;
-      height: 100px;
-      padding-top: 20px;
+      width: 50%;
+      height: auto;
       }
       div.desc {
       padding: 15px;
