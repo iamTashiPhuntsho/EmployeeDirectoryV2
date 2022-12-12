@@ -12,7 +12,7 @@
    </div>
    <div class="col-12 text-center">
       <button type="button" class="collapsible button-55">Board of Directors</button>
-      <div class="content  text-center">
+      <div class="content text-center">
          <div class="gallery2">
             <img src="../images/66.jpeg" alt="Cinque Terre" width="600" height="400">
             <div class="desc">
@@ -59,7 +59,7 @@
    </div>
    <div class="col-12 text-center">
       <button type="button" class="collapsible button-55">Corporate Office</button>
-      <div class="content  text-center">
+      <div class="content text-center">
          <div class="custom-row">
             <div class="col-12 text-center">
                <div class="container-box">
@@ -276,7 +276,7 @@
             <div class="modal-body" >
                <div class="row">
                   <div class="column">
-                     <div class="content"></div>
+                     <div class="content1"></div>
                   </div>
                   <div class="column">
                      <img alt="" style="height: 10rem;" class="img-thumbnail" id="img">
@@ -574,10 +574,10 @@
           var emp = $(this).data('info');
           $('.name').text(emp.name);
           $('#img').attr('src','/storage/employee_images/'+emp.image);
-          $('.content').html('<h5 style="color: #1C4E80"><b>'+emp.title+'</h5>');
-          $('.content').append('<h5>Extension: '+emp.contact.extension+'</h5>');
-          $('.content').append('<h5>Mobile No: '+emp.contact.mobile+'</h5>');
-          $('.content').append('<h5>Email: '+emp.contact.email+'</h5>');
+          $('.content1').html('<h5 style="color: #1C4E80"><b>'+emp.title+'</h5>');
+          $('.content1').append('<h5>Extension: '+emp.contact.extension+'</h5>');
+          $('.content1').append('<h5>Mobile No: '+emp.contact.mobile+'</h5>');
+          $('.content1').append('<h5>Email: '+emp.contact.email+'</h5>');
           })
       })
       
@@ -588,11 +588,11 @@
       for (i = 0; i < coll.length; i++) {
       coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
-        var content = this.nextElementSibling;
-        if (content.style.display === "block") {
-          content.style.display = "none";
+        var content1 = this.nextElementSibling;
+        if (content1.style.display === "block") {
+          content1.style.display = "none";
         } else {
-          content.style.display = "block";
+          content1.style.display = "block";
         }
       });
       }

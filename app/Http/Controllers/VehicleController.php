@@ -14,17 +14,17 @@ class VehicleController extends Controller
     public function vehicle(){
         $ceo = Employee::with('contact')->where('id','1')->first();
         //$cs = Employee::with('contact')->where('id','2')->first();
-        $ia = Employee::with('contact')->where('id','1')->first();
-        $rd = Employee::with('contact')->where('id','1')->first();
-        $smd = Employee::with('contact')->where('id','1')->first();
-        $cos = Employee::with('contact')->where('id','1')->first();
-        $cex = Employee::with('contact')->where('id','1')->first();
-        $bo = Employee::with('contact')->where('id','1')->first();
+        $ia = Employee::with('contact')->where('id','2')->first();
+        $rd = Employee::with('contact')->where('id','3')->first();
+        $smd = Employee::with('contact')->where('id','4')->first();
+        $cos = Employee::with('contact')->where('id','5')->first();
+        $cex = Employee::with('contact')->where('id','6')->first();
+        $bo = Employee::with('contact')->where('id','7')->first();
         //$fin = Employee::with('contact')->where('id','9')->first();
         $hra = Employee::with('contact')->where('id','1')->first();
-        $dtd = Employee::with('contact')->where('id','1')->first();
-        $cse = Employee::with('contact')->where('id','1')->first();
-        $ito = Employee::with('contact')->where('id','1')->first();
+        $dtd = Employee::with('contact')->where('id','8')->first();
+        $cse = Employee::with('contact')->where('id','9')->first();
+        $ito = Employee::with('contact')->where('id','10')->first();
         $bro = Employee::with('contact')->where('id','1')->first();
         $rem = Employee::with('contact')->where('id','1')->first();
     	  // return $employees;
