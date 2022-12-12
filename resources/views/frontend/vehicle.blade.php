@@ -1,216 +1,249 @@
 <x-frontend-layout>
    <x-sidebar />
-   <div class="pb-5 pe-5">
+  
       <div class="mb-4">
-      </div>
-      <div class="custom-row">
          <div class="col-12 text-center">
-            <h4>Corporate Office Organogram</h4>
-            <div class="col-sm-12">
-            <p class="u-large-text u-text u-text-variant home">
-<<<<<<< HEAD
-            Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee.
-=======
-            Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee. 
->>>>>>> 6d050a37721dc002ad26df278b9b7b5fb8f6585f
-            </p>
-         </div>
-            <div class="container-box">
-               <div class="main-box">
-                  <div class="description3">Board of Directors</div>
+         <h2 class="no-case mb-4">Organogram</h2>
+               <div class="mb-3">
+                  <p class="u-large-text u-text u-text-variant home"> 
+                        Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee. 
+                        </p>
                </div>
-            </div>
-            <div class="middle-line"></div>
          </div>
       </div>
-      <div class="custom-row">
-         <div class="col-4 text-center">
-            <div class="container-box">
-            <div class="main-box-left ceo" style = "position:relative; left:82px;">
-            <img src="{{asset('images/default1.png')}}" alt="" class="img">
-                  <div class="description1">Company Secretary</div>
-               </div>
-            </div>
-         </div>
-         <div class="col-4 text-center">
-            <div class="long-line"></div>
-            <div class="middle-line-full"></div>
-         </div>
-         <div class="col-4 text-center">
-            <div class="container-box">
-            <div class="main-box-right ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ia}}" style = "position:relative; right:82px;">
-            <img src='{{asset("storage/employee_images/$ia->image")}}' alt="" class="img">
-                  <div class="description1">Internal Audit Department</div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="coll-4 offset-4 text-center">
-         <div class="container-box">
-         <div class="main-box ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo}}" style = "position:relative; bottom:82px;">
-         <img src='{{asset("storage/employee_images/$ceo->image")}}' alt="" class="img">
-               <div class="description1">Chief Executive Officer</div>
-            </div>
-         </div>
-<<<<<<< HEAD
- 
-=======
+    
+      <div class="col-12 text-center">
+         <button type="button" class="collapsible button-55">Board of Directors</button>
+         <div class="content  text-center">
+         <div class="gallery">
+  <a target="_blank" href=" ">
+    <img src="/app/public/images/bnb.png" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
 
->>>>>>> 6d050a37721dc002ad26df278b9b7b5fb8f6585f
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+         </div>
+            
       </div>
-      <div class="custom-row">
-         <div class="col-3 text-center">
-            <div class="container-box">
-            <div class="main-box-left cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rd}}" style = "position:relative; left:80px;">
-            <img src='{{asset("storage/employee_images/$rd->image")}}' alt="" class="img">
-                  <div class="description">Risk Department</div>
+   
+
+   <div class="col-12 text-center">
+      <button type="button" class="collapsible button-55">Corporate Office</button>
+      <div class="content  text-center">
+         <div class="custom-row">
+            <div class="col-12 text-center">
+               <div class="container-box">
+                  <div class="main-box">
+                     <div class="description3">Board of Directors</div>
+                  </div>
                </div>
+               <div class="middle-line"></div>
             </div>
          </div>
-         <div class="col-6 text-center">
-            <div class="long-line"></div>
-            <div class="middle-line-full"></div>
-         </div>
-         <div class="col-3 text-center">
-            <div class="container-box">
-            <div class="main-box-right bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$smd}}" style = "position:relative; right:80px;">
-            <img src='{{asset("storage/employee_images/$smd->image")}}' alt="" class="img">
-                  <div class="description">Strategy Management Department</div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="col-8 offset-2 text-center">
-         <div class="middle-line-full"></div>
-         <div class="long-line"></div>
-         <div class="position-relative">
-            <div class="middle-line"></div>
-            <div class="right-line"></div>
-            <div class="left-line"></div>
-         </div>
-      </div>
-      <div class="custom-row">
-         <div class="col-4 text-center">
-            <div class="container-box">
-            <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cos}}" style = "position:relative; bottom:7px;">
-            <img src='{{asset("storage/employee_images/$cos->image")}}' alt="" class="img">
-                  <div class="description">Corporate Service</div>
-               </div>
-            </div>
-            <div class="middle-line1" style = "position:relative; bottom:9px; height:15px;"></div>
-         </div>
-         <div class="col-4 text-center">
-            <div class="container-box">
-            <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cex}}" style = "position:relative; bottom:5px;">
-            <img src='{{asset("storage/employee_images/$cex->image")}}' alt="" class="img">
-                  <div class="description">Customer Experience</div>
-               </div>
-            </div>
-            <div class="middle-line1" style = "position:relative; bottom:5px; height:24px;"></div>
-         </div>
-         <div class="col-4 text-center">
-            <div class="container-box">
-            <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$bo}}" style = "position:relative; bottom:5px;">
-            <img src='{{asset("storage/employee_images/$bo->image")}}' alt="" class="img">
-                  <div class="description">Banking Operations</div>
-               </div>
-            </div>
-            <div class="middle-line1" style = "position:relative; bottom:7px; height:15px;"></div>
-         </div>
-      </div>
-      <div class="custom-row" style = "position:relative; bottom:18px;">
-         <div class="col-4 text-center">
-            <div class="col-7 offset-2 position-relative">
-               <div class="long-line"></div>
-               <div class="left-line"></div>
-               <div class="middle-line-transparent"></div>
-               <div class="right-line" ></div>
-            </div>
-            <div class="col-12">
-               <div class="custom-row">
-                  <div class="col-4 px-1 text-center">
-                     <div class="container-box">
-                     <div class="main-box cs" style = "position:relative; bottom:25px;">
+         <div class="custom-row">
+            <div class="col-4 text-center">
+               <div class="container-box">
+                  <div class="main-box-left ceo" style = "position:relative; left:82px;">
                      <img src="{{asset('images/default1.png')}}" alt="" class="img">
-                           <div class="description">
-                              Finance
-                           </div>
-                        </div>
-                     </div>
+                     <div class="description1">Company Secretary</div>
                   </div>
-                  <div class="col-4 offset-3 px-1 text-center">
-                     <div class="container-box">
-                     <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$hra}}" style = "position:relative; bottom:25px;">
-                     <img src='{{asset("storage/employee_images/$hra->image")}}' alt="" class="img">
-                           <div class="description">Human Resource Administration</div>
-                        </div>
-                     </div>
+               </div>
+            </div>
+            <div class="col-4 text-center">
+               <div class="long-line"></div>
+               <div class="middle-line-full"></div>
+            </div>
+            <div class="col-4 text-center">
+               <div class="container-box">
+                  <div class="main-box-right ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ia}}" style = "position:relative; right:82px;">
+                     <img src='{{asset("storage/employee_images/$ia->image")}}' alt="" class="img">
+                     <div class="description1">Internal Audit Department</div>
                   </div>
                </div>
             </div>
          </div>
-         <div class="col-4 text-center">
-            <div class="col-8 offset-2 position-relative">
+         <div class="coll-4 offset-4 text-center">
+            <div class="container-box">
+               <div class="main-box ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo}}" style = "position:relative; bottom:82px;">
+                  <img src='{{asset("storage/employee_images/$ceo->image")}}' alt="" class="img">
+                  <div class="description1">Chief Executive Officer</div>
+               </div>
+            </div>
+         </div>
+         <div class="custom-row">
+            <div class="col-3 text-center">
+               <div class="container-box">
+                  <div class="main-box-left cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rd}}" style = "position:relative; left:80px;">
+                     <img src='{{asset("storage/employee_images/$rd->image")}}' alt="" class="img">
+                     <div class="description">Risk Department</div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-6 text-center">
                <div class="long-line"></div>
-               <div class="left-line"></div>
+               <div class="middle-line-full"></div>
+            </div>
+            <div class="col-3 text-center">
+               <div class="container-box">
+                  <div class="main-box-right bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$smd}}" style = "position:relative; right:80px;">
+                     <img src='{{asset("storage/employee_images/$smd->image")}}' alt="" class="img">
+                     <div class="description">Strategy Management Department</div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="col-8 offset-2 text-center">
+            <div class="middle-line-full"></div>
+            <div class="long-line"></div>
+            <div class="position-relative">
                <div class="middle-line"></div>
                <div class="right-line"></div>
+               <div class="left-line"></div>
             </div>
-            <div class="col-12">
-               <div class="custom-row">
-                  <div class="col-4 px-1 text-center">
-                     <div class="container-box">
-                     <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$dtd}}" style = "position:relative; bottom:12px;">
-                     <img src='{{asset("storage/employee_images/$dtd->image")}}' alt="" class="img">
-                           <div class="description">
-                              Digital Transformation
+         </div>
+         <div class="custom-row">
+            <div class="col-4 text-center">
+               <div class="container-box">
+                  <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cos}}" style = "position:relative; bottom:7px;">
+                     <img src='{{asset("storage/employee_images/$cos->image")}}' alt="" class="img">
+                     <div class="description">Corporate Service</div>
+                  </div>
+               </div>
+               <div class="middle-line1" style = "position:relative; bottom:9px; height:15px;"></div>
+            </div>
+            <div class="col-4 text-center">
+               <div class="container-box">
+                  <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cex}}" style = "position:relative; bottom:5px;">
+                     <img src='{{asset("storage/employee_images/$cex->image")}}' alt="" class="img">
+                     <div class="description">Customer Experience</div>
+                  </div>
+               </div>
+               <div class="middle-line1" style = "position:relative; bottom:5px; height:24px;"></div>
+            </div>
+            <div class="col-4 text-center">
+               <div class="container-box">
+                  <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$bo}}" style = "position:relative; bottom:5px;">
+                     <img src='{{asset("storage/employee_images/$bo->image")}}' alt="" class="img">
+                     <div class="description">Banking Operations</div>
+                  </div>
+               </div>
+               <div class="middle-line1" style = "position:relative; bottom:7px; height:15px;"></div>
+            </div>
+         </div>
+         <div class="custom-row" style = "position:relative; bottom:18px;">
+            <div class="col-4 text-center">
+               <div class="col-7 offset-2 position-relative">
+                  <div class="long-line"></div>
+                  <div class="left-line"></div>
+                  <div class="middle-line-transparent"></div>
+                  <div class="right-line" ></div>
+               </div>
+               <div class="col-12">
+                  <div class="custom-row">
+                     <div class="col-4 px-1 text-center">
+                        <div class="container-box">
+                           <div class="main-box cs" style = "position:relative; bottom:25px;">
+                              <img src="{{asset('images/default1.png')}}" alt="" class="img">
+                              <div class="description">
+                                 Finance
+                              </div>
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="col-4 px-1 text-center">
-                     <div class="container-box">
-                     <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cse}}" style = "position:relative; bottom:12px;">
-                     <img src='{{asset("storage/employee_images/$cse->image")}}' alt="" class="img">
-                           <div class="description">Customer Service</div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-4 px-1 text-center">
-                     <div class="container-box">
-                     <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ito}}" style = "position:relative; bottom:12px;">
-                     <img src='{{asset("storage/employee_images/$ito->image")}}' alt="" class="img">
-                           <div class="description">IT Operations</div>
+                     <div class="col-4 offset-3 px-1 text-center">
+                        <div class="container-box">
+                           <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$hra}}" style = "position:relative; bottom:25px;">
+                              <img src='{{asset("storage/employee_images/$hra->image")}}' alt="" class="img">
+                              <div class="description">Human Resource Administration</div>
+                           </div>
                         </div>
                      </div>
                   </div>
                </div>
             </div>
-         </div>
-         <div class="col-4 text-center">
-            <div class="col-7 offset-3 position-relative">
-               <div class="long-line"></div>
-               <div class="left-line"></div>
-               <div class="middle-line-transparent"></div>
-               <div class="right-line"></div>
-            </div>
-            <div class="col-12">
-               <div class="custom-row">
-                  <div class="col-4 offset-1 px-1 text-center">
-                     <div class="container-box">
-                     <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$bro}}" style = "position:relative; bottom:25px;">
-                     <img src='{{asset("storage/employee_images/$bro->image")}}' alt="" class="img">
-                           <div class="description">
-                              Branch Operations
+            <div class="col-4 text-center">
+               <div class="col-8 offset-2 position-relative">
+                  <div class="long-line"></div>
+                  <div class="left-line"></div>
+                  <div class="middle-line"></div>
+                  <div class="right-line"></div>
+               </div>
+               <div class="col-12">
+                  <div class="custom-row">
+                     <div class="col-4 px-1 text-center">
+                        <div class="container-box">
+                           <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$dtd}}" style = "position:relative; bottom:12px;">
+                              <img src='{{asset("storage/employee_images/$dtd->image")}}' alt="" class="img">
+                              <div class="description">
+                                 Digital Transformation
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-4 px-1 text-center">
+                        <div class="container-box">
+                           <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cse}}" style = "position:relative; bottom:12px;">
+                              <img src='{{asset("storage/employee_images/$cse->image")}}' alt="" class="img">
+                              <div class="description">Customer Service</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-4 px-1 text-center">
+                        <div class="container-box">
+                           <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ito}}" style = "position:relative; bottom:12px;">
+                              <img src='{{asset("storage/employee_images/$ito->image")}}' alt="" class="img">
+                              <div class="description">IT Operations</div>
                            </div>
                         </div>
                      </div>
                   </div>
-                  <div class="col-4 offset-3 px-1 text-center">
-                     <div class="container-box">
-                     <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rem}}" style = "position:relative; bottom:25px;">
-                     <img src='{{asset("storage/employee_images/$rem->image")}}' alt="" class="img">
-                           <div class="description">Remedial Management</div>
+               </div>
+            </div>
+            <div class="col-4 text-center">
+               <div class="col-7 offset-3 position-relative">
+                  <div class="long-line"></div>
+                  <div class="left-line"></div>
+                  <div class="middle-line-transparent"></div>
+                  <div class="right-line"></div>
+               </div>
+               <div class="col-12">
+                  <div class="custom-row">
+                     <div class="col-4 offset-1 px-1 text-center">
+                        <div class="container-box">
+                           <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$bro}}" style = "position:relative; bottom:25px;">
+                              <img src='{{asset("storage/employee_images/$bro->image")}}' alt="" class="img">
+                              <div class="description">
+                                 Branch Operations
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-4 offset-3 px-1 text-center">
+                        <div class="container-box">
+                           <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rem}}" style = "position:relative; bottom:25px;">
+                              <img src='{{asset("storage/employee_images/$rem->image")}}' alt="" class="img">
+                              <div class="description">Remedial Management</div>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -219,26 +252,26 @@
          </div>
       </div>
    </div>
+  
    <div class="row">
-      <!-- The Modal -->
-      <div class="modal" id="myModal">
-         <div class="modal-dialog">
-            <div class="modal-content">
-               <!-- Modal Header -->
-               <div class="modal-header">
-                  <h4 class="name"></h4>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-               </div>
-               <!-- Modal body -->
-               <div class="modal-body" >
- 
+   <!-- The Modal -->
+   <div class="modal" id="myModal">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+               <h4 class="name"></h4>
+               <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <!-- Modal body -->
+            <div class="modal-body" >
                <div class="row">
-  <div class="column">
-  <div class="content"></div>
-  </div>
-  <div class="column">
-  <img alt="" style="height: 10rem;" class="img-thumbnail" id="img">
-  </div>
+                  <div class="column">
+                     <div class="content"></div>
+                  </div>
+                  <div class="column">
+                     <img alt="" style="height: 10rem;" class="img-thumbnail" id="img">
+                  </div>
                </div>
             </div>
          </div>
@@ -249,38 +282,31 @@
       width: 100%;
       }
       .column {
-  float: left;
- 
-   /* Should be removed. Only for demonstration */
-}
-@media (max-width: 48rem){
-   .pb-5 {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
-    min-height: 100vh;
-}
-}.coll-4 {
-  flex: 0 0 auto;
-  width: 33.33333333%;
-<<<<<<< HEAD
-  height:1px;
-=======
-  height:1px; 
->>>>>>> 6d050a37721dc002ad26df278b9b7b5fb8f6585f
-}
- 
+      float: left;
+      /* Should be removed. Only for demonstration */
+      }
+      @media (max-width: 48rem){
+      .pb-5 {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+      min-height: 100vh;
+      }
+      }.coll-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+      height:1px; 
+      }
       .modal-header h4{
-         margin-bottom: 0rem;
-         font-size: 1.7rem;
-         font-weight: 600;
-         color: #1C4E80;
-         
+      margin-bottom: 0rem;
+      font-size: 1.7rem;
+      font-weight: 600;
+      color: #1C4E80;
       }
       .modal-header{
-         border-bottom: 1.5px solid #1C4E80;
+      border-bottom: 1.5px solid #1C4E80;
       }
       .modal-body p{
-         font-size: 14px;
+      font-size: 14px;
       }
       .main-box{
       width:fit-content;
@@ -294,28 +320,27 @@
       .cs{
       background: #e0ffcd;
       height:81px;
-  width: 85px;
+      width: 85px;
       }
       .ce{
       background:  #d5eeff;
       height:80px;
-  width: 85px;
+      width: 85px;
       }
       .bo{
       background:#ffd6b6;
       height:80px;
-  width: 85px;
+      width: 85px;
       }
       .ceo{
       background: #ffc300;
       height:80px;
-  width: 85px;
+      width: 85px;
       }
       .main-box-left{
-     
       border-bottom-right-radius: 7px;
       height:80px;
-  width: 85px;
+      width: 85px;
       overflow: hidden;
       border-right: 2px solid #26578C;
       padding: 5px;
@@ -325,10 +350,9 @@
       float: right;
       }
       .main-box-right{
-     
       border-bottom-left-radius: 7px;
-  height:81px;
-  width: 85px;
+      height:81px;
+      width: 85px;
       overflow: hidden;
       border-left: 2px solid #26578C;
       padding: 5px;
@@ -348,15 +372,12 @@
       .description3{
       font-size:13px;
       color:#26578C;
+  
+    
       }
       .description1{
       color:#26578C;
       font-size: 9px;
-<<<<<<< HEAD
- 
-=======
-
->>>>>>> 6d050a37721dc002ad26df278b9b7b5fb8f6585f
       }
       .img{
       height: 35px;
@@ -406,11 +427,6 @@
       width: 2px;
       margin: auto;
       background-color: #26578C;
-<<<<<<< HEAD
-     
-=======
-      
->>>>>>> 6d050a37721dc002ad26df278b9b7b5fb8f6585f
       }
       .middle-line-transparent{
       height: 30px;
@@ -467,27 +483,118 @@
       height: 2px;
       background: #26578C;
       }
-   </style>
-<script>
-  $(document).ready(function () {
-   $(".main-box,.main-box-right,.main-box-left").on('click', function() {
-      var emp = $(this).data('info');
-      $('.name').text(emp.name);
-      $('#img').attr('src','/storage/employee_images/'+emp.image);
-      $('.content').html('<h5 style="color: #1C4E80"><b>'+emp.title+'</h5>');
-      $('.content').append('<h5>Extension: '+emp.contact.extension+'</h5>');
-      $('.content').append('<h5>Mobile No: '+emp.contact.mobile+'</h5>');
-      $('.content').append('<h5>Email: '+emp.contact.email+'</h5>');
-      })
-  })
-</script>
-</x-frontend-layout>
- 
- 
- 
- 
- 
- 
- 
- 
+      .collapsible {
+      cursor: pointer;
+      padding: 18px;
+      width: 30%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      margin: 10px;
+      text-align: center;
+      font-weight: 700;
+     
+      }
+      
+     
+      .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      }
+   
 
+/* CSS */
+.button-55 {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: var(--first-color);
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+   </style>
+   <script>
+      $(document).ready(function () {
+       $(".main-box,.main-box-right,.main-box-left").on('click', function() {
+          var emp = $(this).data('info');
+          $('.name').text(emp.name);
+          $('#img').attr('src','/storage/employee_images/'+emp.image);
+          $('.content').html('<h5 style="color: #1C4E80"><b>'+emp.title+'</h5>');
+          $('.content').append('<h5>Extension: '+emp.contact.extension+'</h5>');
+          $('.content').append('<h5>Mobile No: '+emp.contact.mobile+'</h5>');
+          $('.content').append('<h5>Email: '+emp.contact.email+'</h5>');
+          })
+      })
+      
+      
+      var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+      }
+   </script>
+   
+</x-frontend-layout>
