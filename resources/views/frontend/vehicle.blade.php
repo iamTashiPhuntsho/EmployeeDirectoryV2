@@ -566,17 +566,18 @@
       padding: 15px;
       text-align: center;
       }
-      @media screen and (max-width: 40em) {
+      @media screen and (max-width: 48rem) {
   .content {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
  
-    .gallery{
-        flex: 1 1 calc(40% - 1em);
-    }
+    div.gallery{
+      flex: 0 1 calc(50% - 2em);
+
    
+      }
    
 }
    </style>
