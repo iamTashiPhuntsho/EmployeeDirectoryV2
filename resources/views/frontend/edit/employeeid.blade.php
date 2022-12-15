@@ -5,7 +5,7 @@
       <div class="mb-3">
          <div class="col-sm-12">
             <p class="u-large-text u-text u-text-variant u-text-2"> 
-            Edit your information in Employee Directory. To edit your Emplyee ID and Email, you have to contact the Admin.
+            Edit your information in Employee Directory. To edit your Employee ID and Email, contact Admin on 1214.
             </p>
          </div>
       </div>
