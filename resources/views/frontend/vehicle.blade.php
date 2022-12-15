@@ -4,8 +4,8 @@
       <div class="col-12 text-center">
          <h2 class="no-case mb-3">Organogram</h2>
          <div class="mb-3">
-            <p class="u-large-text u-text u-text-variant home"> 
-               Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee. 
+            <p class="u-large-text u-text u-text-variant home">
+               Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee.
             </p>
          </div>
       </div>
@@ -16,42 +16,42 @@
          <div class="gallery2">
             <img src="../images/KT.png" alt="Cinque Terre" width="600" height="400">
             <div class="desc">
-               <h6 class="bnb-blue"style="font-size: 12px;">Dasho Karma Tshiteem</h6>
+               <h5 class="bnb-blue"  style="font-size: 12px;">Dasho Karma Tshiteem</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Chairperson</h6>
             </div>
          </div>
          <div class="gallery">
             <img src="../images/kc.png" alt="Forest" width="600" height="400">
             <div class="desc">
-               <h6 class="bnb-blue" style="font-size: 12px;">Karma Choden</h6>
+               <h5 class="bnb-blue"  style="font-size: 12px;">Karma Choden</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
          <div class="gallery">
             <img src="../images/kw.png" alt="Northern Lights" width="600" height="400">
             <div class="desc">
-               <h6 class="bnb-blue" style="font-size: 12px;">Karma Wangdi</h6>
+               <h5 class="bnb-blue"  style="font-size: 12px;">Karma Wangdi</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
          <div class="gallery">
             <img src="../images/pd.png" alt="Mountains" width="600" height="400">
             <div class="desc">
-               <h6 class="bnb-blue" style="font-size: 12px;">Passang Dorji</h6>
-               <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
+               <h5 class="bnb-blue"  style="font-size: 12px;">Passang Dorji</h5>
+               <h6 class="bnb-blue"  style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
          <div class="gallery">
             <img src="../images/ty.png" alt="Mountains" width="600" height="400">
             <div class="desc">
-               <h6 class="bnb-blue" style="font-size: 12px;">Dasho Tenzing Yonten</h6>
+               <h5 class="bnb-blue"  style="font-size: 12px;">Dasho Tenzing Yonten</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
          <div class="gallery">
             <img src="../images/ABD.png" alt="Mountains" width="600" height="400">
             <div class="desc">
-               <h6 class="bnb-blue"style="font-size: 12px;">Aum Dago Beda</h6>
+               <h5 class="bnb-blue" style="font-size: 12px;">Aum Dago Beda</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
@@ -303,7 +303,7 @@
       }.coll-4 {
       flex: 0 0 auto;
       width: 33.33333333%;
-      height:1px; 
+      height:1px;
       }
       .modal-header h4{
       margin-bottom: 0rem;
@@ -342,7 +342,7 @@
       width: 85px;
       }
       .ceo{
-      background:#FADA5E;
+      background:    #FCE883;
       height:80px;
       width: 85px;
       }
@@ -515,7 +515,7 @@
       background-position: 0 90%;
       background-repeat: repeat no-repeat;
       background-size: 4px 3px;
-      border-radius:15px;
+      border-radius: 15px;
       border-style: solid;
       border-width: 2px;
       box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
@@ -537,32 +537,30 @@
       }
       .button-55:hover {
       box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
-      transform: translate2d(0, 2px, 0);
+      transform: translate(0, 2px, 0);
       }
       .button-55:focus {
       box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
       }
       div.gallery {
-      margin-left: 35px;
-      float: left; 
+      margin-left: 30px;
+      float: left;
       width: 190px;
-
-      
+     
       }
       div.gallery2{
       width: 190px;
       margin: auto;
-     
       }
       div.gallery img {
       width: 50%;
       height:auto;
-      border-radius:50%;
+      border-radius: 50%;
       }
       div.gallery2 img {
       width: 50%;
       height: auto;
-      border-radius:50%;
+      border-radius: 50%;
       }
       div.desc {
       padding: 15px;
@@ -581,11 +579,11 @@
           $('.content1').append('<h5>Email: '+emp.contact.email+'</h5>');
           })
       })
-      
-      
+     
+     
       var coll = document.getElementsByClassName("collapsible");
       var i;
-      
+     
       for (i = 0; i < coll.length; i++) {
       coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
@@ -599,3 +597,5 @@
       }
    </script>
 </x-frontend-layout>
+ 
+
