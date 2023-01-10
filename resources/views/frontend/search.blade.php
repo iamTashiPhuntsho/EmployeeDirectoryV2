@@ -102,7 +102,7 @@
                            animate(text2, 100, 11, 3000);
                            animate(text3, 100, 26, 3000);
                            animate(text4, 100, 12, 3000);
-                           animate(text5, 100, 235, 3000);
+                           animate(text5, 100, 234, 3000);
                            animate(text6, 100, 304, 3000);
                            }
                         </script>
