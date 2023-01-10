@@ -530,10 +530,6 @@
       padding: .75rem;
       text-decoration: none;
       transition: all 235ms ease-in-out;
-     
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
       }
       .button-55:hover {
       box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
@@ -575,10 +571,7 @@
  
     div.gallery{
       flex: 0 1 calc(50% - 2em);
-
-   
       }
-   
 }
    </style>
    <script>
