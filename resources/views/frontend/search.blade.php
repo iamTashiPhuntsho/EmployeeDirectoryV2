@@ -102,8 +102,8 @@
                            animate(text2, 100, 11, 3000);
                            animate(text3, 100, 26, 3000);
                            animate(text4, 100, 12, 3000);
-                           animate(text5, 100, 229, 3000);
-                           animate(text6, 100, 307, 3000);
+                           animate(text5, 100, 214, 3000);
+                           animate(text6, 100, 287, 3000);
                            }
                         </script>
                      </body>
