@@ -117,11 +117,6 @@ class LocationsTableSeeder extends Seeder
       		'category' => 'extension',
       	]); 
       	DB::table('locations')->insert([
-      		'code' => '202', 
-      		'name' => 'Samdrupjongkhar Extension',
-      		'category' => 'extension',
-      	]); 
-      	DB::table('locations')->insert([
       		'code' => '302', 
       		'name' => 'Nganglam Extension',
       		'category' => 'extension',
