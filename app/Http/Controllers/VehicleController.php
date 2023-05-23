@@ -13,7 +13,7 @@ class VehicleController extends Controller
 {
     public function vehicle(){
         $ceo = Employee::with('contact')->where('employee_id','2006100136')->first();
-        //$cs = Employee::with('contact')->where('employee_id','')->first();
+        $cs = Employee::with('contact')->where('employee_id','1995021302')->first();
         $ia = Employee::with('contact')->where('employee_id','2001060108')->first();
         $rd = Employee::with('contact')->where('employee_id','2023030107')->first();
         $smd = Employee::with('contact')->where('employee_id','1995021302')->first();
@@ -27,7 +27,7 @@ class VehicleController extends Controller
         $ito = Employee::with('contact')->where('employee_id','2005020103')->first();
         $bro = Employee::with('contact')->where('employee_id','1996040101')->first();
         $rem = Employee::with('contact')->where('employee_id','1996121104')->first();
-    	  // return $employees;
-    	return view('frontend.vehicle',compact('ceo','ia','rd','smd','cos','cex','bo','hra','dtd','cse','ito','bro','rem','fin'));
+        $vas = Employee::with('contact')->where('employee_id','2013120247')->first();
+    	return view('frontend.vehicle',compact('ceo','ia','rd','smd','cos','cs','cex','bo','hra','dtd','cse','ito','bro','rem','fin','cse','vas'));
     }
 }
