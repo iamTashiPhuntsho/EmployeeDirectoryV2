@@ -233,14 +233,13 @@
                <div class="col-8 offset-2 position-relative">
                   <div class="long-line"></div>
                   <div class="left-line"></div>
-                  <div class="middle-line"></div>
                   <div class="right-line"></div>
                </div>
                <div class="col-12">
                   <div class="custom-row">
                      <div class="col-4 offset-1 px-1 text-center">
                         <div class="container-box">
-                           <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$bro}}" style = "position:relative; bottom:12px; right:30px;">
+                           <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$bro}}" style = "position:relative; top:6px; right:30px;">
                               <img src='{{asset("storage/employee_images/$bro->image")}}' alt="" class="img">
                               <div class="description">
                                  Branch Operations
@@ -248,17 +247,10 @@
                            </div>
                         </div>
                      </div>
-                     <div class="col-4 px-1 text-center">
-                        <div class="container-box">
-                           <div class="main-box ce" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$vas}}" style = "position:relative; bottom:12px; right:30px;">
-                              <img src='{{asset("storage/employee_images/$vas->image")}}' alt="" class="img">
-                              <div class="description">Value-Added Services</div>
-                           </div>
-                        </div>
-                     </div>
+                     
                      <div class="col-4 offset-3 px-1 text-center">
                         <div class="container-box">
-                           <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rem}}" style = "position:relative; bottom:12px; right:125px;">
+                           <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rem}}" style = "position:relative; top:6px;">
                               <img src='{{asset("storage/employee_images/$rem->image")}}' alt="" class="img">
                               <div class="description">Remedial Management</div>
                            </div>
