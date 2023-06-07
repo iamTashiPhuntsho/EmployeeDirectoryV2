@@ -343,7 +343,8 @@ text-align: center;
 padding-top: 0;
 }
 .card-emp .emp-img{
-  width: 50%;
+  height: 130px;
+  width: 130px;
   border-radius: 50%;
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
