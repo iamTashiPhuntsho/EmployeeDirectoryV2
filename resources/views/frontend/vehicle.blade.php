@@ -14,42 +14,42 @@
       <button type="button" class="collapsible button-55">Board of Directors</button>
       <div class="content text-center">
          <div class="gallery2">
-            <img src="../images/KT.png" alt="Cinque Terre" width="600" height="400">
+            <img src="../images/Chairman.jpg" alt="Cinque Terre" width="600" height="400">
             <div class="desc">
                <h5 class="bnb-blue"  style="font-size: 12px;">Dasho Karma Tshiteem</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Chairperson</h6>
             </div>
          </div>
          <div class="gallery">
-            <img src="../images/kc.png" alt="Forest" width="600" height="400">
+            <img src="../images/sonam-tongay.jpg" alt="Forest" width="600" height="400">
             <div class="desc">
-               <h5 class="bnb-blue"  style="font-size: 12px;">Karma Choden</h5>
+               <h5 class="bnb-blue"  style="font-size: 12px;">Sonam Tobgay</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
          <div class="gallery">
-            <img src="../images/kw.png" alt="Northern Lights" width="600" height="400">
+            <img src="../images/Karma-Wangdi.jpg" alt="Northern Lights" width="600" height="400">
             <div class="desc">
                <h5 class="bnb-blue"  style="font-size: 12px;">Karma Wangdi</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
          <div class="gallery">
-            <img src="../images/pd.png" alt="Mountains" width="600" height="400">
+            <img src="../images/passd.jpg" alt="Mountains" width="600" height="400">
             <div class="desc">
                <h5 class="bnb-blue"  style="font-size: 12px;">Passang Dorji</h5>
                <h6 class="bnb-blue"  style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
          <div class="gallery">
-            <img src="../images/ty.png" alt="Mountains" width="600" height="400">
+            <img src="../images/Namgay-Tenzin.jpg" alt="Mountains" width="600" height="400">
             <div class="desc">
-               <h5 class="bnb-blue"  style="font-size: 12px;">Dasho Tenzing Yonten</h5>
+               <h5 class="bnb-blue"  style="font-size: 12px;">Namgay Tenzin</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
          <div class="gallery">
-            <img src="../images/ABD.png" alt="Mountains" width="600" height="400">
+            <img src="../images/dago-beda.jpg" alt="Mountains" width="600" height="400">
             <div class="desc">
                <h5 class="bnb-blue" style="font-size: 12px;">Aum Dago Beda</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
@@ -549,13 +549,13 @@
       margin: auto;
       }
       div.gallery img {
-      width: 50%;
-      height:auto;
+      width: 100px;
+      height:120px;
       border-radius: 50%;
       }
       div.gallery2 img {
-      width: 50%;
-      height: auto;
+      width: 100px;
+      height:120px;
       border-radius: 50%;
       }
       div.desc {
