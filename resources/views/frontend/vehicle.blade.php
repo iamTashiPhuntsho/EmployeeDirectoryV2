@@ -59,69 +59,61 @@
    </div>
    <div class="col-12 text-center">
       <button type="button" class="collapsible button-55">Corporate Office</button>
-      <div class="content text-center">
-         <div class="custom-row">
-            <div class="col-12 text-center">
-               <div class="container-box">
-                  <div class="main-box">
-                     <div class="description3">Board of Directors</div>
-                  </div>
-               </div>
-               <div class="middle-line"></div>
-            </div>
-         </div>
-         <div class="custom-row">
-            <div class="col-4 text-center">
-               <div class="container-box">
-                  <div class="main-box-left ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cs}}" style = "position:relative; left:82px;" >
-                     <img src='{{asset("storage/employee_images/$cs->image")}}' alt="" class="img">
-                     <div class="description1">Company Secretary</div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-4 text-center">
-               <div class="long-line"></div>
-               <div class="middle-line-full"></div>
-            </div>
-            <div class="col-4 text-center">
-               <div class="container-box">
-                  <div class="main-box-right ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ia}}" style = "position:relative; right:82px;">
-                     <img src='{{asset("storage/employee_images/$ia->image")}}' alt="" class="img">
-                     <div class="description1">Internal Audit Department</div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <div class="coll-4 offset-4 text-center">
-            <div class="container-box">
-               <div class="main-box ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo}}" style = "position:relative; bottom:82px;">
-                  <img src='{{asset("storage/employee_images/$ceo->image")}}' alt="" class="img">
-                  <div class="description1">Chief Executive Officer</div>
-               </div>
-            </div>
-         </div>
-         <div class="custom-row">
-            <div class="col-3 text-center">
-               <div class="container-box">
-                  <div class="main-box-left cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rd}}" style = "position:relative; left:80px;">
-                     <img src='{{asset("storage/employee_images/$rd->image")}}' alt="" class="img">
-                     <div class="description">Risk Department</div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-6 text-center">
-               <div class="long-line"></div>
-               <div class="middle-line-full"></div>
-            </div>
-            <div class="col-3 text-center">
-               <div class="container-box">
-                  <div class="main-box-right bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$smd}}" style = "position:relative; right:80px;">
-                     <img src='{{asset("storage/employee_images/$smd->image")}}' alt="" class="img">
-                     <div class="description">Strategy Management Department</div>
-                  </div>
-               </div>
-            </div>
-         </div>
+
+   <div class="content text-center">
+      <div class="container">
+         <div class="level-1 rectangle description4">Board Directors</div>
+         <ol class="level-2-wrapper">
+   <li>
+      <div class="level-2-1 rectangle description">Board Governance, Recruitment & Renumeration Committee</div>
+   </li>
+   <li>
+      <div class="level-2 rectangle description">Board Audit & Compliance Committee</div>
+   </li>
+   <li>
+      <div class="level-2 rectangle description">Board Credit & Investment Committee</div>
+   </li>
+   <li>
+      <div class="level-2 rectangle description">Board Risk Managment Committee</div>
+   </li>
+</ol>
+
+
+
+
+
+
+<div class="level-1 rectangle description4">Chief Executive Officer</div>
+
+
+<ol class="level-2-wrapper1">
+   <li>
+      <div class="level-2-2 rectangle description">Internal Audit</div>
+   </li>
+</ol>
+<ol class="level-2-wrapper2">
+   <li>
+      <div class="level-2-2 rectangle description">Company Secretary</div>
+   </li>
+   <li>
+      <div class="level-2-2 rectangle description">Risk Management</div>
+   </li>
+   <li>
+      <div class="level-2-2 rectangle description">Strategy Department</div>
+   </li>
+</ol>
+
+
+
+
+
+
+
+
+      </div>
+     
+       
+         
          <div class="col-8 offset-2 text-center">
             <div class="middle-line-full"></div>
             <div class="long-line"></div>
@@ -172,7 +164,7 @@
                   <div class="custom-row">
                      <div class="col-4 px-1 text-center">
                         <div class="container-box">
-                        <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$fin}}" style = "position:relative; bottom:25px;">
+                           <div class="main-box cs" style = "position:relative; bottom:25px;">
                            <img src='{{asset("storage/employee_images/$fin->image")}}' alt="" class="img">
                               <div class="description">
                                  Finance
@@ -184,7 +176,7 @@
                         <div class="container-box">
                            <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$hra}}" style = "position:relative; bottom:25px;">
                               <img src='{{asset("storage/employee_images/$hra->image")}}' alt="" class="img">
-                              <div class="description">Human Resource Administration</div>
+                              <div class="description">HR Administration</div>
                            </div>
                         </div>
                      </div>
@@ -230,16 +222,17 @@
                </div>
             </div>
             <div class="col-4 text-center">
-               <div class="col-8 offset-2 position-relative">
+               <div class="col-7 offset-3 position-relative">
                   <div class="long-line"></div>
                   <div class="left-line"></div>
+                  <div class="middle-line-transparent"></div>
                   <div class="right-line"></div>
                </div>
                <div class="col-12">
                   <div class="custom-row">
                      <div class="col-4 offset-1 px-1 text-center">
                         <div class="container-box">
-                           <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$bro}}" style = "position:relative; top:6px; right:30px;">
+                           <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$bro}}" style = "position:relative; bottom:25px;">
                               <img src='{{asset("storage/employee_images/$bro->image")}}' alt="" class="img">
                               <div class="description">
                                  Branch Operations
@@ -247,10 +240,9 @@
                            </div>
                         </div>
                      </div>
-                     
                      <div class="col-4 offset-3 px-1 text-center">
                         <div class="container-box">
-                           <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rem}}" style = "position:relative; top:6px;">
+                           <div class="main-box bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rem}}" style = "position:relative; bottom:25px;">
                               <img src='{{asset("storage/employee_images/$rem->image")}}' alt="" class="img">
                               <div class="description">Remedial Management</div>
                            </div>
@@ -260,8 +252,19 @@
                </div>
             </div>
          </div>
-      </div>
    </div>
+</div>
+
+
+
+
+
+
+ 
+
+
+
+
    <div class="row">
    <!-- The Modal -->
    <div class="modal" id="myModal">
@@ -287,6 +290,250 @@
       </div>
    </div>
    <style>
+
+
+/* RESET STYLES & HELPER CLASSES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ol {
+  list-style: none;
+}
+
+
+.rectangle {
+  position: relative;
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+
+
+}
+.rectangle{
+    width: 100%;
+ 
+    text-align: centre;
+    border-bottom: 2px solid #26578C;
+      border-radius: 3px;
+      color:#26578C;
+      font-weight: 600;
+      font-size: 11px;
+     
+}
+/* LEVEL-1 STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.level-1 {
+  width: fit-content;
+  margin: 0 auto 40px;
+  background:#26578C ;
+  color: #fff;
+  font-weight:500;
+
+
+}
+.level-1-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+}
+
+
+
+
+.level-1::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 160px;
+  background:#26578C;
+}
+/* LEVEL-2 STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.level-2-wrapper1 .level-2-2{
+ width: fit-content;
+}
+.level-2-wrapper2 li {
+  position: relative;
+
+
+}
+.level-2-wrapper2{
+ position: absolute;
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  margin-left: 600px;
+  bottom: 230px;
+ 
+}
+.level-2-wrapper2::before {
+  content: "";
+  position: absolute;
+  top: -50px;
+  right: 15.5%;
+  width: 80.5%;
+  height: 2px;
+  background:#26578C;
+ 
+}
+.level-2-wrapper2 > li::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 50px;
+  background:#26578C;
+}
+
+
+.level-2-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+}
+.level-2-wrapper1 {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+}
+
+
+.level-2-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 15%;
+  width: 73%;
+  height: 2px;
+  background:#26578C;
+}
+.level-2-wrapper1::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  left: 15%;
+  width: 28.5%;
+  height: 1px;
+ 
+  border-top: 2px dotted #f00;
+  border-color: #26578C;
+}
+
+
+.level-2-wrapper::after {
+  display: none;
+  content: "";
+  position: absolute;
+  left: -20px;
+  bottom: -20px;
+  width: calc(100% + 20px);
+  height: 20px;
+  background: #26578C;
+}
+
+
+.level-2-wrapper li {
+  position: relative;
+}
+
+
+.level-2-wrapper > li::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 20px;
+  background:#26578C;
+}
+
+
+.level-2 {
+  width: 70%;
+  margin: 0 auto 40px;
+  background: #ffb4ac;
+}
+.level-2-1 {
+  width: 70%;
+  margin: 0 auto 40px;
+  background:#ffb4ac;
+}
+.level-2-2{
+  width: 70%;
+  margin: 0 auto 40px;
+  background:#dcd6f7;
+
+
+}
+/* middle small line of level 2
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.level-2::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 0px;
+  background: #26578C;
+}
+.level-2-1::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 150px;
+  background: #26578C;
+}
+.level-2-2::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 0px;
+  background: var(--black);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       .container-box{
       width: 100%;
       }
@@ -303,7 +550,7 @@
       }.coll-4 {
       flex: 0 0 auto;
       width: 33.33333333%;
-      height:1px; 
+      height:1px;
       }
       .modal-header h4{
       margin-bottom: 0rem;
@@ -319,13 +566,33 @@
       }
       .main-box{
       width:fit-content;
-      border-radius: 5px;
+      border-radius:5px;
       margin:auto;
       overflow: hidden;
       border-bottom: 2px solid #26578C;
       padding: 5px;
       cursor: pointer;
       }
+
+
+      .custom-row .border{
+      width:fit-content;
+      border-radius:5px;
+      margin:auto;
+      overflow: hidden;
+      color: #26578C;
+      padding: 10px;
+      font-size: 12px;
+      border-color: red;
+      }
+
+
+
+
+
+
+
+
       .cs{
       background: #e0ffcd;
       height:81px;
@@ -342,7 +609,7 @@
       width: 85px;
       }
       .ceo{
-      background: 	#FCE883;
+      background:#FCE883;
       height:80px;
       width: 85px;
       }
@@ -372,7 +639,11 @@
       }
       .description{
       color:#26578C;
-      font-size: 9px;
+      font-size: 10px;
+      }
+      .description4{
+      color:#ffff;
+      font-size: 11px;
       }
       .description2{
       font-size: 9px;
@@ -479,7 +750,7 @@
       top: 0;
       }
       .long-line{
-      margin-top: 0;
+      margin-top: 0px;
       width: 100%;
       height: 2px;
       background: #26578C;
@@ -500,7 +771,7 @@
       font-size: 15px;
       margin: 10px;
       text-align: center;
-      font-weight: 700;
+      font-weight: 500;
       }
       .content {
       padding: 0 18px;
@@ -530,6 +801,10 @@
       padding: .75rem;
       text-decoration: none;
       transition: all 235ms ease-in-out;
+     
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
       }
       .button-55:hover {
       box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
@@ -540,39 +815,38 @@
       }
       div.gallery {
       margin-left: 30px;
-      float: left; 
+      float: left;
       width: 190px;
-      
+     
       }
       div.gallery2{
       width: 190px;
       margin: auto;
       }
       div.gallery img {
-      width: 100px;
-      height:120px;
+      width: 50%;
+      height:auto;
       border-radius: 50%;
       }
       div.gallery2 img {
-      width: 100px;
-      height:120px;
+      width: 50%;
+      height: auto;
       border-radius: 50%;
       }
       div.desc {
       padding: 15px;
       text-align: center;
       }
-      @media screen and (max-width: 48rem) {
-  .content {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
- 
-    div.gallery{
-      flex: 0 1 calc(50% - 2em);
+
+
+      @media screen and (max-width: 40rem) {
+         div.gallery2{
+      width: 190px;
+      margin: auto;
       }
-}
+      }
+
+
    </style>
    <script>
       $(document).ready(function () {
@@ -586,11 +860,11 @@
           $('.content1').append('<h5>Email: '+emp.contact.email+'</h5>');
           })
       })
-      
-      
+     
+     
       var coll = document.getElementsByClassName("collapsible");
       var i;
-      
+     
       for (i = 0; i < coll.length; i++) {
       coll[i].addEventListener("click", function() {
         this.classList.toggle("active");
@@ -602,5 +876,22 @@
         }
       });
       }
+
+
+
+
+
+
+
+
+
+
+     
    </script>
 </x-frontend-layout>
+ 
+
+
+
+
+
