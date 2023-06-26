@@ -57,9 +57,12 @@
          </div>
       </div>
    </div>
-   <div class="col-12 text-center">
-      <button type="button" class="collapsible button-55">Corporate Office</button>
+   <!-- NEW DESIGN -->
 
+
+   
+   <div class="col-12 text-center">
+   <button type="button" class="collapsible button-55">Corporate Office</button>
    <div class="content text-center">
       <div class="container">
          <div class="level-1 rectangle description4">Board Directors</div>
@@ -83,25 +86,6 @@
 
 
 
-<div class="level-1 rectangle description4">Chief Executive Officer</div>
-
-
-<ol class="level-2-wrapper1">
-   <li>
-      <div class="level-2-2 rectangle description">Internal Audit</div>
-   </li>
-</ol>
-<ol class="level-2-wrapper2">
-   <li>
-      <div class="level-2-2 rectangle description">Company Secretary</div>
-   </li>
-   <li>
-      <div class="level-2-2 rectangle description">Risk Management</div>
-   </li>
-   <li>
-      <div class="level-2-2 rectangle description">Strategy Department</div>
-   </li>
-</ol>
 
 
 
@@ -110,9 +94,48 @@
 
 
 
-      </div>
+
+
+
+
      
-       
+<div class="row">
+   <div class="column">
+      <ol class="level-2-wrapper1">
+         <li>
+            <div class="level-2-2 rectangle description">Internal Audit</div>
+         </li>
+      </ol>
+   </div>
+   <div class="column1">
+      <div class="col-3 level-1 rectangle description4">Chief Executive Officer</div>
+   </div>
+ 
+
+
+   <div class="column2">
+      <ol class="level-2-wrapper2">
+         <li>
+            <div class="middle-line1" style = "position:relative; bottom:0px; height:20px; top:19px;"></div>
+            <div class="level-2-2 rectangle description">Company Secretary</div>
+         </li>
+         <li>
+            <div class="middle-line1" style = "position:relative; bottom:0px; height:20px; top:19px;"></div>
+            <div class="level-2-2 rectangle description">Risk Management</div>
+         </li>
+         <li>
+            <div class="middle-line1" style = "position:relative; top:19px; height:20px; left: 1px;"></div>
+            <div class="level-2-2 rectangle description">Strategy Department</div>
+         </li>
+      </ol>
+   </div>
+</div>
+
+
+
+
+
+
          
          <div class="col-8 offset-2 text-center">
             <div class="middle-line-full"></div>
@@ -165,7 +188,7 @@
                      <div class="col-4 px-1 text-center">
                         <div class="container-box">
                            <div class="main-box cs" style = "position:relative; bottom:25px;">
-                           <img src='{{asset("storage/employee_images/$fin->image")}}' alt="" class="img">
+                              <img src="{{asset('images/default1.png')}}" alt="" class="img">
                               <div class="description">
                                  Finance
                               </div>
@@ -292,15 +315,10 @@
    <style>
 
 
-/* RESET STYLES & HELPER CLASSES
+/* NEW CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
 ol {
   list-style: none;
 }
@@ -335,6 +353,8 @@ ol {
 
 
 }
+
+
 .level-1-wrapper {
   position: relative;
   display: grid;
@@ -356,42 +376,38 @@ ol {
 }
 /* LEVEL-2 STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
 .level-2-wrapper1 .level-2-2{
  width: fit-content;
+
+
 }
-.level-2-wrapper2 li {
+.level-2-wrapper1 {
   position: relative;
-
-
-}
-.level-2-wrapper2{
- position: absolute;
   display: grid;
-  grid-template-columns: repeat(3, 2fr);
-  margin-left: 600px;
-  bottom: 230px;
- 
+  grid-template-columns: repeat(2, 1fr);
+  top: 0%;
+  left:5%;
 }
-.level-2-wrapper2::before {
+
+
+.level-2-wrapper1::before {
   content: "";
   position: absolute;
-  top: -50px;
-  right: 15.5%;
-  width: 80.5%;
-  height: 2px;
-  background:#26578C;
- 
+  top: 25%;
+  left: 36%;
+  width: 75%;
+  height: 1px;
+  border-top: 2px dotted #f00;
+  border-color: #26578C;
 }
-.level-2-wrapper2 > li::before {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  height: 50px;
-  background:#26578C;
-}
+
+
 
 
 .level-2-wrapper {
@@ -399,11 +415,8 @@ ol {
   display: grid;
   grid-template-columns: repeat(4, 2fr);
 }
-.level-2-wrapper1 {
-  position: relative;
-  display: grid;
-  grid-template-columns: repeat(4, 2fr);
-}
+
+
 
 
 .level-2-wrapper::before {
@@ -415,17 +428,8 @@ ol {
   height: 2px;
   background:#26578C;
 }
-.level-2-wrapper1::before {
-  content: "";
-  position: absolute;
-  top: -60px;
-  left: 15%;
-  width: 28.5%;
-  height: 1px;
- 
-  border-top: 2px dotted #f00;
-  border-color: #26578C;
-}
+
+
 
 
 .level-2-wrapper::after {
@@ -435,7 +439,7 @@ ol {
   left: -20px;
   bottom: -20px;
   width: calc(100% + 20px);
-  height: 20px;
+  height: 25px;
   background: #26578C;
 }
 
@@ -468,7 +472,7 @@ ol {
   background:#ffb4ac;
 }
 .level-2-2{
-  width: 70%;
+ 
   margin: 0 auto 40px;
   background:#dcd6f7;
 
@@ -493,7 +497,7 @@ ol {
   left: 50%;
   transform: translateX(-50%);
   width: 2px;
-  height: 150px;
+  height: 100px;
   background: #26578C;
 }
 .level-2-2::before {
@@ -502,12 +506,138 @@ ol {
   top: 100%;
   left: 50%;
   transform: translateX(-50%);
-  width: 2px;
+  width: 7px;
   height: 0px;
   background: var(--black);
 }
 
 
+
+
+@media screen and (max-width: 700px) {    
+  .rectangle {
+    padding: 20px 10px;
+  }
+ 
+  .level-1,
+  .level-2
+  .level-2-1
+  .level-2-2 {
+    width: 100%;
+  }
+ 
+  .level-1 {
+    margin-bottom: 20px;
+  }
+ 
+  .level-1::before,
+  .level-2-wrapper > li::before {
+    display: none;
+  }
+  .level-1::before,
+  .level-2-wrapper1 > li::before {
+    display: none;
+  }
+  .level-1::before,
+  .level-2-wrapper2 > li::before {
+    display: none;
+  }
+  .level-2-wrapper,
+  .level-2-wrapper::after,
+  .level-2::after {
+    display: block;
+  }
+ 
+
+
+  .level-2-wrapper1,
+  .level-2-wrapper1::after,
+  .level-2::after {
+    display: block;
+  }
+ 
+  .level-2-wrapper1,
+  .level-2-wrapper1::after,
+  .level-2-1::after {
+    display: block;
+  }
+
+
+
+
+  .level-2-wrapper2,
+  .level-2-wrapper2::after,
+  .level-2::after {
+    display: block;
+  }
+ 
+  .level-2-wrapper1,
+  .level-2-wrapper1::after,
+  .level-2-1::after {
+    display: block;
+  }
+  .level-2-wrapper2,
+  .level-2-wrapper2::after,
+  .level-2-2::after {
+    display: block;
+  }
+
+
+
+
+  .level-2-wrapper {
+    width: 90%;
+    margin-left: 10%;
+  }
+  .level-2-wrapper1 {
+    width: 90%;
+    margin-left: 10%;
+  }
+  .level-2-wrapper2 {
+    width: 90%;
+    margin-left: 10%;
+  }
+ 
+ 
+  .level-2-wrapper::before {
+    left: -20px;
+    width: 2px;
+    height: calc(100% + 40px);
+  }
+   
+  .level-2-wrapper1::before {
+    left: -20px;
+    width: 2px;
+    height: calc(100% + 40px);
+  }
+   
+  .level-2-wrapper2::before {
+    left: -20px;
+    width: 2px;
+    height: calc(100% + 40px);
+  }
+ 
+  .level-2-wrapper > li:not(:first-child) {
+    margin-top: 50px;
+  }
+
+
+  .level-2-wrapper1 > li:not(:first-child) {
+    margin-top: 50px;
+  }
+  .level-2-wrapper2 > li:not(:first-child) {
+    margin-top: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+ 
 
 
 
@@ -847,6 +977,103 @@ ol {
       }
 
 
+
+
+
+
+
+
+      * {
+  box-sizing: border-box;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 42.5%;
+  padding: 10px;
+  bottom: 100px;
+  height: 200px;
+  display: fit-content;
+ /* Should be removed. Only for demonstration */
+}
+.column1 {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  bottom: 100px;
+  height: 200px;
+  display: fit-content;
+ /* Should be removed. Only for demonstration */
+}
+.column2 {
+  float: left;
+  width: 42.5%;
+  padding: 10px;
+  bottom: 100px;
+  height: 200px;
+  display: fit-content;
+ /* Should be removed. Only for demonstration */
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+.level-2-wrapper2 {
+  position: relative;
+  grid-template-columns: repeat(3, 2fr);
+  top: 0%;
+  left:0%;
+  display: grid;
+ 
+
+
+}
+
+
+.level-2-wrapper2::before {
+  content: "";
+  position: absolute;
+  top: 18%;
+  right: 15%;
+  width: 90%;
+  height: 1px;
+  border-top: 2px solid #f00;
+  border-color: #26578C;
+}
+
+
+.level-2-wrapper2 .level-2-2{
+ width: fit-content;
+top: 20%;
+
+
+}
+
+
+
+
+
+
+
+
+
+
    </style>
    <script>
       $(document).ready(function () {
@@ -890,7 +1117,6 @@ ol {
    </script>
 </x-frontend-layout>
  
-
 
 
 
