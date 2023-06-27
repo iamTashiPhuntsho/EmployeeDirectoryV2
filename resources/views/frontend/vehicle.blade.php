@@ -10,7 +10,7 @@
          </div>
       </div>
    </div>
-   <div class="col-12 text-center">
+   <div class="container col-12 text-center">
       <button type="button" class="collapsible button-55">Board of Directors</button>
       <div class="content text-center">
          <div class="gallery2">
@@ -61,7 +61,7 @@
 
 
    
-   <div class="col-12 text-center">
+   <div class="container col-12 text-center">
    <button type="button" class="collapsible button-55">Corporate Office</button>
    <div class="content text-center">
       <div class="container">
