@@ -1,11 +1,15 @@
+
+
+
+
 <x-frontend-layout>
    <x-sidebar />
    <div class="mb-3">
       <div class="col-12 text-center">
          <h2 class="no-case mb-3">Organogram</h2>
          <div class="mb-3">
-            <p class="u-large-text u-text u-text-variant home"> 
-               Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee. 
+            <p class="u-large-text u-text u-text-variant home">
+               Organizational Chart is the visual representation of the banks structure. This chart clearly outlines the hierarchy within the bank and indicates the relationships shared amongst each individual employee.
             </p>
          </div>
       </div>
@@ -60,26 +64,88 @@
    <!-- NEW DESIGN -->
 
 
+
+
+
+
+
+
    
    <div class="col-12 text-center">
    <button type="button" class="collapsible button-55">Corporate Office</button>
+   
    <div class="content text-center">
+     
       <div class="container">
-         <div class="level-1 rectangle description4">Board Directors</div>
+         <div class="level-1 rectangle1 description4" style="background-color: #26578C; font-weight:200;">Board Directors</div>
          <ol class="level-2-wrapper">
    <li>
-      <div class="level-2-1 rectangle description">Board Governance, Recruitment & Renumeration Committee</div>
+      <div class="level-2-1 rectangle1 description">Board Governance, Recruitment & Renumeration Committee</div>
    </li>
    <li>
-      <div class="level-2 rectangle description">Board Audit & Compliance Committee</div>
+      <div class="level-2 rectangle1 description">Board Audit & Compliance Committee</div>
    </li>
    <li>
-      <div class="level-2 rectangle description">Board Credit & Investment Committee</div>
+      <div class="level-2 rectangle1 description">Board Credit & Investment Committee</div>
    </li>
    <li>
-      <div class="level-2 rectangle description">Board Risk Managment Committee</div>
+      <div class="level-2 rectangle1 description">Board Risk Managment Committee</div>
    </li>
 </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -103,33 +169,67 @@
    <div class="column">
       <ol class="level-2-wrapper1">
          <li>
-            <div class="level-2-2 rectangle description">Internal Audit</div>
+         <div class="main-box ia" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ia}}" style = "position:relative; bottom:7px;">
+                     <img src='{{asset("storage/employee_images/$ia->image")}}' alt="" class="img">
+                     <div class="description">Internal Audit</div>
+                  </div>
          </li>
       </ol>
    </div>
    <div class="column1">
-      <div class="col-3 level-1 rectangle description4">Chief Executive Officer</div>
+      <div class="col-3 level-1  rectangle">
+      <div class="main-box ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo}}" style = "position:relative; bottom:20px; font-weight:200;">
+                     <img src='{{asset("storage/employee_images/$ceo->image")}}' alt="" class="img">
+                     <div class="description4">Chief Executive Officer</div>
+                  </div>
+      </div>
    </div>
- 
 
 
    <div class="column2">
       <ol class="level-2-wrapper2">
          <li>
-            <div class="middle-line1" style = "position:relative; bottom:0px; height:20px; top:19px;"></div>
-            <div class="level-2-2 rectangle description">Company Secretary</div>
+            <div class="middle-line1" style = "position:relative; bottom:0px; height:60px; top:19px;"></div>
+            <div class="main-box ia" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cs}}" style = "position:relative; bottom:7px;">
+                     <img src='{{asset("storage/employee_images/$cs->image")}}' alt="" class="img">
+                     <div class="description">Company Secretary</div>
+                  </div>
          </li>
          <li>
-            <div class="middle-line1" style = "position:relative; bottom:0px; height:20px; top:19px;"></div>
-            <div class="level-2-2 rectangle description">Risk Management</div>
+            <div class="middle-line1" style = "position:relative; bottom:0px;height:60px; top:19px;"></div>
+            <div class="main-box ia" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rd}}" style = "position:relative; bottom:7px;">
+                     <img src='{{asset("storage/employee_images/$rd->image")}}' alt="" class="img">
+                     <div class="description">Risk Management</div>
+                  </div>
          </li>
          <li>
-            <div class="middle-line1" style = "position:relative; top:19px; height:20px; left: 1px;"></div>
-            <div class="level-2-2 rectangle description">Strategy Department</div>
+            <div class="middle-line1" style = "position:relative; height:60px; top:19px; left: 1px;"></div>
+            <div class="main-box ia" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$smd}}" style = "position:relative; bottom:7px;">
+                     <img src='{{asset("storage/employee_images/$smd->image")}}' alt="" class="img">
+                     <div class="description">Strategy Department</div>
+                  </div>
          </li>
       </ol>
    </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -283,7 +383,37 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -315,8 +445,20 @@
    <style>
 
 
+
+
+
+
+
+
 /* NEW CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+
+
 
 
 ol {
@@ -324,21 +466,38 @@ ol {
 }
 
 
-.rectangle {
+
+
+
+
+.rectangle1 {
   position: relative;
   padding: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
-
-
 }
-.rectangle{
+.rectangle {
+  position: relative;
+ 
+}
+.rectangle1{
     width: 100%;
  
     text-align: centre;
     border-bottom: 2px solid #26578C;
       border-radius: 3px;
       color:#26578C;
-      font-weight: 600;
+
+
+      font-size: 11px;
+     
+}
+.rectangle{
+    width: 100%;
+ 
+    text-align: centre;
+      border-radius: 3px;
+   
+      color: white;
       font-size: 11px;
      
 }
@@ -347,12 +506,13 @@ ol {
 .level-1 {
   width: fit-content;
   margin: 0 auto 40px;
-  background:#26578C ;
-  color: #fff;
-  font-weight:500;
+
+
 
 
 }
+
+
 
 
 .level-1-wrapper {
@@ -364,24 +524,20 @@ ol {
 
 
 
+
+
 .level-1::before {
   content: "";
   position: absolute;
-  top: 100%;
+  top: 50%;
   left: 50%;
   transform: translateX(-50%);
   width: 2px;
-  height: 160px;
+  height: 200px;
   background:#26578C;
 }
 /* LEVEL-2 STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-
-
-
-
-
 .level-2-wrapper1 .level-2-2{
  width: fit-content;
 
@@ -391,7 +547,7 @@ ol {
   position: relative;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  top: 0%;
+  bottom: 8%;
   left:5%;
 }
 
@@ -399,7 +555,7 @@ ol {
 .level-2-wrapper1::before {
   content: "";
   position: absolute;
-  top: 25%;
+  top: 40%;
   left: 36%;
   width: 75%;
   height: 1px;
@@ -410,11 +566,35 @@ ol {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 .level-2-wrapper {
   position: relative;
   display: grid;
   grid-template-columns: repeat(4, 2fr);
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -432,6 +612,18 @@ ol {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 .level-2-wrapper::after {
   display: none;
   content: "";
@@ -444,9 +636,21 @@ ol {
 }
 
 
+
+
+
+
+
+
 .level-2-wrapper li {
   position: relative;
 }
+
+
+
+
+
+
 
 
 .level-2-wrapper > li::before {
@@ -459,6 +663,12 @@ ol {
   height: 20px;
   background:#26578C;
 }
+
+
+
+
+
+
 
 
 .level-2 {
@@ -475,6 +685,12 @@ ol {
  
   margin: 0 auto 40px;
   background:#dcd6f7;
+
+
+
+
+
+
 
 
 }
@@ -510,6 +726,18 @@ ol {
   height: 0px;
   background: var(--black);
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -550,6 +778,12 @@ ol {
  
 
 
+
+
+
+
+
+
   .level-2-wrapper1,
   .level-2-wrapper1::after,
   .level-2::after {
@@ -561,6 +795,18 @@ ol {
   .level-2-1::after {
     display: block;
   }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -581,6 +827,8 @@ ol {
   .level-2-2::after {
     display: block;
   }
+
+
 
 
 
@@ -622,6 +870,12 @@ ol {
   }
 
 
+
+
+
+
+
+
   .level-2-wrapper1 > li:not(:first-child) {
     margin-top: 50px;
   }
@@ -637,7 +891,109 @@ ol {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -705,6 +1061,12 @@ ol {
       }
 
 
+
+
+
+
+
+
       .custom-row .border{
       width:fit-content;
       border-radius:5px;
@@ -723,10 +1085,45 @@ ol {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       .cs{
       background: #e0ffcd;
       height:81px;
       width: 85px;
+      }
+      .ia{
+      background: #dcd6f7;
+      height:81px;
+      width: 85px;
+      }
+      .ceo{
+      background:#26578C;
+      height:81px;
+      width: 90px;
+      color: white;
       }
       .ce{
       background:  #d5eeff;
@@ -738,11 +1135,7 @@ ol {
       height:80px;
       width: 85px;
       }
-      .ceo{
-      background:#FCE883;
-      height:80px;
-      width: 85px;
-      }
+   
       .main-box-left{
       border-bottom-right-radius: 7px;
       height:80px;
@@ -771,12 +1164,16 @@ ol {
       color:#26578C;
       font-size: 10px;
       }
+      .description5{
+      color:#dcd6f7;
+      font-size: 10px;
+      }
       .description4{
       color:#ffff;
-      font-size: 11px;
+      font-size: 10px;
       }
       .description2{
-      font-size: 9px;
+      font-size: 10px;
       color:#26578C;
       }
       .description3{
@@ -969,6 +1366,12 @@ ol {
       }
 
 
+
+
+
+
+
+
       @media screen and (max-width: 40rem) {
          div.gallery2{
       width: 190px;
@@ -983,9 +1386,39 @@ ol {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       * {
   box-sizing: border-box;
 }
+
+
+
+
+
+
 
 
 /* Create three equal columns that floats next to each other */
@@ -1018,6 +1451,12 @@ ol {
 }
 
 
+
+
+
+
+
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -1034,28 +1473,61 @@ ol {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .level-2-wrapper2 {
   position: relative;
   grid-template-columns: repeat(3, 2fr);
   top: 0%;
   left:0%;
   display: grid;
- 
 
 
 }
-
-
 .level-2-wrapper2::before {
   content: "";
   position: absolute;
-  top: 18%;
+  top: 13%;
   right: 15%;
-  width: 90%;
+  width: 96.3%;
   height: 1px;
   border-top: 2px solid #f00;
   border-color: #26578C;
 }
+
+
+
+
+
+
 
 
 .level-2-wrapper2 .level-2-2{
@@ -1063,7 +1535,43 @@ ol {
 top: 20%;
 
 
+
+
+
+
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1113,6 +1621,47 @@ top: 20%;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      
    </script>
 </x-frontend-layout>
+
+
+
+
+
+
+
+
+
+
+
