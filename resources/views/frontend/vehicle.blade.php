@@ -1,7 +1,10 @@
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 <x-frontend-layout>
    <x-sidebar />
    <div class="mb-3">
@@ -66,16 +69,23 @@
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
    
    <div class="col-12 text-center">
    <button type="button" class="collapsible button-55">Corporate Office</button>
    
    <div class="content text-center">
+<<<<<<< HEAD
      
+=======
+      
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
       <div class="container">
          <div class="level-1 rectangle1 description4" style="background-color: #26578C; font-weight:200;">Board Directors</div>
          <ol class="level-2-wrapper">
@@ -128,6 +138,7 @@
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -164,6 +175,8 @@
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
      
 <div class="row">
    <div class="column">
@@ -184,7 +197,10 @@
                   </div>
       </div>
    </div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 
    <div class="column2">
       <ol class="level-2-wrapper2">
@@ -224,6 +240,7 @@
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -236,6 +253,8 @@
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
          
          <div class="col-8 offset-2 text-center">
             <div class="middle-line-full"></div>
@@ -389,6 +408,7 @@
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -401,6 +421,8 @@
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
  
 
 
@@ -410,6 +432,7 @@
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -418,6 +441,8 @@
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
    <div class="row">
    <!-- The Modal -->
    <div class="modal" id="myModal">
@@ -447,29 +472,38 @@
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 /* NEW CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 ol {
   list-style: none;
 }
 
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 .rectangle1 {
   position: relative;
   padding: 10px;
@@ -487,7 +521,10 @@ ol {
       border-radius: 3px;
       color:#26578C;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
       font-size: 11px;
      
 }
@@ -506,8 +543,11 @@ ol {
 .level-1 {
   width: fit-content;
   margin: 0 auto 40px;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 
 
 }
@@ -523,9 +563,12 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 .level-1::before {
   content: "";
   position: absolute;
@@ -541,7 +584,6 @@ ol {
 .level-2-wrapper1 .level-2-2{
  width: fit-content;
 
-
 }
 .level-2-wrapper1 {
   position: relative;
@@ -550,7 +592,6 @@ ol {
   bottom: 8%;
   left:5%;
 }
-
 
 .level-2-wrapper1::before {
   content: "";
@@ -570,6 +611,7 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -578,6 +620,8 @@ ol {
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 .level-2-wrapper {
   position: relative;
   display: grid;
@@ -591,6 +635,7 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -599,6 +644,8 @@ ol {
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 .level-2-wrapper::before {
   content: "";
   position: absolute;
@@ -616,6 +663,7 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -624,6 +672,8 @@ ol {
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 .level-2-wrapper::after {
   display: none;
   content: "";
@@ -638,10 +688,13 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 .level-2-wrapper li {
   position: relative;
 }
@@ -649,10 +702,13 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 .level-2-wrapper > li::before {
   content: "";
   position: absolute;
@@ -667,10 +723,13 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 .level-2 {
   width: 70%;
   margin: 0 auto 40px;
@@ -689,10 +748,13 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 }
 /* middle small line of level 2
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -734,6 +796,7 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -742,6 +805,8 @@ ol {
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 @media screen and (max-width: 700px) {    
   .rectangle {
     padding: 20px 10px;
@@ -780,10 +845,13 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
   .level-2-wrapper1,
   .level-2-wrapper1::after,
   .level-2::after {
@@ -803,6 +871,7 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -811,6 +880,8 @@ ol {
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
   .level-2-wrapper2,
   .level-2-wrapper2::after,
   .level-2::after {
@@ -830,9 +901,12 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
   .level-2-wrapper {
     width: 90%;
     margin-left: 10%;
@@ -872,10 +946,13 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
   .level-2-wrapper1 > li:not(:first-child) {
     margin-top: 50px;
   }
@@ -899,6 +976,7 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -915,6 +993,8 @@ ol {
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
  
 
 
@@ -968,6 +1048,7 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -1020,6 +1101,8 @@ ol {
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
       .container-box{
       width: 100%;
       }
@@ -1063,10 +1146,13 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
       .custom-row .border{
       width:fit-content;
       border-radius:5px;
@@ -1093,6 +1179,7 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -1109,6 +1196,8 @@ ol {
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
       .cs{
       background: #e0ffcd;
       height:81px;
@@ -1135,7 +1224,11 @@ ol {
       height:80px;
       width: 85px;
       }
+<<<<<<< HEAD
    
+=======
+    
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
       .main-box-left{
       border-bottom-right-radius: 7px;
       height:80px;
@@ -1368,10 +1461,13 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
       @media screen and (max-width: 40rem) {
          div.gallery2{
       width: 190px;
@@ -1394,6 +1490,7 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -1410,6 +1507,8 @@ ol {
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
       * {
   box-sizing: border-box;
 }
@@ -1417,10 +1516,13 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 /* Create three equal columns that floats next to each other */
 .column {
   float: left;
@@ -1453,10 +1555,13 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -1483,6 +1588,7 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -1503,13 +1609,18 @@ ol {
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 .level-2-wrapper2 {
   position: relative;
   grid-template-columns: repeat(3, 2fr);
   top: 0%;
   left:0%;
   display: grid;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 
 }
 .level-2-wrapper2::before {
@@ -1526,10 +1637,13 @@ ol {
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 .level-2-wrapper2 .level-2-2{
  width: fit-content;
 top: 20%;
@@ -1537,10 +1651,13 @@ top: 20%;
 
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
 }
 
 
@@ -1562,6 +1679,7 @@ top: 20%;
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -1582,6 +1700,8 @@ top: 20%;
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
    </style>
    <script>
       $(document).ready(function () {
@@ -1631,6 +1751,7 @@ top: 20%;
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -1651,6 +1772,8 @@ top: 20%;
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
      
    </script>
 </x-frontend-layout>
@@ -1658,6 +1781,7 @@ top: 20%;
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -1665,3 +1789,5 @@ top: 20%;
 
 
 
+=======
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b

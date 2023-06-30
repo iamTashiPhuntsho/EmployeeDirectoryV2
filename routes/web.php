@@ -22,7 +22,9 @@ require __DIR__.'/backend.php';
 
 
 
-// Route::get('/home', 'HomeControl@geler@index')->name('home');
+Route::get('/org', function () {
+    return view('org');
+});
 Route::get('/', [DirectoryController::class, 'getDirectorySearch']);
 Route::get('/BNBLEmployeeDirectory', [DirectoryController::class, 'getDirectorySearch'])->name('get_search_path');
 Route::get('/BNBLEmployeeDirectory/result', [DirectoryController::class, 'getResult'])->name('result_path');

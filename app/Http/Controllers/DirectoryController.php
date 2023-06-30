@@ -68,11 +68,19 @@ class DirectoryController extends Controller
 
         
         $param_name = $request->employeename;
+<<<<<<< HEAD
+        $param_flexcube = $request->flexcube;
+=======
         $param_flex = $request->flexcube;
+>>>>>>> 9eaf475f53f5e1d6dec00164897c7812963ab661
         $param_location = $request->location;
         $param_department = $request->department;
         $param_vehicle_number = $request->vehicle_number;
 
+<<<<<<< HEAD
+        return view('frontend.result',compact('records','param_name', 'param_flexcube', 'param_department','param_location','param_vehicle_number'));
+=======
         return view('frontend.result',compact('records','param_name', 'param_flex', 'param_department','param_location','param_vehicle_number'));
+>>>>>>> 9eaf475f53f5e1d6dec00164897c7812963ab661
     }
 }

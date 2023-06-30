@@ -21,6 +21,9 @@
         <!-- Scripts -->
         
         {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
+
+       
+      
     </head>
     <body id="body-pd" class="font-sans antialiased">
         @if(session('status') == '1')
@@ -38,5 +41,6 @@
         </div>
         <script src="{{ asset('js/bootstrap.min.js') }}"></script>
         <script src="{{ asset('js/custom.js') }}"></script>
+      
     </body>
 </html>

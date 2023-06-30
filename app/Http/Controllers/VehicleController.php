@@ -1,6 +1,8 @@
 <?php
 
+
 namespace App\Http\Controllers;
+
 
 use Illuminate\Http\Request;
 use App\Models\Employee;
@@ -8,6 +10,7 @@ use App\Models\Department;
 use App\Models\Location;
 use App\Models\Contact;
 use Illuminate\Support\Facades\Crypt;
+
 
 class VehicleController extends Controller
 {
@@ -25,8 +28,16 @@ class VehicleController extends Controller
         $dtd = Employee::with('contact')->where('employee_id','2003072507')->first();
         $cse = Employee::with('contact')->where('employee_id','2023030109')->first();
         $ito = Employee::with('contact')->where('employee_id','2005020103')->first();
+<<<<<<< HEAD
         $bro = Employee::with('contact')->where('employee_id','1996040101')->first();
         $rem = Employee::with('contact')->where('employee_id','1996121104')->first();
     	return view('frontend.vehicle',compact('ceo','ia','rd','smd','cos','cs','cex','bo','hra','dtd','cse','ito','bro','rem','fin','cse'));
+=======
+        $bro = Employee::with('contact')->where('employee_id','2003100112')->first();
+        $rem = Employee::with('contact')->where('employee_id','2023060176')->first();
+
+        return view('frontend.vehicle',compact('ceo','ia','rd','smd','cos','cs','cex','bo','hra','dtd','cse','ito','bro','rem','fin'));
+>>>>>>> 6cf7e4e71ab87d819709eb54c43969d9b0b7d11b
     }
 }
+
