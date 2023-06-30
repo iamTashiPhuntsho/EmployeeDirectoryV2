@@ -117,24 +117,24 @@ width: 100%;
 margin: 30px auto;
 position: relative;
 }
-
+ 
 @media screen and (max-width: 40em) {
   .wrapper {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-
+ 
     .counter {
         flex: 0 1 calc(50% - 1em);
     }
 }
-
+ 
 .counter {
 background-color: #ffffff;
 padding: 20px 0;
 border-radius: 5px;
-
+ 
 }
 .count-title {
 font-size: 1rem;
@@ -343,7 +343,8 @@ text-align: center;
 padding-top: 0;
 }
 .card-emp .emp-img{
-  width: 50%;
+  height: 130px;
+  width: 130px;
   border-radius: 50%;
   margin: 0 auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -615,16 +616,20 @@ padding: .375rem .75rem;
 .btn-group button{
   font-size: 1rem;
 }
- 
- 
- 
- 
+/* @media (max-width: 768px) {
+  /* For bigger screens */
 
+  /* .container { */
+    /* flex-direction: column; */
+    /* align-items: center;
+    min-width: 1000px; 
+  }
+}
+@media (max-width: 767px) {
+  /* For smaller screens */
 
-
-
-
-
-
-
-
+  /* .container {
+    flex-direction: column; */
+    /* align-items: center; */
+  /* }
+} */

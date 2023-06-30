@@ -49,23 +49,30 @@ class DirectoryController extends Controller
         $l_records = Contact::when($location, function ($query, $location) { 
             $query->where('location_id', $location);
         })
+        ->when($flexcube, function ($query, $flexcube) {
+            $query->where('flexcube', 'like',"%$flexcube%");
+        })
         ->pluck('employee_id');
         $records = Employee::when($name, function ($query, $name) {
             $query->where('name','like', "%$name%");
         })
+ 
         ->when($department, function ($query, $department) {
             $query->where('department_id', "$department");
         })
         ->when($vehicle_no, function ($query, $vehicle_no) {
             $query->where('vehicle_no', 'like',"%$vehicle_no%");
         })
+     
         ->whereIn('id', $l_records,)->where('status','active')->get();
+
         
         $param_name = $request->employeename;
+        $param_flexcube = $request->flexcube;
         $param_location = $request->location;
         $param_department = $request->department;
         $param_vehicle_number = $request->vehicle_number;
 
-        return view('frontend.result',compact('records','param_name','param_department','param_location','param_vehicle_number'));
+        return view('frontend.result',compact('records','param_name', 'param_flexcube', 'param_department','param_location','param_vehicle_number'));
     }
 }

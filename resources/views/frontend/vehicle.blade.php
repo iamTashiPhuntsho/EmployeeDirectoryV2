@@ -14,42 +14,42 @@
       <button type="button" class="collapsible button-55">Board of Directors</button>
       <div class="content text-center">
          <div class="gallery2">
-            <img src="../images/KT.png" alt="Cinque Terre" width="600" height="400">
+            <img src="../images/Chairman.jpeg" alt="Cinque Terre" width="600" height="400">
             <div class="desc">
                <h5 class="bnb-blue"  style="font-size: 12px;">Dasho Karma Tshiteem</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Chairperson</h6>
             </div>
          </div>
          <div class="gallery">
-            <img src="../images/kc.png" alt="Forest" width="600" height="400">
+            <img src="../images/sonam-tongay.jpeg" alt="Forest" width="600" height="400">
             <div class="desc">
-               <h5 class="bnb-blue"  style="font-size: 12px;">Karma Choden</h5>
+               <h5 class="bnb-blue"  style="font-size: 12px;">Sonam Tobgay</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
          <div class="gallery">
-            <img src="../images/kw.png" alt="Northern Lights" width="600" height="400">
+            <img src="../images/Karma-Wangdi.jpeg" alt="Northern Lights" width="600" height="400">
             <div class="desc">
                <h5 class="bnb-blue"  style="font-size: 12px;">Karma Wangdi</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
          <div class="gallery">
-            <img src="../images/pd.png" alt="Mountains" width="600" height="400">
+            <img src="../images/passd.jpeg" alt="Mountains" width="600" height="400">
             <div class="desc">
                <h5 class="bnb-blue"  style="font-size: 12px;">Passang Dorji</h5>
                <h6 class="bnb-blue"  style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
          <div class="gallery">
-            <img src="../images/ty.png" alt="Mountains" width="600" height="400">
+            <img src="../images/Namgay-Tenzin.jpeg" alt="Mountains" width="600" height="400">
             <div class="desc">
-               <h5 class="bnb-blue"  style="font-size: 12px;">Dasho Tenzing Yonten</h5>
+               <h5 class="bnb-blue"  style="font-size: 12px;">Namgay Tenzin</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
          <div class="gallery">
-            <img src="../images/ABD.png" alt="Mountains" width="600" height="400">
+            <img src="../images/dago-beda.jpg" alt="Mountains" width="600" height="400">
             <div class="desc">
                <h5 class="bnb-blue" style="font-size: 12px;">Aum Dago Beda</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
@@ -57,71 +57,129 @@
          </div>
       </div>
    </div>
+   <!-- NEW DESIGN -->
+
+
+
+
+   
    <div class="col-12 text-center">
-      <button type="button" class="collapsible button-55">Corporate Office</button>
-      <div class="content text-center">
-         <div class="custom-row">
-            <div class="col-12 text-center">
-               <div class="container-box">
-                  <div class="main-box">
-                     <div class="description3">Board of Directors</div>
-                  </div>
-               </div>
-               <div class="middle-line"></div>
-            </div>
-         </div>
-         <div class="custom-row">
-            <div class="col-4 text-center">
-               <div class="container-box">
-                  <div class="main-box-left ceo" style = "position:relative; left:82px;">
-                     <img src="{{asset('images/default1.png')}}" alt="" class="img">
-                     <div class="description1">Company Secretary</div>
-                  </div>
-               </div>
-            </div>
-            <div class="col-4 text-center">
-               <div class="long-line"></div>
-               <div class="middle-line-full"></div>
-            </div>
-            <div class="col-4 text-center">
-               <div class="container-box">
-                  <div class="main-box-right ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ia}}" style = "position:relative; right:82px;">
+   <button type="button" class="collapsible button-55">Corporate Office</button>
+   
+   <div class="content text-center">
+      
+      <div class="container">
+         <div class="level-1 rectangle1 description4" style="background-color: #26578C; font-weight:200;">Board Directors</div>
+         <ol class="level-2-wrapper">
+   <li>
+      <div class="level-2-1 rectangle1 description">Board Governance, Recruitment & Renumeration Committee</div>
+   </li>
+   <li>
+      <div class="level-2 rectangle1 description">Board Audit & Compliance Committee</div>
+   </li>
+   <li>
+      <div class="level-2 rectangle1 description">Board Credit & Investment Committee</div>
+   </li>
+   <li>
+      <div class="level-2 rectangle1 description">Board Risk Managment Committee</div>
+   </li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+<div class="row">
+   <div class="column">
+      <ol class="level-2-wrapper1">
+         <li>
+         <div class="main-box ia" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ia}}" style = "position:relative; bottom:7px;">
                      <img src='{{asset("storage/employee_images/$ia->image")}}' alt="" class="img">
-                     <div class="description1">Internal Audit Department</div>
+                     <div class="description">Internal Audit</div>
                   </div>
-               </div>
-            </div>
-         </div>
-         <div class="coll-4 offset-4 text-center">
-            <div class="container-box">
-               <div class="main-box ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo}}" style = "position:relative; bottom:82px;">
-                  <img src='{{asset("storage/employee_images/$ceo->image")}}' alt="" class="img">
-                  <div class="description1">Chief Executive Officer</div>
-               </div>
-            </div>
-         </div>
-         <div class="custom-row">
-            <div class="col-3 text-center">
-               <div class="container-box">
-                  <div class="main-box-left cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rd}}" style = "position:relative; left:80px;">
+         </li>
+      </ol>
+   </div>
+   <div class="column1">
+      <div class="col-3 level-1  rectangle">
+      <div class="main-box ceo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$ceo}}" style = "position:relative; bottom:20px; font-weight:200;">
+                     <img src='{{asset("storage/employee_images/$ceo->image")}}' alt="" class="img">
+                     <div class="description4">Chief Executive Officer</div>
+                  </div>
+      </div>
+   </div>
+
+   <div class="column2">
+      <ol class="level-2-wrapper2">
+         <li>
+            <div class="middle-line1" style = "position:relative; bottom:0px; height:60px; top:19px;"></div>
+            <div class="main-box ia" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$cs}}" style = "position:relative; bottom:7px;">
+                     <img src='{{asset("storage/employee_images/$cs->image")}}' alt="" class="img">
+                     <div class="description">Company Secretary</div>
+                  </div>
+         </li>
+         <li>
+            <div class="middle-line1" style = "position:relative; bottom:0px;height:60px; top:19px;"></div>
+            <div class="main-box ia" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$rd}}" style = "position:relative; bottom:7px;">
                      <img src='{{asset("storage/employee_images/$rd->image")}}' alt="" class="img">
-                     <div class="description">Risk Department</div>
+                     <div class="description">Risk Management</div>
                   </div>
-               </div>
-            </div>
-            <div class="col-6 text-center">
-               <div class="long-line"></div>
-               <div class="middle-line-full"></div>
-            </div>
-            <div class="col-3 text-center">
-               <div class="container-box">
-                  <div class="main-box-right bo" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$smd}}" style = "position:relative; right:80px;">
+         </li>
+         <li>
+            <div class="middle-line1" style = "position:relative; height:60px; top:19px; left: 1px;"></div>
+            <div class="main-box ia" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$smd}}" style = "position:relative; bottom:7px;">
                      <img src='{{asset("storage/employee_images/$smd->image")}}' alt="" class="img">
-                     <div class="description">Strategy Management Department</div>
+                     <div class="description">Strategy Department</div>
                   </div>
-               </div>
-            </div>
-         </div>
+         </li>
+      </ol>
+   </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+         
          <div class="col-8 offset-2 text-center">
             <div class="middle-line-full"></div>
             <div class="long-line"></div>
@@ -172,8 +230,8 @@
                   <div class="custom-row">
                      <div class="col-4 px-1 text-center">
                         <div class="container-box">
-                           <div class="main-box cs" style = "position:relative; bottom:25px;">
-                              <img src="{{asset('images/default1.png')}}" alt="" class="img">
+                           <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$fin}}" style = "position:relative; bottom:25px;">
+                              <img src='{{asset("storage/employee_images/$fin->image")}}' alt="" class="img">
                               <div class="description">
                                  Finance
                               </div>
@@ -184,7 +242,7 @@
                         <div class="container-box">
                            <div class="main-box cs" data-bs-toggle="modal" data-bs-target="#myModal" data-info="{{$hra}}" style = "position:relative; bottom:25px;">
                               <img src='{{asset("storage/employee_images/$hra->image")}}' alt="" class="img">
-                              <div class="description">Human Resource Administration</div>
+                              <div class="description">HR Administration</div>
                            </div>
                         </div>
                      </div>
@@ -260,8 +318,29 @@
                </div>
             </div>
          </div>
-      </div>
    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
    <div class="row">
    <!-- The Modal -->
    <div class="modal" id="myModal">
@@ -287,6 +366,427 @@
       </div>
    </div>
    <style>
+
+
+
+
+/* NEW CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+
+
+ol {
+  list-style: none;
+}
+
+
+
+.rectangle1 {
+  position: relative;
+  padding: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+.rectangle {
+  position: relative;
+ 
+}
+.rectangle1{
+    width: 100%;
+ 
+    text-align: centre;
+    border-bottom: 2px solid #26578C;
+      border-radius: 3px;
+      color:#26578C;
+
+      font-size: 11px;
+     
+}
+.rectangle{
+    width: 100%;
+ 
+    text-align: centre;
+      border-radius: 3px;
+   
+      color: white;
+      font-size: 11px;
+     
+}
+/* LEVEL-1 STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.level-1 {
+  width: fit-content;
+  margin: 0 auto 40px;
+
+
+}
+
+
+.level-1-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+}
+
+
+
+.level-1::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 200px;
+  background:#26578C;
+}
+/* LEVEL-2 STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.level-2-wrapper1 .level-2-2{
+ width: fit-content;
+
+}
+.level-2-wrapper1 {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  bottom: 8%;
+  left:5%;
+}
+
+.level-2-wrapper1::before {
+  content: "";
+  position: absolute;
+  top: 40%;
+  left: 36%;
+  width: 75%;
+  height: 1px;
+  border-top: 2px dotted #f00;
+  border-color: #26578C;
+}
+
+
+
+
+
+
+
+
+.level-2-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+}
+
+
+
+
+
+
+
+
+.level-2-wrapper::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 15%;
+  width: 73%;
+  height: 2px;
+  background:#26578C;
+}
+
+
+
+
+
+
+
+
+.level-2-wrapper::after {
+  display: none;
+  content: "";
+  position: absolute;
+  left: -20px;
+  bottom: -20px;
+  width: calc(100% + 20px);
+  height: 25px;
+  background: #26578C;
+}
+
+
+
+
+.level-2-wrapper li {
+  position: relative;
+}
+
+
+
+
+.level-2-wrapper > li::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 20px;
+  background:#26578C;
+}
+
+
+
+
+.level-2 {
+  width: 70%;
+  margin: 0 auto 40px;
+  background: #ffb4ac;
+}
+.level-2-1 {
+  width: 70%;
+  margin: 0 auto 40px;
+  background:#ffb4ac;
+}
+.level-2-2{
+ 
+  margin: 0 auto 40px;
+  background:#dcd6f7;
+
+
+
+
+}
+/* middle small line of level 2
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.level-2::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 0px;
+  background: #26578C;
+}
+.level-2-1::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100px;
+  background: #26578C;
+}
+.level-2-2::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 7px;
+  height: 0px;
+  background: var(--black);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 700px) {    
+  .rectangle {
+    padding: 20px 10px;
+  }
+ 
+  .level-1,
+  .level-2
+  .level-2-1
+  .level-2-2 {
+    width: 100%;
+  }
+ 
+  .level-1 {
+    margin-bottom: 20px;
+  }
+ 
+  .level-1::before,
+  .level-2-wrapper > li::before {
+    display: none;
+  }
+  .level-1::before,
+  .level-2-wrapper1 > li::before {
+    display: none;
+  }
+  .level-1::before,
+  .level-2-wrapper2 > li::before {
+    display: none;
+  }
+  .level-2-wrapper,
+  .level-2-wrapper::after,
+  .level-2::after {
+    display: block;
+  }
+ 
+
+
+
+
+  .level-2-wrapper1,
+  .level-2-wrapper1::after,
+  .level-2::after {
+    display: block;
+  }
+ 
+  .level-2-wrapper1,
+  .level-2-wrapper1::after,
+  .level-2-1::after {
+    display: block;
+  }
+
+
+
+
+
+
+
+
+  .level-2-wrapper2,
+  .level-2-wrapper2::after,
+  .level-2::after {
+    display: block;
+  }
+ 
+  .level-2-wrapper1,
+  .level-2-wrapper1::after,
+  .level-2-1::after {
+    display: block;
+  }
+  .level-2-wrapper2,
+  .level-2-wrapper2::after,
+  .level-2-2::after {
+    display: block;
+  }
+
+
+
+  .level-2-wrapper {
+    width: 90%;
+    margin-left: 10%;
+  }
+  .level-2-wrapper1 {
+    width: 90%;
+    margin-left: 10%;
+  }
+  .level-2-wrapper2 {
+    width: 90%;
+    margin-left: 10%;
+  }
+ 
+ 
+  .level-2-wrapper::before {
+    left: -20px;
+    width: 2px;
+    height: calc(100% + 40px);
+  }
+   
+  .level-2-wrapper1::before {
+    left: -20px;
+    width: 2px;
+    height: calc(100% + 40px);
+  }
+   
+  .level-2-wrapper2::before {
+    left: -20px;
+    width: 2px;
+    height: calc(100% + 40px);
+  }
+ 
+  .level-2-wrapper > li:not(:first-child) {
+    margin-top: 50px;
+  }
+
+
+
+
+  .level-2-wrapper1 > li:not(:first-child) {
+    margin-top: 50px;
+  }
+  .level-2-wrapper2 > li:not(:first-child) {
+    margin-top: 50px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       .container-box{
       width: 100%;
       }
@@ -319,17 +819,58 @@
       }
       .main-box{
       width:fit-content;
-      border-radius: 5px;
+      border-radius:5px;
       margin:auto;
       overflow: hidden;
       border-bottom: 2px solid #26578C;
       padding: 5px;
       cursor: pointer;
       }
+
+
+
+
+      .custom-row .border{
+      width:fit-content;
+      border-radius:5px;
+      margin:auto;
+      overflow: hidden;
+      color: #26578C;
+      padding: 10px;
+      font-size: 12px;
+      border-color: red;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       .cs{
       background: #e0ffcd;
       height:81px;
       width: 85px;
+      }
+      .ia{
+      background: #dcd6f7;
+      height:81px;
+      width: 85px;
+      }
+      .ceo{
+      background:#26578C;
+      height:81px;
+      width: 90px;
+      color: white;
       }
       .ce{
       background:  #d5eeff;
@@ -341,11 +882,7 @@
       height:80px;
       width: 85px;
       }
-      .ceo{
-      background:    #FCE883;
-      height:80px;
-      width: 85px;
-      }
+    
       .main-box-left{
       border-bottom-right-radius: 7px;
       height:80px;
@@ -372,10 +909,18 @@
       }
       .description{
       color:#26578C;
-      font-size: 9px;
+      font-size: 10px;
+      }
+      .description5{
+      color:#dcd6f7;
+      font-size: 10px;
+      }
+      .description4{
+      color:#ffff;
+      font-size: 10px;
       }
       .description2{
-      font-size: 9px;
+      font-size: 10px;
       color:#26578C;
       }
       .description3{
@@ -479,7 +1024,7 @@
       top: 0;
       }
       .long-line{
-      margin-top: 0;
+      margin-top: 0px;
       width: 100%;
       height: 2px;
       background: #26578C;
@@ -500,7 +1045,7 @@
       font-size: 15px;
       margin: 10px;
       text-align: center;
-      font-weight: 700;
+      font-weight: 500;
       }
       .content {
       padding: 0 18px;
@@ -566,6 +1111,147 @@
       padding: 15px;
       text-align: center;
       }
+
+
+
+
+      @media screen and (max-width: 40rem) {
+         div.gallery2{
+      width: 190px;
+      margin: auto;
+      }
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      * {
+  box-sizing: border-box;
+}
+
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 42.5%;
+  padding: 10px;
+  bottom: 100px;
+  height: 200px;
+  display: fit-content;
+ /* Should be removed. Only for demonstration */
+}
+.column1 {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  bottom: 100px;
+  height: 200px;
+  display: fit-content;
+ /* Should be removed. Only for demonstration */
+}
+.column2 {
+  float: left;
+  width: 42.5%;
+  padding: 10px;
+  bottom: 100px;
+  height: 200px;
+  display: fit-content;
+ /* Should be removed. Only for demonstration */
+}
+
+
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.level-2-wrapper2 {
+  position: relative;
+  grid-template-columns: repeat(3, 2fr);
+  top: 0%;
+  left:0%;
+  display: grid;
+
+}
+.level-2-wrapper2::before {
+  content: "";
+  position: absolute;
+  top: 13%;
+  right: 15%;
+  width: 96.3%;
+  height: 1px;
+  border-top: 2px solid #f00;
+  border-color: #26578C;
+}
+
+
+
+
+.level-2-wrapper2 .level-2-2{
+ width: fit-content;
+top: 20%;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
    </style>
    <script>
       $(document).ready(function () {
@@ -595,7 +1281,29 @@
         }
       });
       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
    </script>
 </x-frontend-layout>
- 
+
+
 
