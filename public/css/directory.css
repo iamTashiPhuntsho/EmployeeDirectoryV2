@@ -616,24 +616,20 @@ padding: .375rem .75rem;
 .btn-group button{
   font-size: 1rem;
 }
-/* @media (max-width: 768px) {
-  /* For bigger screens */
+@media (max-width: 768px) {
+  For bigger screens 
 
-  /* .container { */
-    /* flex-direction: column; */
-    /* align-items: center;
+   .container {
+     flex-direction: column;
+     align-items: center;
     min-width: 1000px; 
   }
 }
 @media (max-width: 767px) {
-  /* For smaller screens */
+   For smaller screens 
 
-  /* .container {
-    flex-direction: column; */
-    /* align-items: center; */
-  /* }
-<<<<<<< HEAD
-} */
-=======
-} */
->>>>>>> 9eaf475f53f5e1d6dec00164897c7812963ab661
+   .container {
+    flex-direction: column; 
+   align-items: center;
+   }
+}

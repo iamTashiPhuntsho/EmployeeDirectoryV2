@@ -24,51 +24,53 @@
                <h6 class="bnb-blue" style="font-size: 12px;">Chairperson</h6>
             </div>
          </div>
-         <div class="gallery">
-            <img src="../images/sonam-tongay.jpeg" alt="Forest" width="600" height="400">
-            <div class="desc">
-               <h5 class="bnb-blue"  style="font-size: 12px;">Sonam Tobgay</h5>
-               <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
-            </div>
-         </div>
-         <div class="gallery">
-            <img src="../images/Karma-Wangdi.jpeg" alt="Northern Lights" width="600" height="400">
-            <div class="desc">
-               <h5 class="bnb-blue"  style="font-size: 12px;">Karma Wangdi</h5>
-               <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
-            </div>
-         </div>
-         <div class="gallery">
+         <div class="row">
+         <div class="gallery col">
             <img src="../images/passd.jpeg" alt="Mountains" width="600" height="400">
             <div class="desc">
                <h5 class="bnb-blue"  style="font-size: 12px;">Passang Dorji</h5>
                <h6 class="bnb-blue"  style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
-         <div class="gallery">
+         <div class="gallery col">
+            <img src="../images/sonam-tongay.jpeg" alt="Forest" width="600" height="400">
+            <div class="desc">
+               <h5 class="bnb-blue"  style="font-size: 12px;">Sonam Tobgay</h5>
+               <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
+            </div>
+         </div>
+         <div class="gallery col">
+            <img src="../images/Karma-Wangdi.jpeg" alt="Northern Lights" width="600" height="400">
+            <div class="desc">
+               <h5 class="bnb-blue"  style="font-size: 12px;">Karma Wangdi</h5>
+               <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
+            </div>
+         </div>
+         <div class="gallery col">
+            <img src="../images/CEO.jpeg" alt="Mountains" width="600" height="400">
+            <div class="desc">
+               <h5 class="bnb-blue"  style="font-size: 12px;">Sonam Tobgay</h5>
+               <h6 class="bnb-blue"  style="font-size: 12px;">CEO</h6>
+            </div>
+         </div>
+         <div class="gallery col">
             <img src="../images/Namgay-Tenzin.jpeg" alt="Mountains" width="600" height="400">
             <div class="desc">
                <h5 class="bnb-blue"  style="font-size: 12px;">Namgay Tenzin</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
-         <div class="gallery">
+         <div class="gallery col">
             <img src="../images/dago-beda.jpg" alt="Mountains" width="600" height="400">
             <div class="desc">
                <h5 class="bnb-blue" style="font-size: 12px;">Aum Dago Beda</h5>
                <h6 class="bnb-blue" style="font-size: 12px;">Board Director</h6>
             </div>
          </div>
+         </div>
       </div>
    </div>
    <!-- NEW DESIGN -->
-
-
-
-
-
-
-
 
    
    <div class="col-12 text-center">
@@ -92,79 +94,7 @@
       <div class="level-2 rectangle1 description">Board Risk Managment Committee</div>
    </li>
 </ol>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
+  
 <div class="row">
    <div class="column">
       <ol class="level-2-wrapper1">
@@ -212,31 +142,7 @@
       </ol>
    </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         
+   
          <div class="col-8 offset-2 text-center">
             <div class="middle-line-full"></div>
             <div class="long-line"></div>
@@ -378,46 +284,6 @@
    </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    <div class="row">
    <!-- The Modal -->
    <div class="modal" id="myModal">
@@ -444,31 +310,12 @@
    </div>
    <style>
 
-
-
-
-
-
-
-
 /* NEW CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-
-
-
-
-
-
 
 ol {
   list-style: none;
 }
-
-
-
-
-
 
 .rectangle1 {
   position: relative;
@@ -512,19 +359,11 @@ ol {
 
 }
 
-
-
-
 .level-1-wrapper {
   position: relative;
   display: grid;
   grid-template-columns: repeat(4, 2fr);
 }
-
-
-
-
-
 
 .level-1::before {
   content: "";
@@ -563,41 +402,11 @@ ol {
   border-color: #26578C;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .level-2-wrapper {
   position: relative;
   display: grid;
   grid-template-columns: repeat(4, 2fr);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .level-2-wrapper::before {
   content: "";
@@ -608,21 +417,6 @@ ol {
   height: 2px;
   background:#26578C;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .level-2-wrapper::after {
   display: none;
@@ -635,23 +429,9 @@ ol {
   background: #26578C;
 }
 
-
-
-
-
-
-
-
 .level-2-wrapper li {
   position: relative;
 }
-
-
-
-
-
-
-
 
 .level-2-wrapper > li::before {
   content: "";
@@ -663,13 +443,6 @@ ol {
   height: 20px;
   background:#26578C;
 }
-
-
-
-
-
-
-
 
 .level-2 {
   width: 70%;
@@ -685,14 +458,6 @@ ol {
  
   margin: 0 auto 40px;
   background:#dcd6f7;
-
-
-
-
-
-
-
-
 }
 /* middle small line of level 2
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -726,21 +491,6 @@ ol {
   height: 0px;
   background: var(--black);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 700px) {    
   .rectangle {
@@ -796,21 +546,6 @@ ol {
     display: block;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .level-2-wrapper2,
   .level-2-wrapper2::after,
   .level-2::after {
@@ -827,10 +562,6 @@ ol {
   .level-2-2::after {
     display: block;
   }
-
-
-
-
 
 
   .level-2-wrapper {
@@ -868,14 +599,6 @@ ol {
   .level-2-wrapper > li:not(:first-child) {
     margin-top: 50px;
   }
-
-
-
-
-
-
-
-
   .level-2-wrapper1 > li:not(:first-child) {
     margin-top: 50px;
   }
@@ -883,142 +606,6 @@ ol {
     margin-top: 50px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       .container-box{
       width: 100%;
@@ -1060,13 +647,6 @@ ol {
       cursor: pointer;
       }
 
-
-
-
-
-
-
-
       .custom-row .border{
       width:fit-content;
       border-radius:5px;
@@ -1077,37 +657,6 @@ ol {
       font-size: 12px;
       border-color: red;
       }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       .cs{
       background: #e0ffcd;
@@ -1347,7 +896,7 @@ ol {
      
       }
       div.gallery2{
-      width: 190px;
+      width: 160px;
       margin: auto;
       }
       div.gallery img {
@@ -1379,47 +928,9 @@ ol {
       }
       }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
       * {
   box-sizing: border-box;
 }
-
-
-
-
-
-
-
 
 /* Create three equal columns that floats next to each other */
 .column {
@@ -1449,60 +960,12 @@ ol {
   display: fit-content;
  /* Should be removed. Only for demonstration */
 }
-
-
-
-
-
-
-
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .level-2-wrapper2 {
   position: relative;
   grid-template-columns: repeat(3, 2fr);
@@ -1522,66 +985,10 @@ ol {
   border-top: 2px solid #f00;
   border-color: #26578C;
 }
-
-
-
-
-
-
-
-
 .level-2-wrapper2 .level-2-2{
  width: fit-content;
 top: 20%;
-
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
    </style>
    <script>
       $(document).ready(function () {
@@ -1610,48 +1017,7 @@ top: 20%;
           content1.style.display = "block";
         }
       });
-      }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
+      }   
    </script>
 </x-frontend-layout>
 

@@ -13,8 +13,6 @@
                            <div class="col-lg-6">
                               <small class="text-bnb-blue"><b>Employee Name</b></small>
                               <input type="text" class="form-control form-control-user" placeholder="Employee Name" name="name" required autofocus>
-                              <input type="radio" name="gender" value="male"> <small class="text-bnb-blue"><b>Male</b></small>
-                              <input type="radio" name="gender" value="female"> <small class="text-bnb-blue"><b>Female</b></small>
 
                            </div>
                            <div class="col-lg-6">
