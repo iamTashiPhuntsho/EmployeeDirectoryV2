@@ -83,7 +83,7 @@
       <div class="level-2-1 rectangle1 description">Board Governance, Recruitment & Renumeration Committee</div>
    </li>
    <li>
-      <div class="level-2 rectangle1 description">Board Audit & Compliance Committee</div>
+      <div class="level-2 rectangle1 description">Board Audit Committee</div>
    </li>
    <li>
       <div class="level-2 rectangle1 description">Board Credit & Investment Committee</div>
