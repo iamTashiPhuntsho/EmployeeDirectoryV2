@@ -368,7 +368,7 @@ ol {
 .level-1::before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 70%;
   left: 50%;
   transform: translateX(-50%);
   width: 2px;
