@@ -45,6 +45,7 @@ class ContactController extends Controller
         $employee->employee_id =$employee_id;
     	$employee->image = $image;
         $employee->vehicle_no = $vehicle_number;
+        $employee->job_des= $job_description;
         $employee->present_address = $present_address;
     	if($employee->save())
     	{
@@ -115,6 +116,7 @@ class ContactController extends Controller
             $employee->department_id = $department;
             $employee->image = $profile;
             $employee->vehicle_no = $request->vehicle_number;
+            $employee->job_des = $request->job_description;
             $employee->present_address = $request->present_address;
 			$employee->status = $request->status;
             $employee->save();
@@ -154,6 +156,7 @@ class ContactController extends Controller
             $employee_id = $cr->employee_id;
             $image = $cr->image;
             $vehicle_number = $cr->vehicle_no;
+            $vehicle_number = $cr->job_des;
             $present_address = $cr->present_address;
             
             $employee = new Employee;
@@ -166,6 +169,7 @@ class ContactController extends Controller
             $employee->employee_id =$employee_id;
             $employee->image = $image;
             $employee->vehicle_no = $vehicle_number;
+            $employee->job_des = $job_description;
             $employee->present_address = $present_address;
             if($employee->save())
             {
@@ -296,6 +300,7 @@ class ContactController extends Controller
                     $employee->image = $row['Profile'];
                     $employee->present_address = $row['Present Address'];
                     $employee->vehicle_no = $row['Vehicle Number'];
+                    $employee->job_des = $row['Job Description'];
                     if($employee->save())
                     {
                     	$contact->email = $row['Email'];

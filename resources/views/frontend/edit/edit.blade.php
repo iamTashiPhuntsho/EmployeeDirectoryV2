@@ -36,8 +36,10 @@
                         <p style="text-align:center;"><i class="fa fa-envelope-o fa-lg" style="margin-right: 5px;"></i> Email ID : <span class="text-bnb-blue lowercase">{{ $record->contact->email }}</span></p>
                         <p class="text-bnb-blue"><i class="fas fa-info-circle"></i> In order to change email ID and Employee ID, Please contact at 1277 or 1265</p>
                         <br>
+                        
                         <p>
-                           <i class="fa-solid fa-address-card fa-lg" style="margin-right: 5px;"></i>Department:
+                           <i class="fa-solid fa-address-card fa-lg" style="margin-right: 5px;"></i>
+                           Department:
                            <span>
                               <select class="form-control form-sz-sm" name="department">
                                  <option selected="selected" value="0" >Select your new Department</option>
@@ -47,6 +49,17 @@
                               </select>
                            </span>
                         </p>
+                      
+                    
+                        <p>
+                           <span>
+                           <p>Job Description : 
+                           <span><textarea class="form-control" id="job_description" style= "text-align: left;" rows="4" placeholder=" Through job descriptions, employees understand what's expected of them, allowing them to work more effectively. "></textarea></span>
+                           </p>
+                           </span>
+                        </p>
+                      
+
                         <div class="row">
                            <div class="column mb-3 ">
                               <h4>Office Information</h4>

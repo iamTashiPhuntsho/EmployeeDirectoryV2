@@ -14,7 +14,7 @@
                   <h5 class="title2 text-center bnb-blue">{{$record->department->name}}</h5>
                   <div class="row">
                      <span class="bnb-blue fs-6">Office and Contact Information</span>
-                     <div class="col-lg-6">
+                        <div class="col-lg-6">
                            <p><i class="fa-solid fa-id-badge fa-fw me-2"></i><small class="d-none d-lg-inline">Employee ID</small>: <span>{{ blank($record->employee_id) ? "Information Unavailable" : $record->employee_id }}</span></p>
                            <p><i class="fa-solid fa-cube fa-fw me-2"></i><small class="d-none d-lg-inline">Flexcube ID</small>: <span> {{ blank($record->contact->flexcube) ? "Information Unavailable" : $record->contact->flexcube }}</span></p>
                            <p><i class="fa-solid fa-location-dot fa-fw me-2"></i><small class="d-none d-lg-inline">Location</small>: <span> {{ blank($record->contact->location->name) ? "Information Unavailable" : $record->contact->location->name }}</span></p>
@@ -26,6 +26,13 @@
                            <p><i class="fa-solid fa-mobile fa-fw me-2"></i><small class="d-none d-lg-inline">Mobile Number</small>: <span>{{ blank($record->contact->mobile) ? "Information Unavailable" : $record->contact->mobile }}</span></p>
                            <p><i class="fa-solid fa-car-rear fa-fw me-2"></i><small class="d-none d-lg-inline">Vehicle Number</small>: <span> {{ blank($record->vehicle_no) ?"Information Unavailable" : $record->vehicle_no}}</span></p>
                      </div>
+
+                           <div class="col-lg-12">
+                              <small class="text-bnb-blue"><b>Job Description</b></small>
+                              <p><span> {{ blank($record->job_des) ?"Information Unavailable" : $record->job_des}}</span></p>
+
+                              </div>                            
+                           </div>
                   </div>   
                </div>  
             </div>

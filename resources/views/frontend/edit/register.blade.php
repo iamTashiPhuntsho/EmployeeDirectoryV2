@@ -73,7 +73,7 @@
                         <div class="row mb-3 register-row">
                            <div class="col-lg-6">
                               <small class="text-bnb-blue"><b>Vehicle Number</b></small>
-                              <input type="text" class="form-control form-control-user" placeholder="Enter Your Vehicle Number" name="vehicle_number">
+                              <input type="text" class="form-control form-control-user" placeholder="BP-1-D1234" name="vehicle_number">
                            </div>
                            <div class="col-lg-6">
                               <small class="text-bnb-blue"><b>Current Residential Location</b></small>
@@ -81,9 +81,17 @@
                            </div>
                         </div>
                         
-                        
                         <hr>
-
+                        <div class="row mb-3 register-row">
+                           <div class="col-lg-6">
+                              <small class="text-bnb-blue"><b>Job Description</b></small>
+                              <div class="form-outline">
+                              <textarea class="form-control" id="job_description" name="job_description" style= "text-align: left;" rows="4" placeholder=" Through job descriptions, employees understand what's expected of them, allowing them to work more effectively. " required="required"></textarea>
+                              </div>                            
+                           </div>
+                        </div>
+                        <hr>
+                        
                         <div class="form-group"> 
                            <small class="text-bnb-blue"><b>Employee Image</b></small>
                            <br>

@@ -45,6 +45,7 @@ class DirectoryController extends Controller
         $department = $request->department;
         $location = $request->location;
         $vehicle_no = $request->vehicle_number;
+        $job_des = $request->job_description;
 
         $l_records = Contact::when($location, function ($query, $location) { 
             $query->where('location_id', $location);
@@ -63,6 +64,10 @@ class DirectoryController extends Controller
         ->when($vehicle_no, function ($query, $vehicle_no) {
             $query->where('vehicle_no', 'like',"%$vehicle_no%");
         })
+        ->when($job_des, function ($query, $job_des) {
+            $query->where('job_des', 'like',"%$job_des%");
+        })
+     
      
         ->whereIn('id', $l_records,)->where('status','active')->get();
 

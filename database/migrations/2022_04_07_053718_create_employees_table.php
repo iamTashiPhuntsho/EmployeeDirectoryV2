@@ -22,6 +22,7 @@ return new class extends Migration
             $table->string('employee_id');
             $table->string('present_address',1000)->nullable();
             $table->string('vehicle_no')->nullable();
+            $table->string('job_des')->nullable();
             $table->string('image');
             $table->enum('status', ['active','disabled'])->default('active');
             $table->timestamps();

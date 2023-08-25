@@ -143,6 +143,7 @@ class InfoController extends Controller
             $mobile = $request->mobile;
             $location = $request->location;
             $vehicle_no = $request->vehicle_number;
+            $job_des = $request->job_description;
             $present_address = $request->present_address;
             // return $location;
             Employee::where('id',Crypt::decryptString($request->id))->update([
@@ -151,6 +152,7 @@ class InfoController extends Controller
                 'title' => $title,
                 'department_id' => $department,
                 'vehicle_no' => $vehicle_no,
+                'job_des' => $job_des,
                 'present_address' => $present_address,
             ]);
             Contact::where('employee_id',Crypt::decryptString($request->id))->update([
@@ -216,6 +218,7 @@ class InfoController extends Controller
         $newcontact->flexcube = $request->flexcube;
         $newcontact->location_id = $request->location;
         $newcontact->vehicle_no = $request->vehicle_number;
+        $newcontact->job_des = $request->job_description;
         $newcontact->present_address = $request->present_address;
         
         if($newcontact->save())
